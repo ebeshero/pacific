@@ -1,0 +1,69 @@
+html{
+    background-color: #F8ECB2;
+    /*background-image: url('TahitIsl2.jpg'); 
+background-size: 100% 100%;
+    background-repeat:no-repeat;
+background-attachment:scroll;*/
+/*background-color:  #2C3764;*/
+    color: #580000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
+body{
+   /*background-color: #BBD6F1;*/ 
+   background-color: #F8ECB2;
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+margin-right:auto;
+text-align:left;
+padding: 0px 10px 40px 10px;
+
+}
+div#banner{
+margin-left: auto;
+margin-right:auto;
+border:0;
+padding: 0;
+opacity:.9; 
+float:top
+}
+
+
+div#mainPage{
+    margin-left: auto;
+margin-right:auto;
+text-align:left;
+float:top;
+width: 100%;
+/*    padding: 5px 5px 5px 5px;*/
+    background-color: #F8ECB2
+
+
+}
+h1 {
+color:#A04747;
+letter-spacing:3px;
+display:block;
+text-align:center;
+font-size:38px}
+h2 {color:#00005C; font-size:20px; padding:0; display:block; text-align:center; 
+}
+
+h3 {color:#00005C; display:block; text-align:center; font-size:16px;
+}
+/*
+
+img{
+border-radius:5px;
+}*/
+
+p{
+    padding: 0px 20px 0px 20px;
+}
+a{
+color:#00005C;
+text-decoration:none;}
+a:hover{
+text-decoration:underline;}
+
+

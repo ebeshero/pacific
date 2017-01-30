@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography Collection of English References to Pacific Topics</title>
+                <author><persName xml:id="mmd79">Michelle Dempsey</persName></author>
+                <author><persName xml:id="csh21">Caroline Hood</persName></author>
+                <author><persName xml:id="baw58">Brittany Williams</persName></author>
+                <respStmt>
+                    <resp>researched, encoded, and annotated by</resp>
+                    <orgName>Digital Humanities/Digital Studies Class: <date>Fall
+                        2013</date></orgName>
+
+                </respStmt>
+                <respStmt>
+                    <resp>with assistance from the course instructors:</resp>
+                    <persName ref="#ebb">Elisa Beshero-Bondar</persName>
+                    <persName xml:id="ghb">Gregory Bondar</persName>
+                    <persName xml:id="mah200">Megan Hughes</persName>
+                </respStmt>
+                <sponsor>University of Pittsburgh at Greensburg</sponsor>
+                <funder>University of Pittsburgh at Greensburg</funder>
+                <principal xml:id="ebb">Elisa E. Beshero-Bondar</principal>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Digital Archives and Pacific Cultures</authority>
+                <pubPlace>Greensburg, PA, USA</pubPlace>
+                <date>2013</date>
+                <availability>
+                    <licence>Distributed under a <orgName>Creative Commons</orgName>
+                        Attribution-ShareAlike 3.0 Unported License</licence>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note resp="#mmd79 #baw58 #csh21">This bibliography represents a collaborative effort to compile a
+                    list of works published from 1774 to 1797 that contains references to people,
+                    places, interactions, events, and objects relevant to Pacific voyages during
+                    this time period. Excerpts have been provided from each of these works to
+                    illustrate the impact the Pacific voyages of the eighteenth century had on the
+                    English-speaking world. </note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <p>born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listBibl>
+                <bibl type="philosophy">
+                    <author ana="m">Kames, Henry Home, Lord</author>
+                    <title level="s">Sketches of the history of man: In four volumes.</title>
+                    <editor/>
+                    <publisher>printed for James Williams</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <date>1774-1775</date>
+                    <note resp="#ebb #mmd79">In ECCO TCP. <bibl><biblScope>vol. I. Sketch 1 (<title
+                                    level="a">DIVERSITY of MEN and of LANGUAGES</title>), pp. 20-21
+                                and 24-25</biblScope></bibl> Pp. 20-21: on <persName>Commodore
+                            Byron's</persName> and on <persName>Cook's</persName> voyages: Mentions
+                        of <persName>Banks</persName> and <persName>Solander</persName> leaving
+                            <placeName>Otaheite</placeName> to find <placeName>Society
+                            Islands</placeName>, <placeName>Islands of Oahena</placeName>. See p.
+                        24: <placeName>Otaheite</placeName> mentioned in opposition to other more
+                        violent cultures, and compared with the ancient
+                            <orgName>Caledonians</orgName>: Intelligent resistance to
+                            <persName>Wallis</persName>, ease of making peace--more impressive than
+                        most, apparently.</note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. I. Sketch 2 (<title level="a"
+                                    >Progress of Men with respect to FOOD and POPULATION</title>),
+                                p. 58</biblScope></bibl> "The island of
+                            <placeName>Otaheite</placeName> is healthy, the people tall and well
+                        made; and by temperance, <rs type="object">vegetables</rs> and <rs
+                            type="object">fish</rs> being their chief nourishment, they live to a
+                        good old age, with scarce any ailment. There is no such thing known among
+                        them as <rs type="object">rotten teeth</rs>: the very smell of <rs
+                            type="object">wine</rs> or <rs type="object">spirits</rs> is
+                        disagreeable; and they never deal in <rs type="object">tobacco</rs> nor <rs
+                            type="object">spiceries</rs>."</note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. I. Sketch 6 (<title level="a"
+                                    >Progress of the FEMALE SEX</title>), pp.
+                            194-196</biblScope></bibl> On free love in
+                            <placeName>Otaheite</placeName>: They are good people, but "seem to have
+                        as little notion of <rs type="concept">modesty</rs> as of <rs type="concept"
+                            >chastity</rs>. More on "<rs type="concept">polygamy</rs>" on p.
+                        196.</note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. II. Book I. Continued: Sketch 7
+                                    (<title level="a">Progress of Manners</title>), pp.
+                                6-7</biblScope></bibl>
+                        <placeName>Otaheite</placeName> mentioned in a syncretic description of
+                        bodily cleaning "in several nations that have made little progress in the
+                        arts of life." <orgName>Otaheitian</orgName>
+                        <rs type="concept">cleanliness</rs> in both sexes is mentioned after
+                            <orgName>Caribbean islanders</orgName> and before historic descriptions
+                        of the ancient <orgName>Gauls</orgName>.</note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. II. Sketch 1 (<title level="a"
+                                    >Progress of Men in Society</title>), p. 156</biblScope></bibl>
+                        <rs type="interact" subtype="conflict">On the practices of <rs
+                                type="concept">stealing</rs> and <rs type="concept"
+                        >piracy</rs></rs>, <orgName>Otaheitians</orgName> mentioned after the
+                            <orgName>Scottish Highlanders</orgName> and the rebellion of 1745! Idea:
+                        that theft isn't committed among their own, but against outsiders.
+                            "<persName>Bougainville</persName> observes, that the
+                            <orgName>inhabitants of Otaheite</orgName>, named by <orgName>the
+                            English</orgName>, <placeName>King-George's island</placeName>, <rs
+                            type="interact" subtype="conflict">made no difficulty of stealing from
+                            his people</rs>; <rs type="interact" subtype="affin">and yet never steal
+                            among themselves, having neither locks nor bars in their
+                        houses</rs>."</note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. II: Sketch 1 (<title level="a"
+                                    >Progress of Men in Society</title>), p. 167</biblScope></bibl>
+                        Attempt to address a philosophical question about whether people are
+                        naturally sociable or antisocial and brutally violent. "<rs type="interact"
+                            subtype="affin">In a nascent society, where men hunt and fish in common,
+                            where there is plenty of game, and where the sense of property is faint,
+                            mutual affection prevails, because there is no cause of discord; and <rs
+                                type="interact" subtype="conflict">dissocial passions find
+                                sufficient vent against neighbouring tribes</rs>. Such is the
+                            condition of the <orgName>North-American savages</orgName>, who continue
+                            hunters and fishers to this day; and such is the condition of all brute
+                            animals that live in society, as mentioned above. The island
+                                <placeName>Otaheite</placeName> is divided into many small <rs
+                                type="concept">cantons</rs>, having each a chief of its own. These
+                            cantons never make war on each other, tho' they are <rs type="interact"
+                                subtype="conflict">frequently at war with the inhabitants of
+                                neighbouring islands</rs>. The <orgName>inhabitants of the new
+                                    <placeName>Philippine islands</placeName></orgName>, if
+                                <persName>Father Gobien</persName> be credited, are better fitted
+                            for society than any other known nation. Sweetness of temper, and love
+                            to do good, form their character. They never commit acts of violence:
+                                <rs type="concept">war</rs> they have no notion of; and it is a
+                            proverb among them, That a man never puts a man to death.
+                                <persName>Plato</persName> places the seat of <rs type="concept"
+                                >justice</rs> and of <rs type="concept">happiness</rs> among the
+                            first men; and among them existed the golden age, if it ever did
+                            exist.</rs> But when a nation, becoming populous, begins with rearing
+                        flocks and herds, proceeds to appropriate land, and is not satisfied without
+                        matters of <rs type="concept">luxury</rs> over and above; <rs type="concept"
+                            >selfishness</rs> and <rs type="concept">pride</rs> gain ground, and
+                        become ruling and unruly passions. Causes of discord multiply, vent is given
+                        to <rs type="concept">avarice</rs> and <rs type="concept">resentment</rs>;
+                        and among a people not yet perfectly submissive to government, <rs
+                            type="interact" subtype="conflict">dissocial passions rage, and threaten
+                            a total dissolution of society: nothing indeed suspends the impending
+                            blow</rs>,..." </note>
+                    <note resp="#ebb #mmd79"><bibl><biblScope>vol. IV, Part II: Sketch 3 (<title
+                                    level="a">Principles and Progress of THEOLOGY</title>), Chapter
+                                2, p. 152:</biblScope></bibl>
+                        <rs type="concept">Syncretism</rs> in action here:
+                            <placeName>Otaheite's</placeName> spiritual beliefs are sketched here by
+                        way of comparison with several other island or "savage" cultures with
+                        (according to this author) tendencies toward <rs type="concept"
+                            >monotheism</rs>. Passage: " The <orgName>North-American
+                            savages</orgName> have all of them a notion of a supreme Deity, creator
+                        and governor of the world, and of inferior deities, some good, some ill.
+                        These are supposed to have bodies, and to live much as men do, but without
+                        being subjected to any distress. The same creed prevails among the negroes
+                        of <placeName>Benin</placeName> and <placeName>Congo</placeName>, among the
+                        people of <placeName>New Zeland</placeName>, among the inhabitants of
+                            <placeName>Java</placeName>, of <placeName>Madagascar</placeName>, of
+                        the <placeName>Molucca islands</placeName>, and of the <placeName>Caribbee
+                            islands</placeName>. The <orgName>Chingulese</orgName>, a tribe in the
+                        island of <placeName>Ceylon</placeName>, acknowledge one <rs type="myth"
+                            >God</rs> creator of the universe, with subordinate deities who act as
+                        his deputies: agriculture is the peculiar province of one, navigation of
+                        another. The creed of the <orgName>Tonquinese</orgName> is nearly the same.
+                        The inhabitants of <placeName>Otaheite</placeName>, termed <placeName>King
+                            George's island</placeName>, believe in <name type="myth">one supreme
+                            Deity</name>; and in <name type="myth">inferior deities</name> without
+                        end, who preside over particular parts of the creation. They pay no
+                        adoration to <name type="myth">the supreme Deity</name>, thinking him too
+                        far elevated above his creatures to concern himself with what they do. They
+                        believe <rs type="concept">the stars to be children of the sun and
+                        moon</rs>, and <rs type="concept">an eclipse to be the time of <rs
+                                type="interact" role="sex">copulation</rs></rs>."</note>
+                </bibl>
+                <bibl type="politics">
+                    <author ana="m">Late Member of the Continental Congress</author>
+                    <title level="m">The true merits of a late treatise, printed in America,
+                        intitled, Common sense: clearly pointed out. Addressed to the inhabitants of
+                        America. By a late member of the Continental Congress, a native of a
+                        republican state.</title>
+                    <editor/>
+                    <publisher>printed for W. Nicoll</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1776</date>
+                    <note resp="#ebb #mmd79">In ECCO TCP. Essay attacking <bibl><author>Thomas
+                                Paine</author>'s <title level="m">Common Sense</title></bibl>.
+                                <bibl><biblScope>See pp. 23-24</biblScope></bibl>: that
+                            <placeName>England</placeName> made it possible for
+                            <orgName>Protestants</orgName> to live in religious freedom in the
+                            <placeName>New World</placeName>, and if <persName>Paine</persName> (et.
+                        al.) don't like it, they can go to "<placeName>Otaheite</placeName>, and the
+                            <placeName>Islands in the North West</placeName>" as a "Sanctuary for
+                        him and his Friends."</note>
+                </bibl>
+                <bibl type="philosophy">
+                    <author ana="m">MacNally, Leonard</author>
+                    <title level="m">Sentimental excursions to Windsor: and other places, with notes
+                        critical, illustrative, and explanatory</title>
+                    <editor/>
+                    <publisher>printed for J. Walker</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1781</date>
+                    <note resp="#ebb #mmd79">In ECCO TCP. See <bibl><biblScope><title level="a">A
+                                    Meditation</title>, pp. 16-20</biblScope></bibl>: on the <rs
+                            type="concept" subtype="pac">"Timiradi dance"</rs> of
+                            <placeName>Otaheite</placeName>, saying this dance was apparently
+                        practiced by the virtuous yet not modest <orgName>Lacedaemonians</orgName>,
+                        with a footnote citing "<persName>Forster</persName>, who attended
+                            <persName>Captain Cooke</persName> on his second voyage." Reflection on
+                        whether or not <rs type="concept">chastity</rs> is necessary--"I concluded
+                        with a modern voyager (citing <persName>Forster</persName>)...that <rs
+                            type="concept">modesty</rs> and <rs type="concept">chastity</rs>, which
+                        have long been supposed to be inherent in the human mind, are local ideas,
+                        unknown in the state of nature, and modified according to the various
+                        degrees of <rs type="concept">civilization</rs>."</note>
+                </bibl>
+
+                <bibl type="poem">
+                    <author ana="m">Mason, William</author>
+                    <title level="m">The Dean and the 'Squire: A Political Eclogue. Humbly dedicated
+                        to <persName>Soame Jenyns, Esq.</persName></title>
+                    <editor/>
+                    <publisher>printed for J. Debrett, successor to Mr. Almon</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1782</date>
+                    <note resp="#ebb #mmd79">In ECCO TCP. See <bibl><biblScope>lines 210 -
+                                230</biblScope></bibl> References to
+                            "<placeName>Zealand-New</placeName>," "<placeName>Otaheite</placeName>,"
+                        and "<persName>Queen Oberea</persName>" with the idea of criminals going
+                        into exile to <placeName>the Pacific</placeName>, and questioning the kinds
+                        of freedom they would find, <rs type="interact" role="sex">"taxed" by
+                                <persName>Queen Oberea's</persName> supposed sexual appetite.
+                            Continues by discussing such a life as comparable to
+                                <persName>Adam</persName> and <persName>Eve</persName></rs>: <lg>
+                            <l>
+                                <rs type="interact" role="sex">But a cool hundred
+                                        <orgName>Eves</orgName> and
+                                <orgName>Adams</orgName>;</rs></l>
+                            <l><rs type="interact" role="sex">I think they would, or soon, or late,
+                                    by <emph><rs type="concept">quasi compact</rs></emph> found a
+                                        <rs type="concept">state</rs>.</rs></l>
+                        </lg></note>
+                </bibl>
+                <bibl type="philosophy">
+                    <author ana="f">More, Hannah</author>
+                    <title level="m">Thoughts on the importance of the manners of the great to
+                        general society</title>
+                    <editor/>
+                    <publisher>printed for T. Cadell</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1788</date>
+                    <note resp="#ebb #mmd79">In ECCO TCP. See <bibl><biblScope>pp.
+                            35-36</biblScope></bibl> Mention of hypocritical people willing to <rs
+                            type="interact" subtype="imp">support missions to
+                                <placeName>Tahiti</placeName></rs>, but sacrilegiously enjoying <rs
+                            type="interact" subtype="trade">Sunday haircuts</rs>: "I am persuaded
+                        that there are multitudes of well-meaning people who would gladly contribute
+                        to <rs type="interact" subtype="imp">a mission of <rs type="concept"
+                                >Christianity</rs> to <placeName>Japan</placeName> or
+                                <placeName>Otaheite</placeName></rs>, to whom it never occurred,
+                        that <rs type="interact" subtype="trade">the hair-dresser, whom they are
+                            every Sunday detaining from church, has <rs type="concept">a soul to be
+                                saved</rs>; that <rs type="concept">the law of the land</rs>
+                            co-operates with <rs type="concept">the law of <rs type="myth"
+                                >God</rs></rs>, to forbid their employing him; and that they have no
+                                <rs type="concept">right</rs>, either legal or moral, to this
+                            portion of his time.</rs>" </note>
+                </bibl>
+                <bibl type="poem">
+                    <author ana="m">Perry, James</author>
+                    <title level="m">Mimosa: or, The sensitive plant; A poem. Dedicated to Mr.
+                        Banks, and addressed to Kitt Frederick, Dutchess of Queensberry,
+                        Elect.</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>London</pubPlace>
+                    <date> 1779</date>
+                    <note resp="#mmd79"> In ECCO. This publication is a poem about the <rs
+                            type="object">Mimosa plant</rs>, discovered on
+                            <placeName>Otaheite</placeName>. In the dedication to this poem, author
+                            <persName>James Perry</persName> speaks to <persName>Mr.
+                            Banks</persName>, imploring him to spread the word about this plant and
+                        its many significant properties. Passage: "The world will determine with
+                        what justice I dedicate the <rs type="object">SENSITIVE PLANT</rs>, to a <rs
+                            type="person" ana="Mr. Banks">Gentleman so deeply skilled in the science
+                            of <rs type="concept">Botany</rs></rs>; and whose desire of acquiring
+                        knowledge has led him to climates, most happily adapted to the nourishment
+                        and the cultivation of that wonderful <emph>lusus naturæ</emph>. The plains
+                        of <placeName>Otaeite</placeName>, (known as they are to us by the luxurious
+                        descriptions we have recieved from you, and your compatriots;) rear this
+                        plant to an amazing height... and <persName>Queen Oberea</persName>, as well
+                        as her enamoured subjects, feel the most sensible delight in handling,
+                        exercising, and proving its virtues." </note>
+                </bibl>
+                <bibl type="poem">
+                    <author ana="m">Preston, William</author>
+                    <title level="s">The poetical works of William Preston, Esq. in two volumes.
+                        ...</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>Dublin</pubPlace>
+                    <date>1793</date>
+                    <biblScope>vol. 1</biblScope>
+                    <note resp="#mmd79">In ECCO. Another poem, this time from "a <rs type="person"
+                            >lady of quality in England"</rs> to <persName>Omiah</persName>.
+                        Passage: <lg>
+                            <l>If yet thy land preserves <persName>Opano's</persName> name,</l>
+                            <l>And <persName>Oberea</persName>
+                                <rs type="interact" subtype="affin">pines with am'rous
+                                flame</rs>;</l>
+                            <l>If yet, untouch'd, the sacred <rs type="object">bread-tree</rs>
+                                grows,</l>
+                            <l>Which saw <rs type="interact" role="sex">their transports</rs>, and
+                                retains <rs type="interact" subtype="affin">their vows</rs>; </l>
+                            <l>If joys remember'd rapture can impart,</l>
+                            <l>And <placeName>London</placeName> lives within
+                                    <persName>Omiah's</persName> heart;</l>
+                            <l>Dear shall this greeting from thy <placeName>Britain</placeName>
+                                prove,</l>
+                            <l>And dear <rs type="interact" subtype="affin">these wishes of eternal
+                                        <rs type="concept">love</rs></rs>.</l>
+
+                        </lg>
+                    </note>
+                </bibl>
+                <bibl type="philosophy">
+                    <author ana="m">Alexander, William</author>
+                    <title>The history of women, from the earliest antiquity, to the present time;
+                        giving some account of almost every interesting particular concerning ... </title>
+                    <title/>
+                    <editor>Unknown</editor>
+                    <publisher>London : printed for W. Strahan, and T. Cadell, in the Strand,
+                        MDCCLXXIX</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1783</date>
+                    <note resp="#csh21"> Cultural Note, Philosophy. This publication goes into some
+                        level of detail about Tahitian women. Culural notes in regard to life before
+                        and after marriage as well as actions during such times. Passage: " <rs
+                            type="interact" subtype="cer">Strolling female dancers, who live by that
+                            profession, are not, however, peculiar to the <placeName>East
+                                Indies;</placeName> they have of late been met with in
+                                <placeName>Otaheite</placeName>, and several other places; but
+                            besides their strolling dancers in <placeName>Otaheite</placeName>, they
+                            have a dance called <rs type="concept" subtype="pac">Timoradee</rs>,
+                            which the young girl’s preform, whenever eight or ten of them can be got
+                            together; <rs type="interact" role="sex">it consists in every motion,
+                                gesture, and tone of voice that is truly lascivious; and being
+                                brought up to it form their childhood, in every motion, and in every
+                                gesture, they keep time with an exactness scarcely excelled by the
+                                most expect stage-dancers of <placeName>Europe</placeName></rs>.
+                            this diversion is allowed to the virgin, it is prohibited to the wife;
+                            who, from the moment of marriage must abstain from it forever."</rs>
+                    </note>
+                </bibl>
+                <bibl type="politics">
+                    <author ana="m">Boswell, James</author>
+                    <title>A letter to the people of Scotland, on the alarming attempt to infringe
+                        the Articles of the Union, and introduce a most pernicious innovation, by
+                        diminishing the number of the lords of session</title>
+                    <editor/>
+                    <publisher>printed for Charles Dilly</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1785</date>
+                    <note resp="#csh21">Letter, Politics. A letter presented to the people of
+                        <placeName>Scotland</placeName> in regards to the Lords of Session getting a raise. Speaks in
+                        regards to children in situations of starvation and murder in
+                            <placeName>Egypt</placeName>, <placeName>China</placeName> and
+                            <placeName>Otaheite</placeName>. Passage:" <rs type="interact"
+                            subtype="conflict"> Suppose it should be thought right to increase the
+                            salaries of the <orgName>Lords of Session</orgName>; is there no way of
+                            doing it but making two-thirds of them devour the rest, like
+                                <persName>Pharaoh</persName>’s lean and fat kine? Is the state so
+                            poor, that we must adopt a measure similar to the barbarous permission
+                            in <placeName>China</placeName> and <placeName>Otaheite</placeName>, to
+                            murder their children, left they should not have food enough?"</rs>
+                    </note>
+                </bibl>
+                <bibl type="play">
+                    <author ana="m">Burgoyne, John</author>
+                    <title>The maid of the oaks: a new dramatic entertainment. As it is performed at
+                        the Theatre-Royal, in Drury-Lane</title>
+                    <editor/>
+                    <publisher>printed for T. Becket</publisher>
+                    <pubPlace>1774</pubPlace>
+                    <date/>
+                    <note resp="#csh21">Play. Mentions <placeName>Otahetie</placeName> in one line
+                        which refers to a young man and the possibility of traveling to south seas
+                        at some future point. Passage: "<persName type="fic">Dupely</persName>. No,
+                        no; I am a true friend, and prepar'd for all your whimsies, amorous and
+                        poetical. Your summons found me the day after my arrival, and I took soft
+                        immediately- next to my eagerness to see you, was that of being in time for
+                        the Fete Champerte- Novelty and pleasure are the beings I pursue-They have
+                        led me to half the world over already, and for ought I know they may
+                        sometime or other carry me to the <placeName>Otaheite</placeName>." </note>
+                </bibl>
+                <bibl type="philosophy">
+                    <author ana="n">Caulfield</author>
+                    <title>An essay on the immateriality and immortality of the soul, and Its
+                        Instinctive Sense of Good and Evil; In Opposition to the Opinions advanced
+                        in The Essays introductory to Dr. Priestley's Abridgment of Dr. Hartley's
+                        Observations on Man. To which are added, Strictures on Dr. Hartley's Theory;
+                        Thoughts on the Origin of Evil; and Proof of the contradictory Opinions of
+                        Dr. Priestley and his Author. With an Appendix, In Answer to Dr. Priestley's
+                        Disquisitions on matter and spirit. By the author of The Letters in Proof of
+                        a particular, as well as a general Providence, Which were addressed to Dr.
+                        Hawkesworth (on his Publication of the Voyages round the World) under the
+                        Signature of a Christian.</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>London</pubPlace>
+                    <date>1778</date>
+                    <note resp="#csh21">Letters, Philospohy. Letters in which someone speaks of
+                            <persName>Omiah</persName> and his return to
+                            <placeName>Otahetie</placeName>. Involving complications which may arise
+                        from <persName>Omiah's</persName> travels around the globe and his new found
+                        knowledge of the world at large. Passage: "It is my pleasure to think of
+                            <persName>Omiah’s</persName> return to <placeName>Otaheite</placeName>.
+                        I now chuse to think of <persName>Lord Pigot’s</persName> dangerous
+                        situation in <placeName>India</placeName>. Now what possible relation- of
+                        association of circumstances can be discovered, which made me fly from the
+                        view of the <persName>King of Prussia’s</persName> campaigns, the
+                            <persName>Duchess of Kingston’s</persName> change to <persName>Countess
+                            of Bristol</persName>?- Or from her Ladyship’s change to the bloody
+                        fields of <placeName>America?</placeName> Or from the contention
+                            in<placeName>America</placeName>, to the return of
+                            <persName>Omiah</persName>, or from the return of
+                            <persName>Omiah</persName> to the confinement, and danger, of
+                            <persName>Lord Pigot?</persName>
+                    </note>
+                </bibl>
+
+                <bibl type="play">
+                    <author ana="m">Colman, G., Esq.</author>
+                    <author>Hull, Thomas</author>
+                    <title>Henry the Second: or, the fall of Rosamond: a tragedy; as it is performed
+                        at the <placeName>Theatre-Royal, Covent-Garden</placeName></title>
+                    <editor/>
+                    <publisher>printed for John Bell</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1774</date>
+                    <note resp="#csh21 #ebb"> In ECCO TCP. Hull is the author of the play, but G. Colman wrote the Epilogue in the voice of <persName>Oberea</persName> of <placeName>Otaheite</placeName>. She's being scornful of the representation of women in the play just performed. 
+                        <lg><l>Great and Fair Ladies!</l>
+                           <l> Lords gallant and mighty!</l> 
+                            <l>Behold a Female- Fresh from
+                            <placeName>Otaheite</placeName>.</l> 
+                            <l>Stretch to the <placeName>Southern
+                                Ocean</placeName> your Idea,</l> 
+                            <l>And View, In me, the <persName>Princess
+                                    Oberea</persName>.</l>
+                     <l>Full three long Hours I've sat, with smother'd Rage,</l> 
+                        <l>To hear the Nonsense of your tragick Stage,</l>  
+                         <l>To see <persName>a Queen</persName> majestically swagger,</l>
+                        <l> A <rs type="object">Bowl</rs> in this Hand, and in this a <rs type="object">Dagger</rs>;</l>
+                         <l><rs type="interact" subtype="conflict" role="blood">To stab or poison (cruel Inclination!)</rs></l> 
+                        <l><rs type="interact" role="sex"> <persName>A Maid</persName>, who gave a Husband Consolation</rs></l></lg></note>
+                </bibl>
+                <bibl type="play">
+                    <author ana="m">O'Keefe, John</author>
+               
+                    <title>The farce of the Modern antiques, or the merry mourners. In two acts. As performed at the <placeName>Theatre-Royal, Smoke-Alley</placeName></title>
+                    <editor/>
+                    <publisher>printed for the Booksellers</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <date>1792</date>
+                    <note resp="#ebb">In ECCO TCP. <p>In Act I of this farce, a character named Mr. Cockletop imagines himself as a number of historic figures, including <persName>Dr. Solander</persName>, in a brief soliloquy on his desire for his wife's niece: "Only that my brain is for ever running on my wife's charming niece Belinda; (oh! how I do love her: I love every thing old, but girls, and guineas;) I should certainly be second a <persName>Sir Hans Sloane</persName>— I'd be a <persName>Solander</persName>, and a <persName>Monmouth Geoffry</persName>."</p><p>Later in Act I, a huckster named Frank presents Mr. Cockletop with a hamper full of supposedly rare (fake) items for sale, and sells Cockletop his own hat with a piece cut out of it as a "cap of liberty." On the items list of materials for sale Cockletop reads of a "cloth of Otaheite," which Frank presents him as a piece cut from Cockletop's own coat:</p>
+                        
+                       <p> "Cock.
+                        Great! this is indeed, what the Romans call'd the Pi-leus, or Cap of Liberty:
+                        
+                        puts it on his had and reads;
+                        " <rs type="interact" subtype="trade"><rs type="object">half a yard of cloth from <placeName>Otahiete</placeName>, being a part of <rs type="object">the mantle of <persName>Queen Oberea</persName></rs>, presented by her to <persName>Captain Cook</persName></rs></rs>."</p>
+                        
+                        <p>Frank.
+                        Zounds, I was in such a hurry to get to work, that I've forgot half my tools.</p>
+                        
+                       <p> Cock.
+                        Where's <rs type="object">the cloth from <placeName>Otahiete</placeName></rs>?</p>
+                        
+                        <p>Frank.
+                        I dare say it's here,
+                        
+                        (feels the coat he has on)
+                        no, mustn't hurt poor Joey. Eh!
+                        (cuts of <rs type="object">the skirt of Cockletop's coat</rs> while he's admiring the things)
+                        belike that's it,—
+                        (gives it.)</p>
+                       <p> Cock.
+                        What wonderful soft texture; we've no such cloath in <placeName>England</placeName>, this must have been <rs type="object">the fleece of a very fine sheep</rs>.</p>
+                        
+                       <p> Frank.
+                        Aye, taken from the back of an old stupid ram.
+                        </p>
+                      <p>  Cock.
+                        Speak of what you understand you clown, much talk may betray little knowledge. Cut your coat according to your cloath.</p>
+                        
+                        <p>Frank.
+                        Yes, Sir, I cut your coat according to your cloth. I must fix him in his opinion now, with a little finesse,
+                        
+                        (aside.)
+                        <rs type="interact" subtype="trade">Measter do expect fifty pounds for this balderdash</rs>.</p>
+                       <p> Cock.
+                        Here's the money.
+                        
+                    </p> </note>
+                </bibl>
+
+                <bibl type="poem">
+                    <author ana="m">Courtenay, John (1738-1816)</author>
+                    <title>An epistle (moral and philosophical) from an officer at Otaheite. To Lady
+                        Gr*s**n*r. With notes, critical and historical. By the author of The rape of
+                        Pomona.</title>
+                    <editor/>
+                    <publisher>33 pages MDCCLXXIV. [1774].Literature and Language</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1774</date>
+                    <note resp="#csh21"> Poem, Notes. Notes within the poem which speak about the
+                        Timorodee dance, which the author believes will soon be as popular as other
+                        'suggestive' dances growing in popularity in England. Passage: “See his
+                        advertisement in the Moring Post, Sur l’ Art de Transplanter les Puceleges,
+                        Francois, Italiens, ou Espangnols.—If We reason from analogy,
+                            <placeName>Otaeheite</placeName> would soon rival
+                            <placeName>France</placeName> and <placeName>Spain</placeName> in this
+                        commodity; as the <rs type="concept" subtype="pac">Timorodee dance</rs>, is
+                        more joyous, expressive and animating than either the Fandango, or the
+                        Cotillion. ---<persName>Lady Wortley Montague</persName>, (who was reckoned
+                        no indifferent judge of such things) describes the sympathetic effect of a
+                        similar dance, in a very pretty manner. <rs type="interact" subtype="affin">
+                            "The dance, says her Ladyship, was very different from what I had seen
+                            before; nothing could be more artful, or more proper to raise certain
+                            ideas. The tunes so soft;<rs type="interact" role="sex"> the motions so
+                                languishing, accompanied with pauses and dying eyes! Half falling
+                                back, and then recovering themselves in so artful a manner, that I
+                                am very positive, the coldest and most rigid of prude upon earth,
+                                could not have looked upon them without thinking of something not to
+                                be spoken of”. </rs></rs></note>
+                </bibl>
+
+                <bibl type="novel">
+                    <author ana="m">Croft, Herbert, Sir</author>
+                    <title>Love and madness. A story too true. In a series of letters between
+                        parties, whose names would perhaps be mentioned, were they less known, or
+                        less lamented.</title>
+                    <editor/>
+                    <publisher>printed for G. Kearsly</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1780</date>
+                    <note resp="CSH21">Novel. An epistolary novel which speaks of
+                            <persName>Omiah's</persName> return to <placeName>Otahetie</placeName>
+                        and speculation on regards to difficulty he may find at this return. Also
+                        speaking of possible feeling of the writer for <persName>Omiah</persName>.
+                        Passage: <rs type="interact" subtype="affin"> "Come then to-marrow—and
+                            surely <persName>Omiah</persName> will not murder love! Yet I thought
+                            the other day he caught our eyes conversing. Eyes speak a language all
+                            can understand.—But, is a child of nature to nip in the bud that
+                            favorite passion which his <name type="myth">mother Nature</name>
+                            planted, and still tends?—What will <persName>Oberea</persName> and her
+                            coterie say to this, <persName>Omiah</persName>, when you return from
+                            making the tour of the globe? They’ll black-ball you depend on it."</rs>
+                    </note>
+                </bibl>
+                <bibl type="poem">
+                    <author ana="m">Darwin, Erasmus.</author>
+                    <title>The botanic garden. Part II. Containing the loves of the plants. A poem.
+                        With philosophical notes.</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>London</pubPlace>
+                    <date>1794</date>
+                    <note resp="#csh21">Poem. Mentions <placeName>Otahetie</placeName> and a flower
+                        found there called a Mimosa. Passage:<lg>
+                            <l>As round his shine the gaudy circles bow,</l>
+                            <l>And seal with muttering lips the faithless vow,</l>
+                            <l><rs type="interact" role="sex">Licentious Hymen joins their mingled
+                                    hands,</rs></l>
+                            <l>And loosey twines the meretricious bands-</l>
+                            <l>Thus where pleased <name type="Myth">Venus</name>, in the <rs
+                                    type="place" subtype="pac">southern main</rs>,</l>
+                            <l> Sends all her smiles on <placeName>Otaheite’s</placeName> plain,</l>
+                            <l> Wide o’er the isle her silken net she draws,</l>
+                            <l>And the Loves laugh at all, but Natures Laws.</l>
+                        </lg></note>
+                </bibl>
+                <bibl type="poem">
+                    <author ana="m">Fitzgerald, Gerald.</author>
+                    <title>The injured islanders, or the influence of art upon the happiness of
+                        nature: a poetical epistle from Oberea of Otaheite to Captain Wallis. By the
+                        ...</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>Dublin</pubPlace>
+                    <date> 1779</date>
+                    <note resp="#csh21"> Poem, Preface. Looks at how <persName>Oberea</persName>
+                        treated <persName>Captain Wellis</persName> as well as difficulty which
+                            <persName>Oberea</persName> had with her ruling after his visit.
+                        Passage: "And a similar <rs type="interact" subtype="conflict"
+                            >Revolution</rs>, a little before this, had stripped
+                            <persName>Oberea</persName> of that Wealth and Power which so eminently
+                        distinguished her at <persName>Captain Walls’</persName> arrival; she was
+                        then the <rs type="person" ana="Oberea">Queen of O’Taheite</rs>, and <rs
+                            type="interact" subtype="affin">treated him with peculiar Generosity and
+                            Regard: A Remembrance of their mutual Affection- a Sense of her
+                            subsequent Misfortunes- and a patriotic Feeling</rs>." </note>
+                </bibl>
+                <bibl type="novel">
+                    <author ana="m">Way, G. L.</author>
+                    <title level="m">Learning at a loss, or the amours of Mr. Pedant and Miss
+                        Hartley. A novel. In two volumes. Vol. II</title>
+                    <editor/>
+                    <publisher>printed for the author, and sold by H. Gardner; and J.
+                        Bew</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1778</date>
+                    <note resp="#baw58">In ECCO TCP. Epistolary comical novel. See pp. 10-12,
+                        describing a bachelor's study as a place full of interesting stuff: Passage:
+                        "His <rs type="object">Chimney</rs> was decorated with <rs type="object"
+                            >Jockey Whips</rs> perpendicularly suspended from their <rs
+                            type="object">Thongs,</rs> and every other Part of the Walls seemed
+                        loaded with an astonishing Variety of Curbs, Snaffles, Cavessons and
+                        Martingals, with five thousand other <rs type="object" subtype="pac">
+                            Instruments of Equestrian Utility,</rs> full as curious and entertaining
+                        to me, as the <rs type="object" subtype="pac">Weapons of <placeName>New
+                                Zealand</placeName> or <placeName>Otaheite,</placeName></rs> or the
+                        old Bandoleers and Shot Pouches in the Armoury in the Tower."
+                                <bibl><biblScope>(pp. 11-12)</biblScope></bibl></note>
+                </bibl>
+                
+                <bibl type="philosophy">
+                    <author/>
+                    <title>An apology for Mrs. Eugania Stanhope, editor of the Earl of
+                        Chesterfield's letters to Philip Stanhope, Esq. addressed to that Lady. By
+                        an Amateur ...</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>London</pubPlace>
+                    <date>1775</date>
+                    <note resp="#baw58">The terms <rs type="concept">arreoy"</rs> and
+                            <placeName>"otaheite"</placeName> are used in normal context in these
+                        letters. <persName>Omiah</persName> is mentioned as well. Passage: "Most
+                        fotunately for this purpose is lately arrived in <placeName>England
+                            </placeName><persName>Omiah</persName>, a <rs type="concept">native</rs>
+                        of that <rs type="place">Island.</rs> With him I humbly propose that you may
+                        be joined in office, to conduct and direct the pleasures of the <rs
+                            type="concept">new Arreoy;</rs> and that the instituiton of this <rs
+                            type="concept">society</rs> should be celebrated by <rs type="interact"
+                            subtype="cer">tattowing,</rs> and other rites similar to those used in
+                            <placeName>Otaheite</placeName>, of whih an execellent description is
+                        given by the late ingenious
+                                <persName>Dr.Hawkesworth</persName>"<bibl><biblScope>(p.85-86)</biblScope></bibl></note>
+                </bibl>
+                <bibl type="philosophy">
+                    <author/>
+                    <title>Beauties of nature and art displayed, in a tour through the world; ...
+                        Illustrated and embellished with copper plates.</title>
+                    <editor/>
+                    <biblScope>vol. 11, 12, 15</biblScope>
+                    <publisher>G.Robinson</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1775</date>
+                    <note resp="#baw58">The text refers to <placeName>Otaheite</placeName> multiple
+                        times as well as talking about how the Otaheitians made their <rs
+                            type="object">weapons</rs> from the wood of the Etoa tree. It gives
+                        descriptions of the types of <rs type="object">weapons</rs> they made from
+                        the wood. Passage: "<persName>Mr. Sergeant Hofkins</persName>, a gentleman
+                        of considerable fortune in <placeName>Herefordshire</placeName>, having
+                        invited <persName>King James</persName> the first, while he was on a
+                        progress that way, to his house, elegantly entertained his <rs
+                            type="concept"> Majesty;</rs> and as an instance of the longevity of the
+                            <rs type="concept">inhabitants</rs> of
+                            <placeName>Herefordshire</placeName>, procured ten old men and women,
+                        whose ages put together amounted to more than one thousand years, to <rs
+                            type="interact" subtype="affin">dance</rs> the morrice before the king"
+                                <bibl><biblScope>(p. 104).</biblScope>
+                        </bibl></note>
+                </bibl>
+                <bibl type="poem">
+                    <author/>
+                    <title>Bell's classical arrangement of fugitive poetry. Vol. XVI.</title>
+                    <editor/>
+                    <publisher>printed by John Bell, British Library, Strand, Bookseller to His
+                        Royal Highness the Prince of Wales, MDCCXCIV</publisher>
+                    <pubPlace>London</pubPlace>
+                    <date>1794</date>
+                    <note resp="#baw58"><persName>"Omiah"</persName> and
+                            <placeName>"Otaheite"</placeName> used in orginal context. The
+                        publication contains poems about <persName>Omiah</persName> and
+                            <placeName>Tahiti,</placeName> some taking on the perspective of
+                            <persName>Omiah.</persName> Passage: <bibl><biblScope>(p.
+                                116)</biblScope></bibl>
+                       <lg> <l>My Lord applauds <persName>OMIAH's</persName> skill,</l>
+                        <l>Erects a kingdom at his will,</l>
+                        <l>Then gives the king this nice <rs type="object">toy;</rs></l>
+                        <l>Resigns an Isle, and <placeName>Boston town</placeName>,</l>
+                        <l><rs type="interact" subtype="imp">Joins <placeName>Otaheite</placeName> to the <rs type="object"
+                                >crown,</rs></rs></l>
+                        <l>And makes <persName>OMIAH</persName> VICEROY!</l></lg>
+                    </note>
+                </bibl>
+                <bibl type="periodical">
+                    <author/>
+                    <title>The Beauties of magazines, reviews, and other periodical publications. </title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>Edinburgh</pubPlace>
+                    <date>1788</date>
+                    <note resp="#baw58">This publication references admirable actions of
+                            <persName>Tupia</persName> as well as <placeName> Otaheite</placeName>
+                        Passage: "In the private relations of Life, <persName>Captain
+                            Cook</persName> was entitled to high <rs type="concept"
+                            >commendation.</rs> He was excellent as a husband and a father, and <rs
+                            type="concept">sincere</rs> and sheady in his <rs type="interact"
+                            subtype="affin">friendships;</rs> and to this it may be added, that he
+                        proffessed that general <rs type="concept">sobrierty</rs> and <rs
+                            type="concept">virtue of character,</rs> which will always be found to
+                        constitute the best security and ornament of every other moral
+                        qualification" <bibl><biblScope>(p.32).</biblScope></bibl>
+                    </note>
+                </bibl>
+                <bibl type="poem">
+                    <author/>
+                    <title level="s">The Flower-piece, a collection of modern poems.</title>
+                    <editor/>
+                    <publisher/>
+                    <pubPlace>London</pubPlace>
+                    <date>1780</date>
+                    <note resp="#baw58">This collection of poems contains one as an epistle from
+                            <persName>Queen Oberea</persName> to <persName>Joseph Banks</persName>
+                            (<persName>Tupia</persName> referred to as her "prime minister" and
+                            <placeName>Otaheite</placeName> as island). Passage:
+                                <bibl><biblScope>(p.172).</biblScope></bibl>
+                       <lg> <l>There first at eve thy opening sails I spy'd,</l>
+                        <l>And eager glow'd to cleave the briny tide.</l>
+                        <l>My <rs type="concept">faithful</rs> senate in wife debate,</l>
+                        <l>And weigh'd the dubious interests of the state.</l>
+                        <l>Though some with branding'd lance for <rs type="interact"
+                                subtype="conflict">war</rs> declare,</l>
+                        <l>With all frantic signs of wild <rs type="concept">despair;</rs></l>
+                        <l>Yet I more soft to gentle peace inclin'd,</l>
+                        <l>And sooth'd the terrors of <persName> Tupia's</persName> mind.</l>
+                        <l>Send them, I cry'd, twice twleve delicious dogs,</l>
+                        <l>And give them cocoas, women, bread, and hogs</l></lg>
+                    </note>
+                </bibl>
+               
+
+
+
+            </listBibl>
+        </body>
+        <back>
+            
+           <div>
+               <listPerson type="hist">
+                   <person xml:id="J_Byron">
+                <persName>John Byron <surname>Byron</surname><forename>John</forename>
+                    <roleName>Commodore</roleName></persName>
+                <birth when="1723-11-08">
+                    <placeName>London</placeName>
+                </birth>
+                <death when="1786-04-10"/>
+                <occupation>military</occupation>
+                <occupation>government</occupation>
+                <occupation>author</occupation>
+                <note resp="#mmd79">Governor of Newfoundland and Royal Navy officer. Served in the Seven
+                    Years' War and American War for Independence. Published account of his early
+                    adventures entitled <emph>The Narrative of the Honourable John Byron</emph> in
+                    <date>1768</date></note>
+            </person>
+            
+            <person xml:id="Solander_D">
+                <persName>Dr. Daniel Carlsson Solander <surname>Solander</surname>
+                    <forename>Daniel</forename>
+                    <forename>Carlsson</forename>
+                    <roleName>Dr.</roleName>
+                </persName>
+                <birth when="1733-02-19">
+                    <placeName>Norbotten, Sweden</placeName>
+                </birth>
+                <death when="1782-05-13"/>
+                <occupation>naturalist</occupation>
+                <occupation>botanist</occupation>
+                <note type="bio" resp="#mmd79">Catalogued the natural history collections of the British
+                    Museum from <date>1763</date> to <date>1768</date>. Accompanied Joseph Banks on
+                    Captain Cook's first journey to the Pacific on the <emph>Endeavor</emph> until
+                    <date>1771</date>. Accompanied Banks on his journey to
+                    <placeName>Iceland</placeName>, <placeName>the Hebrides</placeName>, and the
+                    <placeName>Orkney Islands</placeName> in <date>1772</date>. Went on to become
+                    the Keeper of the Natural History Department of the British Museum until
+                    <date>1782</date></note>
+            </person>
+            
+            <person xml:id="Bougainville_LA">
+                <persName>Louis-Antoine, Comte de Bougainville <surname>Bougainville</surname>
+                    <forename>Louis</forename>
+                    <forename>Antoine</forename>
+                    <roleName>Count</roleName>
+                </persName>
+                <birth when="1729-11-12">
+                    <placeName>Paris, France</placeName>
+                </birth>
+                <death when="1811-08-31">
+                    <placeName>Paris, France</placeName>
+                </death>
+                <occupation>military</occupation>
+                <note type="bio" resp="#mmd79">Served in the corp of musketeers in <date>1753</date>.
+                    Served in London in <date>1755</date> as secrety to the French embassy. Served in
+                    the French and Indian War. Most popularly known as the first Frenchman to
+                    circumnavigate the globe. Published his travel log in <date>1771</date>. </note>
+            </person>
+            <person xml:id="Paine_T">
+                <persName>Thomas Paine<surname>Paine</surname>
+                    <forename>Thomas</forename>
+                </persName>
+                <birth when="1737-02-09">
+                    <placeName>Thetford, Norfolk, Great Britain</placeName>
+                </birth>
+                <death when="1809-06-08">
+                    <placeName>New York</placeName>
+                </death>
+                <occupation>military</occupation>
+                <note type="bio" resp="#mmd79">Most popularly known for his political activism in
+                    support of the American Revolution and publication of the pamphlets <emph>Common
+                        Sense</emph> and <emph>The American Crisis</emph> in <date>1776</date>. </note>
+            </person>
+            <person xml:id="Lady_MWM">
+                <persName>Lady Mary Wortley Montagu<surname>Montagu</surname>
+                    <forename>Mary</forename>
+                    <forename>WOrtley</forename>
+                    <roleName>Lady</roleName>
+                </persName>
+                <birth when="1689-05-15">
+                    <placeName>London</placeName>
+                </birth>
+                <death when="1762-08-21">
+                    <placeName>London</placeName>
+                </death>
+                <occupation>writer</occupation>
+                <note type="bio" resp="#mmd79">An English artistocrat who is remembered today for her
+                    letters from Turkey as the wife of the British ambassador, Edward Wortley Montagu
+                </note>
+            </person>
+            
+            <person xml:id="LeGobien_C">
+                <persName>Father Charles Le Gobien<surname>Le Gobien</surname>
+                    <forename>Charles</forename>
+                    <forename/>
+                    <roleName>Father</roleName>
+                </persName>
+                <birth when="1653">
+                    <placeName>Brittany, France</placeName>
+                </birth>
+                <death when="1708-03-05">
+                    <placeName>Paris, France</placeName>
+                </death>
+                <occupation>clergy</occupation>
+                <occupation>writer</occupation>
+                <note type="bio" resp="#mmd79">Member of the Society of Jesus (Jesuits) beginning in
+                    <date>1671</date>. Primarily known for his writings dealing with Jesuit relations in
+                        China
+                </note>
+            </person>
+               <person xml:id="Captain_W">
+                   <persName>Captain Wellis
+                       <surname>Wallis</surname>
+                       <forename>Samuel</forename>
+                   </persName>
+                   <birth when="1728-04-23"><placeName>Cornwall</placeName></birth>
+                   <death when="1795-01-21"></death>
+                   <occupation>explorer</occupation>
+                   <occupation>government</occupation>
+                   <note type="bio" resp="#csh21">Commander of the HMS Dolphin which traveled the world.  He eventully said to <placeName>Tahiti</placeName> which he named "<placeName>King George the Third's Island</placeName>". Reported to have made friendly affairs with both the Tahitians and <persName>Princess Oberea</persName>. He died of dysentery while still traveling aboard the HMS Dolphin.
+                   </note>
+               </person>
+               
+               <person xml:id="DoK">
+                   <persName>Elizabeth Chudleigh-Pierrepont
+                       <surname>Pierrepont</surname>
+                       <forename>Chudleigh</forename>
+                       <forename>Elizabeth</forename>
+                   </persName>
+                   <birth when="1720"><placeName></placeName></birth>
+                   <death when="1788-08-26"></death>
+                   <occupation></occupation>
+                   <note type="bio" resp="#csh21">Daughter of <persName>Colonel Thomas Chudleigh</persName>. Married to <persName>Augustus Harvey</persName> a poor navel salior before becoming Earl of Bristol by which point their marriage ended. Later became Duchess of Kingston-on-Hull through marriage to the Duke of Kingson-on-Hull. Not very prominent in English court, she also faced charges of bigamy at one time due to hiding the disastrous marriage to Harvey. Served as 'Maid of Honor' to <persName>Augusta, Princess of Wales</persName>. </note>
+               </person>
+               
+               <person xml:id="George_P">
+                   <persName>George Pigot
+                       <surname>Pigot</surname>
+                       <forename>George</forename>
+                   </persName>
+                   <birth when="1719-03-04"><placeName>Cornwall</placeName></birth>
+                   <death when="1777-05-11"></death>
+                   <occupation>governor</occupation>
+                   <occupation>government</occupation>
+                   <note type="bio" resp="#csh21">In service to the East India Company, became governor and commander-in-chief of <placeName>Madras</placeName> in <date>1755</date> but only after defending the city against the French. After returning to <placeName>England</placeName> in <date>1764</date> he was made a baronet and held a seat in parliament. Returned to <placeName>India</placeName> in <date>1775</date> where he ran afoul of the <persName>Raj of Tanjore</persName> and his council after a long standing argument. The Raj had him thrown into prison where he died. </note>
+               </person>
+               
+               <person xml:id="KoP">
+                   <persName>Frederick the Second
+                       <surname></surname>
+                       <forename>Frederick</forename>
+                       <roleName>King</roleName>
+                   </persName>
+                   <birth when="1712-01-24"><placeName>Cornwall</placeName></birth>
+                   <death when="1786-08-17"></death>
+                   <occupation>king</occupation>
+                   <occupation>government</occupation>
+                   <note type="bio" resp="#csh21">Frederick the Second or Frederick the Great was the King of Purssia during the Hohenzollem Dynasty. Reigned for 29 years after this fathers death, from <date>1740</date>–<date>1786</date>, and he was considered a rather great Philosopher with ties to <persName>Voltaire</persName>. Famous for the 'Seven Years War' and the First Partition of <placeName>Poland</placeName>. </note>
+               </person>
+               
+               <person xml:id="James_P">
+                   <persName>James Perry
+                       <surname>Perry</surname>
+                       <forename>James</forename>
+                   </persName>
+                   <birth when="1756-10-30"><placeName>Aberdeen</placeName></birth>
+                   <death when="1821-12-04"></death>
+                   <occupation>journallist</occupation>
+                   <note type="bio" resp="#csh21">Journalist for The General Advertiser and The London Post after dropping out of college from Marichal in <placeName>Aberdeen</placeName>. Established The European Magizne in <date>1782</date> and was also Editor for The Gazetteer. His journalism lead to two government prosecutions, both of which he was acquitted for.  He spent time in <placeName>Newgate Prision</placeName> in <date>1798</date> for"libelling the house".</note>
+               </person>
+               
+               <person xml:id="Soame_J">
+                   <persName>Soame Jenyns
+                       <surname>Jenyns</surname>
+                       <forename>Soame</forename>
+                   </persName>
+                   <birth when="1704-01-01"><placeName>Cornwall</placeName></birth>
+                   <death when="1787-12-18"></death>
+                   <occupation>writer</occupation>
+                   <note type="bio" resp="#csh21">Son of <persName>Sir Roger Jenyns</persName>, Soame was a writer and poet who indulged his reported talented hobby through his families wealth. Famous for works such as the much published "Free Inquiry into the Nature and Origins of Evil" in <date>1756</date>. He was sometimes controversial but was widely published in a number of media outlets such as "Literary Magizine". </note>
+               </person>
+               
+               <person xml:id="Plato">
+                   <persName>Plato
+                       <surname></surname>
+                       <forename>Plato</forename>
+                   </persName>
+                   <birth when="0423"><placeName>Cornwall</placeName></birth>
+                   <death when="0347"></death>
+                   <occupation>philospher</occupation>
+                   <occupation>mathematician</occupation>
+                   <note type="bio" resp="#csh21">Famous Greek Philosopher. A Philospher, Mathematician and a student of Socrates, he is famous for bringing up such topics as "Knowledge being a point of recollection" as well as some controversial works about nature and the afterlife. Also famous for question the Grecian social state during his lifetime. </note>
+               </person>
+               <person xml:id="Aquinas_T">
+                   <persName>Thomas Aquinas 
+                       <surname>Aquinas</surname>
+                       <forename>Thomas</forename>
+                       <forename/>
+                       <roleName>Saint</roleName>
+                   </persName>
+                   <birth when="1225-01-28">
+                       <placeName>Roccasecca, Kingdom of Sicily</placeName>
+                   </birth>
+                   <death when="1274-03-07">
+                       <placeName>Fossanova, Papal States</placeName>
+                   </death>
+                   <occupation>Priest</occupation>
+                   <occupation>Influential philosopher and theologian in the tradition of
+                       scholasticism</occupation>
+                   <note type="bio" resp="#baw58"><persName>Thomas</persName> is honored as a saint by the Catholic Church and
+                       is held to be the model teacher for those studying for the priesthood, and indeed
+                       the highest expression of both natural reason and speculative theology. His
+                       influence on Western thought is considerable, and much of modern philosphy was
+                       concerived in development or refutation of his ideas, particularly in the areas of
+                       ethics, natural law, metaphysics, and political theory.</note>
+               </person>
+               
+               <person xml:id="Henry_II">
+                   <persName>Henry II 
+                       <surname>Henry II</surname>
+                       <forename/>
+                       <forename/>
+                       <roleName> King </roleName>
+                   </persName>
+                   <birth when="1133-03-05">
+                       <placeName>LeMans,France</placeName>
+                   </birth>
+                   <death when="1189-07-06">
+                       <placeName>Chinon,France</placeName>
+                   </death>
+                   <occupation>King</occupation>
+                   <occupation/>
+                   <note type="bio" resp="#baw58">During the early years of the younger Henry's reign he
+                       restored the royal administration in England, re-established hegemony over
+                       <placeName>Walesand</placeName> gained full control over his lands in
+                       <placeName>Anjou</placeName>, <placeName>Maine</placeName>, and
+                       <placeName>Touraine</placeName>.</note>
+               </person>
+               
+               <person xml:id="Joan_Pope">
+                   <persName>Pope Joan <surname>Joan</surname>
+                       <forename/>
+                       <forename/>
+                       <roleName>Pope</roleName>
+                   </persName>
+                   <birth/>
+                   <death/>
+                   <occupation/>
+                   <occupation/>
+                   <note type="bio" resp="#baw58">Most versions of her story describe her as a talented and
+                       learned woman who disguises herself as a man. She rises through the church heirachy,
+                       eventually being elected pope; however, while riding on horseback, she gives birth,
+                       thus exposing her sex. She eventually dies either from natural causes or by an angry
+                       mob.</note>
+               </person>
+               
+               <person xml:id="Aristotle">
+                   <persName>Aristotle <surname/>
+                       <forename/>
+                       <forename/>
+                       <roleName/>
+                   </persName>
+                   <birth when="-0384">
+                       <placeName>Stagira, Chalcidice</placeName>
+                   </birth>
+                   <death when="-0322">
+                       <placeName>Euboea</placeName>
+                   </death>
+                   <occupation>Philosopher</occupation>
+                   <occupation/>
+                   <note type="bio" resp="#baw58">
+                       <persName>Plato</persName> was <persName>Aristotle's</persName> mentor and his ethicsm though always
+                       influential, gained renewed interest with the modern advent of virtue ethics. All
+                       aspects of <persName>Aristotle's</persName> philosophy continue to be the object of active academic study
+                       today.</note>
+               </person>
+               
+               <person xml:id="James_King">
+                   <persName>James I <surname> James I </surname>
+                       <forename/>
+                       <forename/>
+                       <roleName> King </roleName>
+                   </persName>
+                   <birth when="1394-07-25">
+                       <placeName>Dunfermline Palace, Fife</placeName>
+                   </birth>
+                   <death when="1437-02-21">
+                       <placeName> Blackfriars, Perth </placeName>
+                   </death>
+                   <occupation> King </occupation>
+                   <occupation/>
+                   <note type="bio" resp="#baw58"> To bolster his authority and secure the position of the
+                       crown, <persName>James</persName> launched pre-emptive attacks on some of his nobles beginning in
+                       <date>1425</date> with his close relatives the Albany Stewarts that resulted in
+                       the execution of<persName> Duke Murdoch</persName>.</note>
+               </person>
+               
+               <person xml:id="Charles_King">
+                   <persName>King Charles <surname>Charles</surname>
+                       <forename/>
+                       <forename/>
+                       <roleName>King</roleName>
+                   </persName>
+                   <birth when="1600-11-19">
+                       <placeName>Dunfermline Palace, Dunfermline, Scotland</placeName>
+                   </birth>
+                   <death when="1649-01-30">
+                       <placeName>Whitehall, London</placeName>
+                   </death>
+                   <occupation> King </occupation>
+                   <occupation/>
+                   <note type="bio" resp="#baw58"> From <date>1642</date>, <persName>Charles </persName>fought the armies of the English and
+                       Scottish parliamanents in the English Civil War. After his defeat in <date>1645</date>, he
+                       surrendered to a Scottish force that eventually handed him over to the English
+                       Parliament. <persName>Charles</persName> refused to accept his captors' demands for a consituional
+                       monarchy and temporarily escaped captivity in <date>November 1647</date>. Re-imprisoned on the
+                       Isle of Wight, <persName>Charles</persName> forged an alliance with <placeName>Scotland</placeName>, but by the end of <date>1648</date>
+                       <persName> Oliver Cromwell's</persName> New Model Army had consolidate its control over England. <persName>Charles</persName>
+                       was tried, convicted, and executed for high treason in <date>January 1649</date>. </note>
+               </person>
+               </listPerson></div>
+           
+            </back>
+    </text>
+</TEI>

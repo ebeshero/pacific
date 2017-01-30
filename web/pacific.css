@@ -1,0 +1,27 @@
+head {background-image:url('CookEndeavour')}
+
+body {background-color:#BBD6F1; color:#580000; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; margin: 1em} 
+
+h1 {color:#A04747
+
+; letter-spacing:3px; display:block; text-align:center; font-size:3em}
+h2 {color:#00005C; display:block; text-align:center; 
+}
+
+h3 {color:#00005C; display:block; 
+}
+
+table FF
+{width:70%;}
+tr
+{height:50px;
+background-color:#D8E4EA   
+;
+color:#580000}
+
+td
+{border:5px #9999FF; padding:15px; text-align:left}
+
+p {text-indent:15px; display:block}
+
+ul {list-style-position:inside; display:block}

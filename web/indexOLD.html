@@ -1,0 +1,122 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" type="text/css" href="pacific.css"/>
+        <title>Digital Archives and Pacific Cultures: University of Pittsburgh Pacific Project Teams</title>
+    </head>
+    <body>
+        <h1>Digital Archives and Pacific Cultures</h1>
+        <h2><img alt="Cook's Endeavour" src="CookEndeavour.gif"/><img alt="Polynesian canoe" src="aa_canoe_clearsm.png"/></h2>
+        <h2>University of Pittsburgh Pacific Project Teams</h2> 
+        
+        <p> This project represents the work of students and faculty at the Greensburg and Oakland campuses of the University of Pittsburgh. Using TEI conformant XML markup, we are investigating the voyage narratives of the first European expeditions to chart the Pacific and to encounter Polynesian cultures, and we are studying how English poetry and print media responded to the narratives of first contact. We are especially interested in charting "distortion effects" as English writers redacted the language describing Pacific cultural encounters. We are also working to chart how geospatial coordinates shifted during these voyages as methods for calculating longitude changed and Cook's new maps altered people's vision of the globe. <a href="WorkinProgress.xhtml"><b>Description of Work in Progress (March 9, 2013)</b></a></p>
+        <p><b><a href="CodingHandout.pdf">Guidelines for Coding Places, People, Mythical Entities, Referencing Strings, and More</a> (March 15, 2013)</b></p>
+        
+        <table>
+        <tr>
+        
+            <th colspan="3">Resources for Project Development</th>
+            </tr>
+          <tr>
+              
+              <td colspan="3"><h3>18th-century Accounts of Pacific Voyages</h3>
+                  
+                  <table>
+                      <tr>
+                          <td><h4>John Hawkesworth's <i>Account of the Voyages...of Commodore Byon, Captain Wallis, Captain Carteret, and Captain Cook</i> (1773), Vol. 2, Chapters 4-8 (Wallis's Voyage).</h4> 
+                              <ul>
+                                  <li><a href="HawkesworthVolume2Chapter4-8Complete.xml">View as TEI P5 XML</a>. Geocoding completed, 3/9/2013.</li>
+                                  <li><a href="HawkesworthWallis.html">View HTML version, with color-coded contextual markup.</a></li>
+                              </ul>
+                              <p>XSLT Transformation Files</p>
+                              <ul>
+                                  <li><a href="HwksworthXSLTHTML.xsl">Hawkesworth Transformation from XML to HTML</a></li>
+                                  <li><a href="placesHawkesRev.xslt">Transformation to KML (for Google Earth)</a> <small>*Note: this is under revision.</small></li>
+                              </ul>
+                              
+                          
+                          <h4>James Cook's <i>A Voyage Towards the South Pole and Round the World</i> (1777) (Cook's Second Voyage, both volumes, complete.)</h4> 
+                              <ul>
+                                  <li><a href="cookSecondVoyageComplete.xml">View as TEI P5 XML</a>. Geocoding corrected to eliminate variation readings: 3/15/2013. Matching pairs of coordinates in progress.</li>
+                                  <li><a href="cookSecVoyageAll.html">View HTML version, with color-marked geo codes</a>.</li>
+                              </ul>
+                              <p>XSLT Transformation Files</p>
+                              <ul>
+                                  <li><a href="CookVoyageDivHeads.xsl">Early Stage Identity Transformation: XML to XML</a></li>
+                                  <li><a href="CookXSLTHTML.xsl">Cook's Second Voyage: Transformation to HTML</a></li>  
+                              </ul>
+                             
+                              <hr/>
+                              <h4>KML Files</h4>
+                              <ul><li><a href="HawkesworthVol2Ch4China.kml">Experimental KML for Coordinates in Hawkesworth's Vol. 2 Chapter 4</a>. <small>Note: Coordinates map on Google Earth, but are plotted on the wrong hemisphere! Under revision.</small></li>
+                              </ul>
+                                                        
+                          </td> 
+                     
+                     
+                          <td><h3>TEI P5 Coding and XSLT Transformations in Progress</h3>
+                              <h4>Georg Forster's <i>A Voyage Round the World in His Majesty's Sloop, Resolution, commanded by Capt. James Cook, during the Years 1772, 3, 4, 5</i>. (1777)</h4>
+                              <ul>
+                                  <li><a href="ForsterGeorgComplete.xml">View as TEI P5 XML</a>.</li>
+                              </ul>
+                              <h4>Johann Forster's <i>Observations Made during a Voyage round the World</i> (1777)</h4>
+                              <ul>
+                                  <li><a href="Forster-Johann-complete-unpretty-gb.xml">View as TEI P5 XML in progress</a>.<small> Note: This file's structural encoding is under development.</small></li>
+                              </ul>
+                              <h4>John Rickman's <i>Journal of Captain Cook's last voyage, to the Pacific Ocean: on Discovery: performed in the years 1776, 1777, 1778, 1779, and 1780 (1785)</i>.</h4>
+                              <ul>
+                                  <li><a href="CookVoyage3.xml">View as TEI P5 XML</a>.</li>
+                              </ul>
+                              <hr/>
+                              <h4>Relax NG Schema</h4>
+                              <ul>
+                                  <li><a href="teigeo1.rnc">Schema in use for all voyage files</a>. Adapted from <a href="http://www.tei-c.org/Roma/">the TEI ROMA</a>.</li>
+                              </ul>
+                           
+                           <hr/>
+                              <h4>CSS in use and under development</h4>
+                              <ul>
+                                  <li><a href="pacific.css">Project Website Stylesheet</a></li>
+                                  <li><a href="hawkesworth.css">Voyage Accounts Stylesheet</a></li>
+                                  <li><a href="injured.css">Injured Islanders Stylesheet</a> <small>(Not in use)</small></li>
+                              </ul>
+                          
+                          </td>
+                      
+                      </tr>  
+                
+                 
+          
+                  </table>
+              </td>
+          </tr>
+            <tr>
+              
+                            <td><h3>Poems:</h3> 
+                                <h4> Gerald Fitzgerald "The Injured Islanders" (1779)</h4> 
+                                <ul><li><a href="InjuredIsland.xml">TEI P5 XML file updated (ready for context encoding, March 15, 2013)</a></li>
+                                    <li><a href="IdentityTransformInjurdIsland.xsl">XSLT Identity Transformation</a> to add line numbers, March 15, 2013</li>
+                                    </ul>
+                                <h4>Anna Seward, "Elegy on Captain Cook" (1780 vs. 1810 parallel text editions)</h4>
+                                    <ul>
+                                        <li><a href="ElegyCook.xml">View as TEI P5 XML</a> Updated: new TEI header and obsolete ref elements removed, March 15, 2013.</li>
+                                        
+                                        <li>Two HTML Transformations from Fall 2012:
+                                
+                                <ul>
+                                    <li><a href="http://www.pitt.edu/~ebb8/ElegyCaptainCook/Versioning%20Machine/v-machine-2/samples/SewardElegy.html">Versioning Machine</a></li>
+                                    <li><a href="http://juxtacommons.org/shares/rEughs">Juxta:Commons</a> </li>
+                                </ul> 
+                                        </li>        
+                                </ul>
+                            </td>
+                        
+                    
+           
+                
+                <td><h3>Artifacts, Maps, and Image Gallery</h3></td></tr>
+ 
+        </table>
+        
+    </body>
+</html>

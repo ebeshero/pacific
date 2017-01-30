@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elegy on Captain Cook</title>
+            <author>Anna Seward</author>
+            <respStmt>
+               <resp>transcribed, encoded, and edited by</resp>
+               <orgName>Pitt-Greensburg Digital Humanities Class, Fall 2012</orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Early research, transcription and comparison of editions in TEI P5 XML encoding by</resp>
+               <persName>Bryan Cardonick</persName>
+               <persName>Carrie Hood</persName>
+               <persName>Jacob Hornin</persName>
+               <persName>Megan Hughes</persName>
+               <persName>Joseph Martin</persName> 
+               <persName>Ashley Necciai</persName>
+               <persName>Mattia Piazza</persName>
+               <persName>Zach Pivirotto</persName>
+               <persName>Albert Simak</persName>
+               <persName>Nicole Wong</persName>
+               <persName>Khalil Zeigler</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Corrections were made by</resp>
+               <persName>Elisa Beshero-Bondar</persName>
+               <persName>Sayre Greenfield</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Corrections made with research assistance from</resp>
+               <persName>Ashley Necciai</persName>
+               <persName>Mattia Piazza</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Contextual encoding in Spring 2013 by</resp>
+               <orgName>University of Pittsburgh Pacific Project Teams: Digital Archives and Pacific
+               Cultures.</orgName>
+               <persName>Elisa Beshero-Bondar</persName>
+               <persName>Gregory Bondar</persName>
+               <persName>Megan Hughes</persName>
+               <persName>Scott Morgan</persName>
+            </respStmt>
+           
+            <respStmt>
+               <resp>with assistance in the Computational Methods in Humanities course at the University of
+                  Pittsburgh in <date>Spring 2013</date>, from</resp>
+               <persName>David Birnbaum</persName>
+               <persName>Mary Zuzack</persName>
+               <persName>Eric Gratta</persName>
+            </respStmt>
+            
+            <sponsor>
+               <orgName>
+                  <ref target="http://greensburg.pitt.edu">University of Pittsburgh at Greensburg</ref>
+               </orgName>
+               
+            </sponsor>
+            <funder>
+               <orgName>University of Pittsburgh at Greensburg</orgName>  
+            </funder>
+            <principal>
+               <persName>
+                  <ref target="http://greensburg.pitt.edu/academics/faculty/elisa-e-besherobondar">Elisa E. Beshero-Bondar</ref>
+               </persName>
+            </principal>
+         </titleStmt>
+
+         <editionStmt>
+            <edition n="2"/>
+         </editionStmt>
+         <publicationStmt>
+            <p>This electronic file compares two versions of Anna Seward's poem: the first publication,<bibl>
+                  <title>Elegy on Captain Cook</title>,(London,<date>1780</date>)</bibl>and the version published posthumously in<bibl>
+                  <title>The Poetical Works of Anna Seward in Three Volumes, with Extracts from her Literary Correspondence.</title>Ed.<editor>Walter Scott</editor>Vol. 2 (Edinburgh,<date>1810</date>).</bibl>  
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+           <p>The base text for this digital edition was the 1810 version of the poem, available in plain text from Google Books. Students and professors worked together in Fall 2012 to transcribe and encode variations between the 1780 edition available in the ECCO database (Eighteenth-Century Collections Online).</p> 
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         
+         <editorialDecl>
+            
+           
+            <p>Line breaks are accurate for the 1780 edition, but may not be so for the 1810 edition.</p>
+         </editorialDecl>
+         
+         <variantEncoding method="location-referenced" location="internal"/>
+         
+      </encodingDesc>
+      
+      <encodingDesc>
+         <projectDesc>
+            <p><!-- Info about the Elegy editions and why we're doing this. --></p>
+         </projectDesc>
+         
+         <editorialDecl>
+            
+            <normalization>
+               <p>We have normalized the long "s" in our transcriptions.</p>
+            </normalization>
+           
+         </editorialDecl>
+
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         
+         </langUsage>
+
+      </profileDesc>
+
+   </teiHeader>
+
+   <!-- Are we including a facsimile image here? -->
+<!--   <facsimile/> -->
+
+   <text>
+      <front>
+         <div>
+            <listWit>
+               <witness xml:id="early">1780 edition</witness>
+               <witness xml:id="late">1810 edition</witness>
+               
+            </listWit>
+         </div>
+      </front>
+      <body>
+
+        
+
+         <div type="poem">
+            
+            <head>
+               
+               
+                     <!-- Give title info from 1780 edition -->ELEGY ON CAPTAIN COOK, by Anna Seward (1780)                 
+                  
+               
+            </head>
+           
+            <lg>
+               <l n="1">Sorrowing, <name type="myth">the Nine</name>  beneath yon <rs type="object">blasted yew</rs>
+               </l> 
+               
+               <l n="2">Shed the bright drops of Pity's holy dew;</l>  
+               <l n="3">Mute are their tuneful tongues, extinct their fires;</l>  
+               <l n="4">Yet not in silence sleep their <rs type="object">silver lyres</rs>;</l>  
+               <l n="5">To the bleak gale they vibrate sad and slow,</l>  
+               <l n="6">In deep accordance to a <rs type="org" ana="England">Nation</rs>'s woe.</l>
+               <lb/>
+            </lg> 
+         
+            <lg>
+               <l n="7" rend="indent">Ye, who ere-while for <persName>C<hi rend="smallcaps">ook</hi>
+                  </persName>'s illustrious brow</l>
+               <l n="8">Pluck'd the green <rs type="object">laurel</rs>, and the <rs type="object">oaken bough</rs>,</l>  
+               <l n="9">Hung the gay <rs type="object">garlands</rs> on the <rs type="object">trophied oars</rs>,</l>
+               <l n="10">And <rs type="interact">pour'd his <rs type="concept">fame</rs> along <geogFeat>a thousand shores</geogFeat>,</rs>
+               </l>
+               <l n="11">
+                  <rs type="interact" role="cer">Strike the slow <rs type="object">death-bell</rs>!---weave the <rs type="object">sacred verse</rs>,</rs>
+               </l>
+               <l n="12">
+                  <rs type="interact" role="cer">And strew the <rs type="object">cypress</rs> o'er his honor'd<rs type="object">hearse</rs>;</rs>
+               </l> 
+               <l n="13">
+                  <rs type="interact" role="cer">In sad procession wander round the <rs type="object">shrine</rs>,</rs>
+               </l> 
+               <l n="14">
+                  <rs type="interact" role="cer">And weep him <rs type="concept">mortal</rs>, whom ye sung <rs type="concept">divine</rs>!</rs>
+               </l>
+            </lg>
+           
+            <lg>
+               <lb/>
+               <l n="15" rend="indent"> Say first, what <name type="myth">Pow'r</name> inspir'd his dauntless breast</l>
+               <l n="16"> With scorn of danger, and inglorious rest,</l>
+               <l n="17"> To quit imperial <placeName>London</placeName>'s gorgeous <geogFeat>plains</geogFeat>,</l> 
+               <l n="18"> Where, rob'd in thousand tints, bright <name type="myth">Pleasure</name> reigns;</l>
+               <l n="19"> In <rs type="object">cups of summer-ice</rs> her nectar pours,</l>  
+               <l n="20"> And twines, 'mid wint'ry snows, her <rs type="object">roseate bow'rs</rs>?</l>
+            </lg>   
+           
+            <lg>
+               <l n="21"> Where <name type="myth">Beauty</name> moves with undulating grace,</l>
+               <l n="22"> Calls the sweet blush to wanton o'er her face,</l>  
+               <l n="23"> On each fond Youth her <rs type="object">soft artillery</rs> tries,</l>  
+               <l n="24"> Aims her light smile, and rolls her frolic eyes?</l>
+               <lb/>
+            </lg>
+                
+            <lg>    
+               <l n="25" rend="indent"> What <name type="myth">Power</name> inspir'd his dauntless breast to brave</l>  
+               <l n="26">  The scorch'd <placeName>Equator</placeName>, and th' <placeName>Antarctic</placeName> wave? </l> 
+               <l n="27">   
+                  <region>Climes, where fierce Suns in cloudless ardors shine,</region>
+               </l>  
+               <l n="28">   And pour the dazzling deluge round the <placeName>Line</placeName>;</l>  
+               <l n="29">  The <region>realms of frost</region>, where <geogFeat>icy mountains</geogFeat> rise,</l>  
+               <l n="30">   'Mid the pale summer of the <region>polar skies</region>?---</l>  
+               <l n="31">   It was <name type="myth">H<hi rend="smallcaps">umanity</hi>
+                  </name>!---on <geogFeat>coasts</geogFeat> unknown,</l>  
+               <l n="32">   
+                  <rs type="org">The shiv'ring natives of the <geogFeat>frozen zone</geogFeat>,</rs>
+               </l> 
+               <l n="33">  And <rs type="person">the swart Indian</rs>, as he faintly strays</l>  
+               <l n="34">   
+                  <region>"Where Cancer reddens in the solar blaze,"</region>
+               </l>  
+               <l n="35">   She bade him seek;---on <region>each inclement shore</region>
+               </l> 
+               <l n="36">   
+                  <rs type="interact" subtype="imp">Plant the rich <rs type="object">seeds</rs> of her exhaustless store;</rs>
+               </l>   
+               <l n="37">  
+                  <rs type="interact" subtype="affin">Unite the savage hearts, and hostile hands,</rs>
+               </l>  
+               <l n="38">   In the <rs type="interact" subtype="affin" role="cer">firm compact of her gentle bands</rs>; </l> 
+               <l n="39">   Strew her soft comforts o'er the <terrain>
+                     <desc>barren plain</desc>
+                  </terrain>,</l>  
+               <l n="40">  Sing her sweet <rs type="object">lays</rs>, and consecrate her <rs type="object">fane</rs>.</l>
+         
+               <lb/>
+             
+            </lg>
+            
+               
+            <lg>
+               <l n="41"> It was <name type="myth">H<hi rend="smallcaps">umanity</hi>
+                  </name>!---O <name type="myth">Nymph</name> divine!</l>
+               <l n="42"> I see thy light step print the burning <placeName>Line</placeName>!</l>
+               <l n="43"> There thy bright eye the dubious <rs type="person">pilot</rs> guides,</l>
+               <l n="44"> The faint <rs type="object">oar</rs> struggling with the <terrain>
+                     <desc>scalding tides</desc>
+                  </terrain>.---  </l>
+               <l n="45"> On as thou lead'st the bold, the glorious <rs type="object">prow</rs>,</l>		
+               <l n="46"> Mild, and more mild, the sloping sun-beams glow;</l>
+               <l n="47"> Now weak and pale the lessen'd lustres play,</l>
+               <l n="48"> As round th' horizon rolls the timid day;</l>
+            </lg>
+            
+            <!--This section originally encoded by Bryan Cardonick, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+          
+            <!--This section originally encoded by Carrie Hood, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+            <lg>    
+               <l n="49">
+                  <terrain>
+                     <desc>Barb'd with the sleeted snow, the driving hail</desc>
+                  </terrain>
+               </l>
+               <l n="50">
+                  <terrain>
+                     <desc>Rush the fierce arrows of the polar gale;</desc>
+                  </terrain>
+               </l>
+               <l n="51">And thro' the dim, unvaried, ling'ring hours,</l>
+               <l n="52">
+                  <terrain>
+                     <desc>Wide o'er the waves incumbent horror low'rs.</desc>
+                  </terrain>
+               </l>
+               <lb/>
+               <l n="53" rend="indent">From the rude <geogFeat>summit</geogFeat> of yon <geogFeat>frozen steep</geogFeat>,</l>
+               <l n="54">Contrasting <name type="myth">Glory</name> gilds the <terrain>
+                     <desc>dreary deep</desc>
+                  </terrain>!</l>
+               <l n="55">Lo!---deck'd with vermeil youth and beamy grace,</l>
+               <l n="56">Hope in her step, and gladness in her face,</l>
+               <l n="57">Light on the <geogFeat>icy rock</geogFeat>, with outstretch'd hands,</l>
+               <l n="58">The <name type="myth">Goddess of the new Columbus</name> stands.</l>
+               <l n="59">Round her bright head the plumy <rs type="object">Peterels</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Peterels Soar---</hi>
+                     <rs type="object">The peterel is a bird found in the frozen seas; its neck and tail are white, and its wings of a bright blue.</rs>
+                  </note>soar,</l>
+               <l n="60">Blue as her robe, that sweeps the <geogFeat>frozen shore</geogFeat>;</l>
+               <l n="61">Glows her soft cheek, as vernal mornings fair,</l>
+               <l n="62">And warm as summer-suns her golden hair;</l>
+               <l n="63">O'er the <terrain>
+                     <desc>hoar waste</desc>
+                  </terrain> her radiant glances stream,</l>
+               <l n="64">And courage kindles in their magic beam.</l>
+               <l n="65">She points the <rs type="object">ship</rs> it's mazy path, to thread</l>
+               <l n="66">
+                  <terrain>
+                     <desc>The floating fragments</desc>
+                  </terrain>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">The floating fragments---</hi> "In the course of <time>the last twenty-four hours</time>, we passed through <terrain>
+                        <desc>several fields of broken ice; they were in general narrow, but of considerable extent. In one part the <rs type="object">pieces of ice</rs> were so close, that the <rs type="object">ship</rs> had much difficulty to <hi rend="italic">thread</hi> them.</desc>
+                     </terrain>"</note> of the <terrain>
+                     <desc>frozen bed</desc>
+                  </terrain>.</l>
+            </lg>
+        
+            
+            <!--This section originally encoded by Jacob Hornin, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+            <lg>
+               <lb/>
+               <l n="67" rend="indent">While o'er the <terrain>
+                     <desc>deep</desc>
+                  </terrain>, in many a dreadful form,</l> 
+               
+               <l n="68">The giant <name type="myth">Danger</name> howls along the storm,</l>
+             
+               <l n="69">Furling the <rs type="object">iron sails</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Furling the iron sails.---</hi>"<rs type="object">Our sails and rigging were so frozen, that they seemed plates of iron.</rs>"</note>with numbed hands,</l> 
+          
+               <l n="70">Firm on the <rs type="object">deck</rs> the great <name type="myth" ana="Cook">Adventurer</name> stands;</l> 
+              
+               <l n="71">
+                  <geogFeat>Round glitt'ring mountains</geogFeat> hears the billows rave,</l>
+             
+               <l n="72">And <terrain>
+                     <desc>the vast ruin</desc>
+                  </terrain>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">And the vast ruin.---</hi>The breaking of one of these immense <geogFeat>mountains of ice</geogFeat>, and the prodigious noise it made, is particularly described in <persName>Cook</persName>'s <bibl>second voyage to the <placeName>south Pole</placeName>
+                     </bibl>.</note>thunder on the wave.---</l>
+              
+               <l n="73">Appall'd he hears!---but checks the rising sigh,</l>
+              
+               <l n="74">And turns on his <rs type="org">firm band</rs> a glist'ning eye.---</l>
+               
+               <l n="75">Not for himself the sighs unbidden break,</l>
+              
+               <l n="76">Amid the terrors of <terrain>
+                     <desc>the icy wreck</desc>
+                  </terrain>;</l>
+              
+               <l n="77">Not for himself starts the impassion'd tear,</l>
+              
+               <l n="78">Congealing as it falls;---nor pain, nor fear,</l>
+             
+               <l n="79">Nor <name type="myth">Death</name>'s dread darts, impede the great design,</l>
+               
+               <l n="80">Till <name type="myth">Nature</name>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Till <name type="myth">Nature</name>, &amp;c.---</hi>"After running four leagues this course, with the ice on our starboard side, we found ourselves quite embay'd, the <geogFeat>ice extending from north-north-east, round by the west and south, to east, in one compact body</geogFeat>; the weather was tolerably clear, yet we could see no end to it."</note>draws the circumscribing line.</l>               
+               
+               <l n="81">
+                  <terrain>
+                     <desc>Huge rocks of ice th' arrested ship embay,</desc>
+                  </terrain>
+               </l> 
+             
+               <l n="82">And bar <rs type="person" ana="Cook">the gallant Wanderer</rs>'s dangerous way.---</l> 
+              
+               <l n="83">His eye regretful marks <name type="myth" ana="Goddess of the New Columbus">the Goddess</name> turn</l> 
+               
+               <l n="84">Th' assiduous <rs type="object">prow</rs> from its <terrain>
+                     <desc>relentless bourn</desc>
+                  </terrain>.</l>
+              
+            </lg> 
+            <!--This section originally encoded by Joseph Martin, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->   
+            <lg>
+               <lb/>
+               <l n="85" rend="indent">And now <region>antarctic</region> 
+                  <placeName>Zealand</placeName>'s drear domain</l>
+               <l n="86">Frowns, and o'erhangs th' inhospitable main.</l> 
+               <l n="87">On it's chill <geogFeat>beach</geogFeat> this <rs type="person" ana="Cook">dove of human-kind</rs>
+               </l> 
+               <l n="88">For his long-wand'ring foot short rest shall find,</l> 
+               <l n="89">
+                  <rs type="interact" subtype="affin">Bear to the <geogFeat>coast</geogFeat> the <rs type="object">olive-branch</rs>
+                  </rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">"The olive branch.---"</hi>"<rs type="interact" subtype="affin">To carry a <rs type="object">green branch</rs> in the hand on landing, is a pacific signal, universally understood by all the islanders in the <placeName>South Seas</placeName>."</rs>
+                  </note>in vain,</l> 
+               <l n="90">And quit on wearied wing the <terrain>
+                     <desc>hostile plain</desc>
+                  </terrain>.---</l> 
+               <l n="91">With jealous low'r the <rs type="org">frowning natives</rs> view</l>
+               <l n="92">The <rs type="object">stately vessel</rs>, and th' <rs type="org">advent'rous crew</rs>;</l> 
+               <l n="93">Nor fear the brave, nor emulate the good,</l> 
+               <l n="94">
+                  <rs type="interact" subtype="conflict" role="blood">But scowl with savage thirst of human blood!</rs>
+               </l>
+               <lb/>
+            </lg>
+            <lg>
+               <l n="95" rend="indent">And yet there were, who in this <region>iron clime</region>
+               </l>
+               <l n="96">Soar'd o'er <rs type="org">the herd</rs> on <name type="myth">Virtue</name>'s wing sublime;</l>
+               <l n="97">
+                  <rs type="interact" subtype="affin">Rever'd <rs type="person" ana="Cook">the stranger-guest</rs>, and smiling strove</rs>
+               </l>
+               <l n="98">
+                  <rs type="interact" subtype="affin">To soothe his stay with hospitable love;</rs>
+               </l> 
+               <l n="99">
+                  <rs type="interact" subtype="affin">Fann'd in full confidence the friendly flame,</rs>
+               </l> 
+               <l n="100">
+                  <rs type="interact" subtype="affin" role="cer">Join'd plighted hands, and <rs type="interact" subtype="trade">name exchang'd</rs>
+                  </rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">And name exchang'd.---</hi>
+                     <rs type="interact" subtype="affin" role="cer">The <rs type="interact" subtype="trade">exchange of names</rs> is a pledge of amity among these <rs type="org">islanders</rs>, and was frequently proposed by them to <persName>Captain Cook</persName> and <rs type="org" ana="ship">his people</rs>; so also is the joining noses.</rs>
+                  </note>for name.</l> 
+               
+            </lg>
+           
+            <!--This section originally encoded by Ashley Necciai, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+            <lg>
+               
+               <l n="101"> 
+                  <rs type="interact" subtype="imp">To these the <rs type="person" ana="Cook">Hero</rs> leads his <rs type="object">living store</rs>,</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">His living store.---</hi>
+                     <rs type="interact" subtype="imp">
+                        <persName>Captain Cook</persName> left <rs type="object">various kinds of animals</rs> upon this <geogFeat>coast</geogFeat>, together with <rs type="object">garden-seeds</rs>,&amp;c. The <orgName>Zealanders</orgName> had hitherto subsisted upon <rs type="object">fish</rs>, and such <rs type="object">coarse vegetables</rs> as their climate produced; and this want of better provision, it is supposed, induced them to <rs type="interact" role="blood">the horrid practice of eating human flesh</rs>.</rs>
+                  </note> 
+               </l>
+               <l n="102"> 
+                  <rs type="interact" subtype="imp">And pours new wonders on th' uncultur'd <geogFeat>shore</geogFeat>
+                  </rs>
+               </l>                     
+               <l n="103"> 
+                  <rs type="interact" subtype="imp">The <rs type="object">silky fleece</rs>, <rs type="object">fair fruit</rs>, and <rs type="object">golden grain</rs>;</rs>
+               </l>
+               <l n="104"> 
+                  <rs type="interact" subtype="imp">And future <rs type="object">herds</rs> and <rs type="object">harvests</rs> bless the <geogFeat>plain</geogFeat>.</rs>
+               </l>
+               <l n="105"> 
+                  <rs type="interact" subtype="imp">O'er the green soil his <rs type="object">Kids</rs> exulting play,</rs>
+               </l>
+               <l n="106"> 
+                  <rs type="interact" subtype="imp">And sounds his clarion loud the <rs type="object">Bird of day</rs>;</rs>
+               </l>
+               <l n="107"> 
+                  <rs type="interact" subtype="imp">The downy <rs type="object">Goose</rs> her ruffled bosom laves,</rs>
+               </l>
+               <l n="108"> 
+                  <rs type="interact" subtype="imp">Trims her white wing, and wantons in the <terrain>
+                        <desc>waves</desc>
+                     </terrain>;</rs>
+               </l>
+               <l n="109"> 
+                  <rs type="interact" subtype="imp">Stern moves the <rs type="object">Bull</rs> along th' affrighted <geogFeat>shores</geogFeat>,</rs>
+               </l>
+               <l n="110"> 
+                  <rs type="interact" subtype="imp">And <region>countless nations</region> tremble as he roars.</rs>
+               </l>
+               <lb/>
+               <l n="111" rend="indent"> So when the <rs type="concept" subtype="euro" ana="Athena">Daughter of eternal <name type="myth">Jove</name>
+                  </rs>,</l>
+               <l n="112"> And <rs type="concept" subtype="euro" ana="Poseidon">Ocean's God</rs>, to bless their <placeName>Athens</placeName> strove,</l>
+               <l n="113"> The massy <rs type="object">trident</rs> with gigantic force</l>
+               <l n="114"> Cleaves the firm earth---and gives the stately <rs type="object">Horse</rs>;</l>
+               <l n="115"> He paws the ground, impatient of the rein,</l>
+               <l n="116"> Shakes his high front, and thunders o'er the <terrain>
+                     <desc>plain</desc>
+                  </terrain>.</l>
+               <l n="117"> Then <rs type="concept" subtype="pac" ana="Athena">Wisdom's Goddess</rs> plants the <rs type="object">embryon seed</rs>,</l>
+               <l n="118"> And bids new foliage shade the <terrain>
+                     <desc>sultry mead</desc>
+                  </terrain>;</l>
+               <l n="119"> 'Mid the pale green the tawny <rs type="object">olives</rs> shine,</l>
+               <l n="120"> And <rs type="org">famish'd thousands</rs> bless <rs type="concept" subtype="pac" ana="Athena">the hand divine</rs>.</l>
+               
+            </lg>
+        
+            <!--This section originally encoded by Mattia Piazza, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+            <lg>
+               <lb/>
+               <l n="121" rend="indent">Now the warm <date>solstice</date> o'er the shining <geogFeat>bay</geogFeat>, </l>
+               <l n="122">Darts from the north its mild meridian ray;</l>      
+               <l n="123">Again the <rs type="person" ana="Cook">Chief</rs> invokes the rising Gale,</l>  
+               <l n="124">And spreads again in <terrain>
+                     <desc>desart seas</desc>
+                  </terrain> the sail;</l>
+               <l n="125">O'er <terrain>
+                     <desc>dangerous shoals</desc>
+                  </terrain> his steady steerage keeps,</l>      
+               <l n="126">O'er  <terrain>
+                     <desc>walls of coral</desc>
+                  </terrain>,<note type="author" anchored="true"> 
+                     <hi rend="italic">Walls of coral.---</hi>
+                     <terrain>
+                        <desc>The <rs type="object">coral rocks</rs> are described as rising perpendicularly from the greatest depths of the ocean, insomuch that the <rs type="object">sounding-line</rs> could not reach their bottom; and yet they were but just covered with water.--These rocks are now found to be fabricated by <rs type="object">sea-insects</rs>
+                        </desc>
+                     </terrain>.</note> ambush'd in <terrain>
+                     <desc>the deeps</desc>
+                  </terrain>;</l>        
+               <l n="127">
+                  <rs type="org" ana="sailors">Strong Labour's hands</rs> the crackling <rs type="object">cordage</rs> twine,</l>
+               <l n="128">And <rs type="person" ana="sailors">sleepless Patience</rs>
+                  <note type="author" anchored="true"> 
+                     <hi rend="italic">And sleepless Patience.---</hi> "We had now passed several months with <rs type="person" ana="sailors">a man constantly in the <rs type="object">chains</rs> heaving the <rs type="object">lead</rs>
+                     </rs>."</note>heaves the <rs type="object">sounding-line</rs>.</l>      
+            </lg>
+         
+            <!--This section originally encoded by Megan Hughes, corrected by Elisa Beshero-Bondar-->
+            <lg>
+               <lb/>
+               <l n="129" rend="indent">On a lone <geogFeat>beach</geogFeat> a <geogFeat>rock-built temple</geogFeat>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">A rock-built temple.---</hi>"On one part of this <geogFeat>isle</geogFeat> there was <geogFeat>a solitary rock</geogFeat>, rising on the <geogFeat>coast</geogFeat> with <geogFeat>arched cavities, like a majestic temple</geogFeat>."</note>stands,</l>
+               <l n="130">
+                  <geogFeat>Stupendous pile! unwrought by mortal hands;</geogFeat>
+               </l>
+               <l n="131">Sublime the <geogFeat>ponderous turrets</geogFeat> rise in air,</l>
+               <l n="132">And <geogFeat>the wide roof basaltic columns bear</geogFeat>;</l> 
+               <l n="133">
+                  <geogFeat>Thro' the long aisles the murm'ring tempests blow</geogFeat>,</l>
+               <l n="134">And <name type="myth">Ocean</name> chides his <terrain>
+                     <desc>dashing waves</desc>
+                  </terrain> below.</l>
+               <l n="135">From <geogFeat>this fair fane</geogFeat>, along <geogFeat>the silver sands</geogFeat>,</l>
+               <l n="136">
+                  <rs type="concept" subtype="pac" ana="Flora Fauna">Two sister-virgins wave their snowy hands</rs>;</l>
+               <l n="137">First gentle <name type="myth">Flora</name>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">First gentle Flora.---</hi>
+                     <name type="myth">Flora</name> is the Goddess of <rs type="concept">modern Botany</rs>, and <name type="myth">Fauna</name> of <rs type="concept">modern Zoology</rs>: hence the pupils of <persName>Linnæus</persName>
+                     <!--the a and e in the printed version of the 1780 edition are connected.-->call their <rs type="object">books</rs>
+                     <hi rend="italic">
+                        <bibl>Flora Angelica</bibl>—<bibl>Fauna Danica</bibl>
+                     </hi>, &amp;c.--"The Flora of <geogFeat>one of these islands</geogFeat> contain'd <rs type="object">thirty new plants</rs>."</note>--round her smiling brow</l>
+               <l n="138">
+                  <rs type="object">Leaves of new forms</rs>, and <rs type="object">flow'rs uncultur'd</rs> glow;</l>
+               <l n="139">Thin folds of <rs type="object">vegetable silk</rs>,<note type="author" anchored="true">
+                     <hi rend="italic">Vegetable silk.---</hi>In <placeName>New-Zealand</placeName> is <rs type="object">a flag of which <rs type="org" ana="New Zealanders">the natives</rs> make their <rs type="object">nets</rs> and <rs type="object">cordage</rs>. The fibres of this vegetable are longer and stronger than our <rs type="object">hemp</rs> and <rs type="object">flax</rs>
+                     </rs>; and some, manufactured in <placeName>London</placeName>, is as white and glossy as <rs type="object">fine silk</rs>. <rs type="interact" subtype="imp">This <rs type="object">valuable vegetable</rs> will probably grow in our climate.</rs>
+                  </note>behind,</l>
+               <l n="140">Shade her white neck, and wanton in the wind;</l>
+               <l n="141">
+                  <rs type="object">Strange sweets</rs>, where'er she turns, perfume the <terrain>
+                     <desc>glades</desc>
+                  </terrain>,</l>
+               <l n="142">And <rs type="object">fruits unnam'd</rs> adorn the <terrain>
+                     <desc>bending shades</desc>
+                  </terrain>.</l>
+            </lg> 
+        
+            
+            <!--This section originally encoded by Sayre Greenfield, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+                               
+            <lg>            
+               <l n="143"> ---Next <name type="myth">Fauna</name> treads, in youthful beauty's pride,</l> 
+               <l n="144">A playful <rs type="object">Kangroo</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">A playful <rs type="object">Kangroo</rs>
+                     </hi>.--<rs type="object">The kangroo is an animal peculiar to those climates. It is perpetually jumping along on its hind legs, its fore legs being too short to be used in the manner of quadrupeds.</rs>
+                  </note>bounding by her side;</l> 
+               <l n="145">Around <rs type="concept" subtype="pac" ana="Fauna">the Nymph</rs> her beauteous <rs type="object">Pois</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Beauteous Pois</hi>.--"<rs type="object">The poi-bird, common in those countries, has feathers of a fine mazarine blue, except those of the neck, which are of a beautiful silver grey; and two or three short white ones, which are in the pinion-joint of the wing. Under its throat hand two little tufts of curled white feathers</rs>, called its <rs type="concept" subtype="pac">
+                        <hi rend="italic">poies</hi>, which, being the <orgName>Otaheitean</orgName> word for <rs type="object">ear-rings</rs>
+                     </rs>, occasioned our giving that name to the <rs type="object">bird</rs>; which is not more remarkable for the beauty of its plumage, than for the exquisite melody of its note."</note>display</l> 
+               <l n="146">Their varied plumes, and trill the dulcet lay;</l> 
+               <l n="147">A <rs type="object">Giant-bat</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">A Giant-bat</hi>.--<rs type="object">The bats which <persName>Captain Cook</persName> saw in some of these countries were of incredible dimensions, measuring three feet and a half in breadth, when their wings were extended.</rs>
+                  </note>, with leathern wings outspread,</l> 
+               <l n="148">
+                  <rs type="object">Umbrella</rs> light, hangs quiv'ring o'er her head.</l> 
+               <l n="149">As o'er the <geogFeat>cliff</geogFeat> her graceful steps she bends,</l> 
+               <l n="150">On glitt'ring wing her <rs type="object">insect</rs>-train attends.</l> 
+               <l n="151">With diamond-eye her <rs type="object" ana="insects">scaly tribes</rs> survey</l> 
+               <l n="152">Their <rs type="concept" subtype="pac" ana="Fauna">Goddess-nymph</rs>, and gambol in the spray.</l> 
+               <lb/>              
+               <l n="153" rend="indent">With earnest gaze the still, enamour'd <rs type="org" ana="sailors">crew</rs>
+               </l> 
+               <l n="154">Mark the fair forms; and, as they pass, pursue;</l>
+               <l n="155">But round <terrain>
+                     <desc>the steepy rocks</desc>
+                  </terrain>, and dangerous strand,</l> 
+               <l n="156">Rolls the white surf<note type="author" anchored="true">
+                     <hi rend="italic">Rolls the white surf</hi>.--"As we passed this <geogFeat>island</geogFeat>, <terrain>
+                        <desc>many of its trees had an unusual appearance, and the richness of the vegetation</desc>
+                     </terrain> much invited <orgName>our naturalists</orgName> to land, but their earnest wishes were in vain, from <terrain>
+                        <desc>the dangerous reefs and the violence of the surfs</desc>
+                     </terrain>."</note>, and <terrain>
+                     <desc>shipwreck guards the land</desc>
+                  </terrain>.</l> 
+               <lb/>
+               <l n="157" rend="indent">So, when of old, <placeName>Sicilian shores</placeName> along,</l> 
+               <l n="158">Enchanting <name type="myth">Syrens</name> trill'd th' alluring song,</l> 
+               <l n="159">Bound to the <rs type="object">mast</rs> the charm'd <name type="myth">Ulysses</name> hears,</l> 
+               <l n="160">And drinks the sweet tones with insatiate ears;</l> 
+               <l n="161">Strains the strong <rs type="object">cords</rs>, upbraids the prosp'rous gale,</l> 
+               <l n="162">And sighs, as <name type="myth" ana="Athena">Wisdom</name> spreads the flying <rs type="object">sail</rs>.</l> 
+            </lg> 
+            
+            <!--This section originally encoded by Albert Simak, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes and Elisa Beshero-Bondar)-->
+            
+            <lg>
+               <l n="163">Now leads <name type="myth">H<hi rend="smallcaps">umanity</hi>
+                  </name>the destin'd way,</l>
+               <l n="164">Where all the <rs type="concept" subtype="pac">Loves</rs> in <placeName>Otaheite</placeName> stray.</l>
+               <l n="165">To bid the <rs type="concept" subtype="pac">Arts</rs> disclose their wond'rous pow'rs,</l>
+               <l n="166">To bid the <rs type="concept" subtype="pac">Virtues</rs> consecrate the bow'rs,</l>
+               <l n="167">She gives her <rs type="person" ana="Cook">Hero</rs> to its <geogFeat>blooming plain</geogFeat>.---</l>
+               <l n="168">Nor has he wander'd, has he bled in vain!</l>
+               <l n="169">
+                  <rs type="interact" subtype="imp">His lips persuasive charm th' uncultur'd youth,</rs>
+               </l>
+               <l n="170">
+                  <rs type="interact" subtype="imp">Teach Wisdom's lore, and point the path of Truth.</rs>
+               </l>
+               <l n="171">See! <rs type="interact" subtype="imp">chasten'd love</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Chastn'd love.---</hi>
+                     <rs type="interact" subtype="imp">
+                        <persName>Captain Cook</persName> observes, in his second voyage, that the women of <placeName>Otaheite</placeName> were grown more modest, and that <rs type="interact" role="blood">the barbarous practice of destroying their children</rs> was lessened.</rs>
+                  </note>in softer glances flows,</l>
+               <l n="172">See! <rs type="interact" subtype="imp">with new fires parental duty glows.</rs>
+               </l>
+               <lb/>   
+               <l n="173" rend="indent">Thou smiling <placeName>Eden</placeName> of the southern wave,</l>
+               <l n="174">Could not, alas! thy grateful wishes save</l>
+               <l n="175">That <rs type="person" ana="Cook">angel-goodness</rs>, which had bless'd thy <geogFeat>plain</geogFeat>?---</l>
+               <l n="176">Ah! vain thy gratitude, thy wishes vain!</l> 
+               <l n="177">On a far distant, and remorseless <geogFeat>shore</geogFeat>,</l>
+               <l n="178">Where <rs type="org" ana="Hawaiians">human fiends</rs> their <rs type="object">dire libations</rs> pour;</l>
+               <l n="179">Where <rs type="concept" subtype="pac">treachery</rs>, hov'ring o'er the blasted heath,</l>
+               <l n="180">Poises with ghastly smile the <rs type="object">darts of death</rs>,</l>
+               <l n="181">Pierc'd by their <rs type="object">venom'd points</rs>, <rs type="person" ana="Cook">your favorite</rs> bleeds,</l>
+               <l n="182">And <rs type="interact" role="blood">on his limbs the lust of hunger feeds</rs>!</l>
+            </lg> 
+            
+            <!--This section originally encoded by Nicole Wong, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes and Elisa Beshero-Bondar)-->
+            <lg> 
+               <lb/>
+               <l n="183" rend="indent"> Thus when, of old, the <name type="myth">Muse</name>-born <name type="myth">Orpheus</name> bore</l>
+               <l n="184">Fair <rs type="concept" subtype="euro">Arts</rs> and <rs type="concept" subtype="euro">Virtues</rs> to <placeName>the Thracian shore</placeName>;</l>
+               <l n="185">Struck with sweet energy the warbling wire,</l>
+               <l n="186">And pour'd persuasion from th' immortal <rs type="object">lyre</rs>;</l>
+               <l n="187">As <rs type="org" ana="Thracians">soften'd brutes</rs>, the <terrain>
+                     <desc>waving woods</desc>
+                  </terrain> among,</l>
+               <l n="188">Bow'd their meek heads, and listen'd to the song;</l>
+               <l n="189">Near, and more near, with rage and tumult loud,</l>
+               <l n="190">Round the <rs type="concept" subtype="euro" ana="Orpheus">bold bard</rs> th' <rs type="org" ana="Thracians">inebriate maniacs</rs> crowd.---</l>
+               <l n="191">
+                  <rs type="interact" subtype="conflict" role="blood">Red on th' ungrateful soil his life-blood swims,</rs>
+               </l>
+               <l n="192">
+                  <rs type="interact" subtype="conflict" role="blood">And <name type="myth">Fiends</name> and <name type="myth">Furies</name> tear his quiv'ring limbs!</rs>
+               </l>
+               <lb/>
+               <l n="193" rend="indent">Gay <placeName>Eden</placeName> of the south, thy tribute pay,</l>
+               <l n="194">
+                  <rs type="interact" role="cer">And raise, in pomp of woe, thy <persName>C<hi rend="smallcaps">ook's</hi>
+                     </persName> 
+                     <rs type="object">Morai</rs>!</rs>
+                  <note type="author" anchored="true">
+                     <hi rend="italic">Morai.---</hi>
+                     <rs type="interact" role="cer">The <rs type="object">Morai</rs> is a kind of <rs type="object">funeral altar</rs>, which <orgName ana="Tahitians">the people of <placeName>Otaheite</placeName> 
+                        </orgName>raise to the memory of their deceased friends. They bring to it <rs type="object">a daily tribute of fruits, flowers, and the plumage of birds</rs>. The <rs type="person">chief mourner</rs> wanders around it in a state of apparent distraction, shrieking furiously, and <rs type="interact" role="blood">striking at intervals a <rs type="object">shark's tooth</rs> into her head. <rs type="org" ana="Tahitians">All people</rs> fly her, as she aims at wounding not only herself, but others.</rs>
+                     </rs>
+                  </note> 
+               </l>
+               <l n="195">Bid mild <persName>Omiah</persName> bring his choicest stores,</l>
+               <l n="196">The juicy <rs type="object">fruits</rs>, and the luxuriant <rs type="object">flow'rs</rs>;</l>
+               <l n="197">Bring the <rs type="object">bright plumes</rs>, that drink the torrid ray,</l>
+               <l n="198">
+                  <rs type="interact" role="cer">And strew each lavish spoil on <persName>C<hi rend="smallcaps">ook's</hi>
+                     </persName> 
+                     <rs type="object">Morai</rs>!</rs>
+               </l>
+            </lg>
+            
+            <!--This section originally encoded by Khalil Zeigler, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes)-->
+            <lg>
+               <lb/>
+               <l n="199" rend="indent">Come, <persName>Oberea</persName>, hapless fair-one! come,</l>
+               <l n="200">
+                  <rs type="interact" role="cer">With piercing shrieks bewail <rs type="person" ana="Cook">thy Hero's</rs> doom!</rs>---</l>
+               <l n="201">She comes!---she gazes round with dire survey!---</l>
+               <l n="202">
+                  <rs type="interact" role="cer">Oh! fly <rs type="person" ana="Oberea">the mourner</rs> on her frantic way.</rs>
+               </l>
+               <l n="203">
+                  <rs type="interact" role="cer">See! see! <rs type="interact" role="blood">
+                        <rs type="object" ana="shark tooth">the pointed ivory</rs> wounds <rs type="person" ana="Oberea">that head</rs>
+                     </rs>,</rs>
+               </l>
+               <l n="204">Where late the <rs type="object">Loves impurpled roses</rs> spread;</l>
+               <l n="205">Now stain'd with gore, her raven-tresses flow,</l>
+               <l n="206">In ruthless negligence of mad'ning woe;</l>
+               <l n="207">
+                  <rs type="interact" role="cer">Loud she laments!---and long <rs type="person" ana="Oberea">the Nymph</rs> shall stray</rs>
+               </l>
+               <l n="208">
+                  <rs type="interact" role="cer">With wild unequal step round <persName>C<hi rend="smallcaps">ook's</hi>
+                     </persName> 
+                     <rs type="object">Morai</rs>!</rs>
+               </l>
+               
+               <lb/>
+               
+               <l n="209" rend="indent">But ah!---aloft on <placeName>Albion</placeName>'s <geogFeat>rocky steep</geogFeat>,</l>
+               <l n="210">That frowns incumbent o'er <terrain>
+                     <desc>the boiling deep</desc>
+                  </terrain>,</l>
+               <l n="211">Solicitous, and sad, <rs type="person" ana="Elizabeth Batts Cook">a softer form</rs>
+               </l>
+               <l n="212">Eyes the lone flood, and deprecates the storm.---</l>
+               <l n="213">
+                  <rs type="person" ana="Elizabeth Batts Cook">Ill-fated matron!</rs>---for, alas! in vain</l>
+               <l n="214">Thy eager glances wander o'er the main!---</l>
+               <l n="215">   'Tis the vex'd billows, that insurgent rave,</l> 
+               <l n="216">Their white foam silvers yonder distant wave,</l> 
+               <l n="217">   'Tis not his <rs type="object">sails</rs>!---<rs type="person" ana="Cook">thy husband</rs> comes no more!</l>
+               <l n="218">
+                  <rs type="person" ana="Cook">His <rs type="object">bones</rs>
+                  </rs> now whiten an accursed <geogFeat>shore</geogFeat>!---</l>
+            </lg>
+            
+            <!--This section originally encoded by Zach Pivirotto, corrected by Elisa Beshero-Bondar. (additional mark-up by Meg Hughes-->
+            <lg>
+               
+            
+               <l n="219">Retire,---for hark! the <rs type="object">sea-gull</rs> shrieking soars,</l>  
+    
+               <l n="220">The lurid atmosphere portentous low'rs;</l>  
+             
+               <l n="221">
+                  <name type="myth">Night</name>'s sullen spirit groans in ev'ry gale,</l>
+             
+               <l n="222">And o'er the waters draws the darkling veil,</l>
+          
+               <l n="223">Sighs in thy hair, and chills thy throbbing breast---</l>
+            
+               <l n="224">Go, <rs type="person" ana="Elizabeth Batts Cook">wretched mourner!</rs>---weep thy griefs to rest!</l>
+               <lb/>    
+               <l n="225" rend="indent">Yet, tho' through life is lost each fond delight,</l>
+               
+            
+            
+               <l n="226">Tho' set thy earthly <rs type="object">sun</rs> in dreary night,</l>
+        
+               <l n="227">Oh! raise thy thoughts to yonder <rs type="object">starry plain</rs>,</l>
+              
+               <l n="228">And own thy sorrow selfish, weak, and vain;</l>
+         
+               <l n="229">Since, while <name type="myth">Britannia</name>, to his virtues just,</l>
+              
+               <l n="230">
+                  <rs type="interact" role="cer">Twines the bright <rs type="object">wreath</rs>, and rears th' <rs type="object">immortal bust</rs>;</rs>
+               </l>
+               
+               <l n="231">While on each wind of <rs type="concept">heav'n</rs> his <rs type="concept">fame</rs> shall rise,</l>
+               <l n="270"/>
+               <l n="232">In endless <rs type="object">incense</rs> to the smiling skies;</l>
+               
+               <l n="233"> 
+                  <hi rend="smallcaps">
+                     <rs type="concept" ana="Humanity">The attendant Power</rs>
+                  </hi>, that bade his <rs type="object">sails</rs> expand,</l> 
+           
+               <l n="234">And waft her <rs type="concept">blessings</rs> to <region>each barren land</region>,</l> 
+         
+               <l n="235">Now raptur'd bears him to <rs type="concept">th' immortal plains</rs>,</l> 
+           
+               <l n="236">Where <name type="myth">Mercy</name> hails him with congenial strains;</l>
+             
+               <l n="237">Where soars, on <name type="myth">Joy</name>'s <rs type="object">white plume</rs>, his spirit free,</l>
+             
+               <l n="238">And <orgName>angels</orgName> choir him, while he waits for <rs type="person" ana="Elizabeth Batts Cook">T<hi rend="smallcaps">hee</hi>
+                  </rs>. </l>
+               
+            </lg>
+        
+         </div>
+      </body>
+   </text>
+
+</TEI>

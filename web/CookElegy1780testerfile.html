@@ -1,0 +1,2005 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+   <head>
+      <title>Elegy on Captain Cook, 1780 Edition</title>
+      <link rel="stylesheet" type="text/css" href="CookElegySBnc.css"/>
+      <script type="text/javascript" src="ElegyJSColorNotes.js"></script>
+   </head>
+   <body>
+      <div id="sidebar">
+         <div id="sidebarinner">
+            <h3>
+               <img src="sextant.png" alt="sextant" id="sextant"/>
+            </h3>
+            <ul class="sideDrop">
+               <li>
+                  <h2>
+                     <a href="/IDH/Pacific/voyages.html">Voyage Records</a>
+                  </h2>
+               </li>
+               <li>
+                                John Hawkesworth
+                                <ul class="dropdown">
+                     <li>
+                        <a href="/IDH/Pacific/HwksV2Ch4-8PNum.xml">TEI P5</a>
+                     </li>
+                     <li>
+                        <a href="/IDH/Pacific/HawkesworthWallis.html">HTML</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>Georg Forster
+                                <ul class="dropdown">
+                     <li>
+                        <a href="/IDH/Pacific/ForsterGeorgComplete.xml">TEI P5</a>
+                     </li>
+                     <li>
+                        <a href="/IDH/Pacific/ForsterGeorgComplete.html">HTML</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>James Cook
+                                <ul class="dropdown">
+                     <li>
+                        <a href="/IDH/Pacific/cookVoy2Pnum.xml">TEI P5</a>
+                     </li>
+                     <li>
+                        <a href="/IDH/Pacific/cookSecVoyageAll.html">HTML</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul class="sideDrop">
+               <li>
+                  <h2>
+                     <a href="/IDH/Pacific/poems.html">Poetry</a>
+                  </h2>
+               </li>
+               <li>The Injured Islanders
+                                <ul class="dropdown">
+                     <li>
+                        <a href="/IDH/Pacific/InjuredIsland.xml">TEI P5</a>
+                     </li>
+                     <li>
+                        <a href="">HTML</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>Elegy on Captain Cook
+                                <ul class="dropdown">
+                     <li>
+                        <a href="/IDH/Pacific/ElegyCook.xml">TEI P5: 1780 and 1810</a>
+                     </li>
+                     <li>
+                        <a href="CookElegy1780.html">HTML: 1780 Edition</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <br/>
+            <div id="legend">
+               <div id="fieldset">
+                  <fieldset>
+                     <legend>Click to Highlight:</legend>
+                     <input type="checkbox" onclick="highlight_CHARtoggle()" style="cursor:pointer" />Persons, Groups, and Mythic Entities =
+                     <span class="Testchars">text</span><br/>
+                                     
+                     <input type="checkbox" onclick="highlight_PLtoggle()" style="cursor:pointer" />Places =
+                     <span class="Testplaces">text</span><br/>
+                     
+                     <input type="checkbox" onclick="highlight_OBtoggle()" style="cursor:pointer" /> Objects =
+                     <span class="Testobjects">text</span><br/>
+                     
+                     <input type="checkbox" onclick="highlight_Concept_toggle()" style="cursor:pointer" /> Abstract Concepts =
+                     <span class="Testconcepts">text</span><br/>
+                     
+                     <hr/>
+                     Cultural Interactions:<br/>
+                     <input type="checkbox" onclick="highlight_CItoggle()" style="cursor:pointer"
+                     />All Interactions = <span class="Testinteract">text</span><br />
+                     
+                     <input type="checkbox" onclick="highlight_Conflict_toggle()" style="cursor:pointer" />Conflict =
+                     <span class="Testconflict">text</span><br/>
+                     
+                     <input type="checkbox" onclick="highlight_Blood_toggle()" style="cursor:pointer" /> Bloodshed =
+                     <span class="Testblood">text</span><br/>
+                     
+                     <input type="checkbox" onclick="highlight_Trade_toggle()" style="cursor:pointer" />Trade =
+                     <span class="Testtrade">text</span><br/>
+                     
+                     <input type="checkbox" onclick="highlight_Affin_toggle()" style="cursor:pointer" />Affinity (Friendship, Respect, Attraction) =
+                     <span class="Testaffin">text</span><br/>
+                   
+                  <!--<input type="checkbox" onclick="blue_toggle()" style="cursor:pointer" />allusion =
+                  <span class="testAllusion">text</span><br />-->
+                  </fieldset>
+               </div>
+            </div>
+            
+         </div>
+        
+      </div>
+      <div id="banner">
+         <img src="banner7.jpg" alt="Digital Archives and Pacific Cultures"/>
+      </div>
+      <div id="navigation">
+         <center>
+            <br/>
+            <a href="/IDH/Pacific">
+               <button type="button">home</button>
+            </a>
+            <a href="/IDH/Pacific/about.html">
+               <button type="button">about</button>
+            </a>
+            <a href="/IDH/Pacific/voyages.html">
+               <button type="button">voyages</button>
+            </a>
+            <a href="/IDH/Pacific/poems.html">
+               <button type="button">poetry</button>
+            </a>
+            <a href="/IDH/Pacific/maps.html">
+               <button type="button">maps</button>
+            </a>
+            <a href="/IDH/Pacific/siteIndex.html">
+               <button type="button">site index</button>
+            </a>
+            <a href="/IDH/Pacific/code.html">
+               <button type="button">coding</button>
+            </a>
+         </center>
+         <br/>
+      </div>
+      <div id="mainPage">
+         <h1>
+                    Elegy on Captain Cook
+                </h1>
+         <h2>
+                    by Anna Seward 
+                </h2>
+         <h3>London, 1780</h3>
+        
+         
+        <!-- <h3>Guide to color coding:</h3>
+         <h3>
+            <span class="geo">Geographical Features, Places</span>
+         </h3>
+         <h3>
+            <span class="persName">People, Groups, Mythic Entities</span>
+         </h3>
+         <h3>
+            <span class="object">Dates, and Objects</span>
+         </h3>
+         <h3>
+            <span class="concept">Abstract Concepts</span>
+         </h3>
+         <h3>
+            <span class="interact">Cultural Interactions (General)</span>
+         </h3>
+         <h3>
+            <span class="blood">Interactions Involving Conflict and/or Bloodshed</span>
+         </h3>
+         <h3>
+            <span class="trade">Interactions Involving Trade and Exchange</span>
+         </h3>
+         <h3>
+            <span class="affin">Interactions Involving Friendship, Admiration, Attraction</span>
+         </h3>
+         <h3>
+            <span class="cer">Rituals and Ceremonies</span>
+         </h3>-->
+            
+            
+           
+            <p>
+               <span class="line" id="L1">1 Sorrowing, <span class="mythname">the Nine</span>  beneath yon <span class="object">
+                  <span class="">
+                     <span class="">blasted yew</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               
+               <span class="line" id="L2">2 Shed the bright drops of Pity's holy dew;<br/>
+            </span>  
+               <span class="line" id="L3">3 Mute are their tuneful tongues, extinct their fires;<br/>
+            </span>  
+               <span class="line" id="L4">4 Yet not in silence sleep their <span class="object">
+                  <span class="">
+                     <span class="">silver lyres</span>
+                  </span>
+               </span>;<br/>
+            </span>  
+               <span class="line" id="L5">5 To the bleak gale they vibrate sad and slow,<br/>
+            </span>  
+               <span class="line" id="L6">6 In deep accordance to a <span class="org">
+                  <span class="">
+                     <span class="">Nation</span>
+                  </span>
+               </span>'s woe.<br/>
+            </span>
+               
+            </p> 
+         
+            <p>
+               <span class="line" id="L7">7 Ye, who ere-while for <span class="persName">C<span class="smallcaps">ook</span>
+                  </span>'s illustrious brow<br/>
+            </span>
+               <span class="line" id="L8">8 Pluck'd the green <span class="object">
+                  <span class="">
+                     <span class="">laurel</span>
+                  </span>
+               </span>, and the <span class="object">
+                  <span class="">
+                     <span class="">oaken bough</span>
+                  </span>
+               </span>,<br/>
+            </span>  
+               <span class="line" id="L9">9 Hung the gay <span class="object">
+                  <span class="">
+                     <span class="">garlands</span>
+                  </span>
+               </span> on the <span class="object">
+                  <span class="">
+                     <span class="">trophied oars</span>
+                  </span>
+               </span>,<br/>
+            </span>
+               <span class="line" id="L10">10 And <span class="interact">
+                  <span class="">
+                     <span class="">pour'd his <span class="concept">
+                           <span class="">
+                              <span class="">fame</span>
+                           </span>
+                        </span> along <span class="geogFeat">a thousand shores</span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L11">11 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">Strike the slow <span class="object">
+                           <span class="">
+                              <span class="">death-bell</span>
+                           </span>
+                        </span>!---weave the <span class="object">
+                           <span class="">
+                              <span class="">sacred verse</span>
+                           </span>
+                        </span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L12">12 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">And strew the <span class="object">
+                           <span class="">
+                              <span class="">cypress</span>
+                           </span>
+                        </span> o'er his honor'd<span class="object">
+                           <span class="">
+                              <span class="">hearse</span>
+                           </span>
+                        </span>;</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L13">13 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">In sad procession wander round the <span class="object">
+                           <span class="">
+                              <span class="">shrine</span>
+                           </span>
+                        </span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L14">14 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">And weep him <span class="concept">
+                           <span class="">
+                              <span class="">mortal</span>
+                           </span>
+                        </span>, whom ye sung <span class="concept">
+                           <span class="">
+                              <span class="">divine</span>
+                           </span>
+                        </span>!</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+            </p>
+           
+            <p>
+               
+               <span class="line" id="L15">15  Say first, what <span class="mythname">Pow'r</span> inspir'd his dauntless breast<br/>
+            </span>
+               <span class="line" id="L16">16  With scorn of danger, and inglorious rest,<br/>
+            </span>
+               <span class="line" id="L17">17  To quit imperial <span class="placeName">London</span>'s gorgeous <span class="geogFeat">plains</span>,<br/>
+            </span> 
+               <span class="line" id="L18">18  Where, rob'd in thousand tints, bright <span class="mythname">Pleasure</span> reigns;<br/>
+            </span>
+               <span class="line" id="L19">19  In <span class="object">
+                  <span class="">
+                     <span class="">cups of summer-ice</span>
+                  </span>
+               </span> her nectar pours,<br/>
+            </span>  
+               <span class="line" id="L20">20  And twines, 'mid wint'ry snows, her <span class="object">
+                  <span class="">
+                     <span class="">roseate bow'rs</span>
+                  </span>
+               </span>?<br/>
+            </span>
+            </p>   
+           
+            <p>
+               <span class="line" id="L21">21  Where <span class="mythname">Beauty</span> moves with undulating grace,<br/>
+            </span>
+               <span class="line" id="L22">22  Calls the sweet blush to wanton o'er her face,<br/>
+            </span>  
+               <span class="line" id="L23">23  On each fond Youth her <span class="object">
+                  <span class="">
+                     <span class="">soft artillery</span>
+                  </span>
+               </span> tries,<br/>
+            </span>  
+               <span class="line" id="L24">24  Aims her light smile, and rolls her frolic eyes?<br/>
+            </span>
+               
+            </p>
+                
+            <p>    
+               <span class="line" id="L25">25  What <span class="mythname">Power</span> inspir'd his dauntless breast to brave<br/>
+            </span>  
+               <span class="line" id="L26">26   The scorch'd <span class="placeName">Equator</span>, and th' <span class="placeName">Antarctic</span> wave? <br/>
+            </span> 
+               <span class="line" id="L27">27    
+                  <span class="region">Climes, where fierce Suns in cloudless ardors shine,</span>
+               <br/>
+            </span>  
+               <span class="line" id="L28">28    And pour the dazzling deluge round the <span class="placeName">Line</span>;<br/>
+            </span>  
+               <span class="line" id="L29">29   The <span class="region">realms of frost</span>, where <span class="geogFeat">icy mountains</span> rise,<br/>
+            </span>  
+               <span class="line" id="L30">30    'Mid the pale summer of the <span class="region">polar skies</span>?---<br/>
+            </span>  
+               <span class="line" id="L31">31    It was <span class="mythname">H<span class="smallcaps">umanity</span>
+                  </span>!---on <span class="geogFeat">coasts</span> unknown,<br/>
+            </span>  
+               <span class="line" id="L32">32    
+                  <span class="org">
+                  <span class="">
+                     <span class="">The shiv'ring natives of the <span class="geogFeat">frozen zone</span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L33">33   And <span class="person">
+                  <span class="">
+                     <span class="">the swart Indian</span>
+                  </span>
+               </span>, as he faintly strays<br/>
+            </span>  
+               <span class="line" id="L34">34    
+                  <span class="region">"Where Cancer reddens in the solar blaze,"</span>
+               <br/>
+            </span>  
+               <span class="line" id="L35">35    She bade him seek;---on <span class="region">each inclement shore</span>
+               <br/>
+            </span> 
+               <span class="line" id="L36">36    
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">Plant the rich <span class="object">
+                           <span class="">
+                              <span class="">seeds</span>
+                           </span>
+                        </span> of her exhaustless store;</span>
+                  </span>
+               </span>
+               <br/>
+            </span>   
+               <span class="line" id="L37">37   
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="">Unite the savage hearts, and hostile hands,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>  
+               <span class="line" id="L38">38    In the <span class="interact">
+                  <span class="affin">
+                     <span class="cer">firm compact of her gentle bands</span>
+                  </span>
+               </span>; <br/>
+            </span> 
+               <span class="line" id="L39">39    Strew her soft comforts o'er the <span class="terrain">
+                     barren plain
+                  </span>,<br/>
+            </span>  
+               <span class="line" id="L40">40   Sing her sweet <span class="object">
+                  <span class="">
+                     <span class="">lays</span>
+                  </span>
+               </span>, and consecrate her <span class="object">
+                  <span class="">
+                     <span class="">fane</span>
+                  </span>
+               </span>.<br/>
+            </span>
+         
+               
+             
+            </p>
+            
+               
+            <p>
+               <span class="line" id="L41">41  It was <span class="mythname">H<span class="smallcaps">umanity</span>
+                  </span>!---O <span class="mythname">Nymph</span> divine!<br/>
+            </span>
+               <span class="line" id="L42">42  I see thy light step print the burning <span class="placeName">Line</span>!<br/>
+            </span>
+               <span class="line" id="L43">43  There thy bright eye the dubious <span class="person">
+                  <span class="">
+                     <span class="">pilot</span>
+                  </span>
+               </span> guides,<br/>
+            </span>
+               <span class="line" id="L44">44  The faint <span class="object">
+                  <span class="">
+                     <span class="">oar</span>
+                  </span>
+               </span> struggling with the <span class="terrain">
+                     scalding tides
+                  </span>.---  <br/>
+            </span>
+               <span class="line" id="L45">45  On as thou lead'st the bold, the glorious <span class="object">
+                  <span class="">
+                     <span class="">prow</span>
+                  </span>
+               </span>,<br/>
+            </span>		
+               <span class="line" id="L46">46  Mild, and more mild, the sloping sun-beams glow;<br/>
+            </span>
+               <span class="line" id="L47">47  Now weak and pale the lessen'd lustres play,<br/>
+            </span>
+               <span class="line" id="L48">48  As round th' horizon rolls the timid day;<br/>
+            </span>
+            </p>
+            
+            
+          
+            
+            <p>    
+               <span class="line" id="L49">49 
+                  <span class="terrain">
+                     Barb'd with the sleeted snow, the driving hail
+                  </span>
+               <br/>
+            </span>
+               <span class="line" id="L50">50 
+                  <span class="terrain">
+                     Rush the fierce arrows of the polar gale;
+                  </span>
+               <br/>
+            </span>
+               <span class="line" id="L51">51 And thro' the dim, unvaried, ling'ring hours,<br/>
+            </span>
+               <span class="line" id="L52">52 
+                  <span class="terrain">
+                     Wide o'er the waves incumbent horror low'rs.
+                  </span>
+               <br/>
+            </span>
+               
+               <span class="line" id="L53">53 From the rude <span class="geogFeat">summit</span> of yon <span class="geogFeat">frozen steep</span>,<br/>
+            </span>
+               <span class="line" id="L54">54 Contrasting <span class="mythname">Glory</span> gilds the <span class="terrain">
+                     dreary deep
+                  </span>!<br/>
+            </span>
+               <span class="line" id="L55">55 Lo!---deck'd with vermeil youth and beamy grace,<br/>
+            </span>
+               <span class="line" id="L56">56 Hope in her step, and gladness in her face,<br/>
+            </span>
+               <span class="line" id="L57">57 Light on the <span class="geogFeat">icy rock</span>, with outstretch'd hands,<br/>
+            </span>
+               <span class="line" id="L58">58 The <span class="mythname">Goddess of the new Columbus</span> stands.<br/>
+            </span>
+               <span class="line" id="L59">59 Round her bright head the plumy <span class="object">
+                  <span class="">
+                     <span class="">Peterels</span>
+                  </span>
+               </span>
+                  <span id="N1" class="anchor">[1]
+            <span class="note" id="n1">
+                     <i>Peterels Soar---</i>
+                     <span class="object">
+                        <span class="">
+                           <span class="">The peterel is a bird found in the frozen seas; its neck and tail are white, and its wings of a bright blue.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>soar,<br/>
+            </span>
+               <span class="line" id="L60">60 Blue as her robe, that sweeps the <span class="geogFeat">frozen shore</span>;<br/>
+            </span>
+               <span class="line" id="L61">61 Glows her soft cheek, as vernal mornings fair,<br/>
+            </span>
+               <span class="line" id="L62">62 And warm as summer-suns her golden hair;<br/>
+            </span>
+               <span class="line" id="L63">63 O'er the <span class="terrain">
+                     hoar waste
+                  </span> her radiant glances stream,<br/>
+            </span>
+               <span class="line" id="L64">64 And courage kindles in their magic beam.<br/>
+            </span>
+               <span class="line" id="L65">65 She points the <span class="object">
+                  <span class="">
+                     <span class="">ship</span>
+                  </span>
+               </span> it's mazy path, to thread<br/>
+            </span>
+               <span class="line" id="L66">66 
+                  <span class="terrain">
+                     The floating fragments
+                  </span>
+                  <span id="N2" class="anchor">[2]
+            <span class="note" id="n2">
+                     <i>The floating fragments---</i> "In the course of <span class="time">the last twenty-four hours</span>, we passed through <span class="terrain">
+                        several fields of broken ice; they were in general narrow, but of considerable extent. In one part the <span class="object">
+                           <span class="">
+                              <span class="">pieces of ice</span>
+                           </span>
+                        </span> were so close, that the <span class="object">
+                           <span class="">
+                              <span class="">ship</span>
+                           </span>
+                        </span> had much difficulty to <i>thread</i> them.
+                     </span>"</span>
+               </span> of the <span class="terrain">
+                     frozen bed
+                  </span>.<br/>
+            </span>
+            </p>
+        
+            
+            
+            <p>
+               
+               <span class="line" id="L67">67 While o'er the <span class="terrain">
+                     deep
+                  </span>, in many a dreadful form,<br/>
+            </span> 
+               
+               <span class="line" id="L68">68 The giant <span class="mythname">Danger</span> howls along the storm,<br/>
+            </span>
+             
+               <span class="line" id="L69">69 Furling the <span class="object">
+                  <span class="">
+                     <span class="">iron sails</span>
+                  </span>
+               </span>
+                  <span id="N3" class="anchor">[3]
+            <span class="note" id="n3">
+                     <i>Furling the iron sails.---</i>"<span class="object">
+                        <span class="">
+                           <span class="">Our sails and rigging were so frozen, that they seemed plates of iron.</span>
+                        </span>
+                     </span>"</span>
+               </span>with numbed hands,<br/>
+            </span> 
+          
+               <span class="line" id="L70">70 Firm on the <span class="object">
+                  <span class="">
+                     <span class="">deck</span>
+                  </span>
+               </span> the great <span class="mythname">Adventurer</span> stands;<br/>
+            </span> 
+              
+               <span class="line" id="L71">71 
+                  <span class="geogFeat">Round glitt'ring mountains</span> hears the billows rave,<br/>
+            </span>
+             
+               <span class="line" id="L72">72 And <span class="terrain">
+                     the vast ruin
+                  </span>
+                  <span id="N4" class="anchor">[4]
+            <span class="note" id="n4">
+                     <i>And the vast ruin.---</i>The breaking of one of these immense <span class="geogFeat">mountains of ice</span>, and the prodigious noise it made, is particularly described in <span class="persName">Cook</span>'s second voyage to the <span class="placeName">south Pole</span>
+                     .</span>
+               </span>thunder on the wave.---<br/>
+            </span>
+              
+               <span class="line" id="L73">73 Appall'd he hears!---but checks the rising sigh,<br/>
+            </span>
+              
+               <span class="line" id="L74">74 And turns on his <span class="org">
+                  <span class="">
+                     <span class="">firm band</span>
+                  </span>
+               </span> a glist'ning eye.---<br/>
+            </span>
+               
+               <span class="line" id="L75">75 Not for himself the sighs unbidden break,<br/>
+            </span>
+              
+               <span class="line" id="L76">76 Amid the terrors of <span class="terrain">
+                     the icy wreck
+                  </span>;<br/>
+            </span>
+              
+               <span class="line" id="L77">77 Not for himself starts the impassion'd tear,<br/>
+            </span>
+              
+               <span class="line" id="L78">78 Congealing as it falls;---nor pain, nor fear,<br/>
+            </span>
+             
+               <span class="line" id="L79">79 Nor <span class="mythname">Death</span>'s dread darts, impede the great design,<br/>
+            </span>
+               
+               <span class="line" id="L80">80 Till <span class="mythname">Nature</span>
+                  <span id="N5" class="anchor">[5]
+            <span class="note" id="n5">
+                     <i>Till <span class="mythname">Nature</span>, &amp;c.---</i>"After running four leagues this course, with the ice on our starboard side, we found ourselves quite embay'd, the <span class="geogFeat">ice extending from north-north-east, round by the west and south, to east, in one compact body</span>; the weather was tolerably clear, yet we could see no end to it."</span>
+               </span>draws the circumscribing line.<br/>
+            </span>               
+               
+               <span class="line" id="L81">81 
+                  <span class="terrain">
+                     Huge rocks of ice th' arrested ship embay,
+                  </span>
+               <br/>
+            </span> 
+             
+               <span class="line" id="L82">82 And bar <span class="person">
+                  <span class="">
+                     <span class="">the gallant Wanderer</span>
+                  </span>
+               </span>'s dangerous way.---<br/>
+            </span> 
+              
+               <span class="line" id="L83">83 His eye regretful marks <span class="mythname">the Goddess</span> turn<br/>
+            </span> 
+               
+               <span class="line" id="L84">84 Th' assiduous <span class="object">
+                  <span class="">
+                     <span class="">prow</span>
+                  </span>
+               </span> from its <span class="terrain">
+                     relentless bourn
+                  </span>.<br/>
+            </span>
+              
+            </p> 
+               
+            <p>
+               
+               <span class="line" id="L85">85 And now <span class="region">antarctic</span> 
+                  <span class="placeName">Zealand</span>'s drear domain<br/>
+            </span>
+               <span class="line" id="L86">86 Frowns, and o'erhangs th' inhospitable main.<br/>
+            </span> 
+               <span class="line" id="L87">87 On it's chill <span class="geogFeat">beach</span> this <span class="person">
+                  <span class="">
+                     <span class="">dove of human-kind</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L88">88 For his long-wand'ring foot short rest shall find,<br/>
+            </span> 
+               <span class="line" id="L89">89 
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="">Bear to the <span class="geogFeat">coast</span> the <span class="object">
+                           <span class="">
+                              <span class="">olive-branch</span>
+                           </span>
+                        </span>
+                     </span>
+                  </span>
+               </span>
+                  <span id="N6" class="anchor">[6]
+            <span class="note" id="n6">
+                     <i>"The olive branch.---"</i>"<span class="interact">
+                        <span class="affin">
+                           <span class="">To carry a <span class="object">
+                                 <span class="">
+                                    <span class="">green branch</span>
+                                 </span>
+                              </span> in the hand on landing, is a pacific signal, universally understood by all the islanders in the <span class="placeName">South Seas</span>."</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>in vain,<br/>
+            </span> 
+               <span class="line" id="L90">90 And quit on wearied wing the <span class="terrain">
+                     hostile plain
+                  </span>.---<br/>
+            </span> 
+               <span class="line" id="L91">91 With jealous low'r the <span class="org">
+                  <span class="">
+                     <span class="">frowning natives</span>
+                  </span>
+               </span> view<br/>
+            </span>
+               <span class="line" id="L92">92 The <span class="object">
+                  <span class="">
+                     <span class="">stately vessel</span>
+                  </span>
+               </span>, and th' <span class="org">
+                  <span class="">
+                     <span class="">advent'rous crew</span>
+                  </span>
+               </span>;<br/>
+            </span> 
+               <span class="line" id="L93">93 Nor fear the brave, nor emulate the good,<br/>
+            </span> 
+               <span class="line" id="L94">94 
+                  <span class="interact">
+                  <span class="conflict">
+                     <span class="blood">But scowl with savage thirst of human blood!</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               
+            </p>
+            <p>
+               <span class="line" id="L95">95 And yet there were, who in this <span class="region">iron clime</span>
+               <br/>
+            </span>
+               <span class="line" id="L96">96 Soar'd o'er <span class="org">
+                  <span class="">
+                     <span class="">the herd</span>
+                  </span>
+               </span> on <span class="mythname">Virtue</span>'s wing sublime;<br/>
+            </span>
+               <span class="line" id="L97">97 
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="">Rever'd <span class="person">
+                           <span class="">
+                              <span class="">the stranger-guest</span>
+                           </span>
+                        </span>, and smiling strove</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L98">98 
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="">To soothe his stay with hospitable love;</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L99">99 
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="">Fann'd in full confidence the friendly flame,</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L100">100 
+                  <span class="interact">
+                  <span class="affin">
+                     <span class="cer">Join'd plighted hands, and <span class="interact">
+                           <span class="trade">
+                              <span class="">name exchang'd</span>
+                           </span>
+                        </span>
+                     </span>
+                  </span>
+               </span>
+                  <span id="N7" class="anchor">[7]
+            <span class="note" id="n7">
+                     <i>And name exchang'd.---</i>
+                     <span class="interact">
+                        <span class="affin">
+                           <span class="cer">The <span class="interact">
+                                 <span class="trade">
+                                    <span class="">exchange of names</span>
+                                 </span>
+                              </span> is a pledge of amity among these <span class="org">
+                                 <span class="">
+                                    <span class="">islanders</span>
+                                 </span>
+                              </span>, and was frequently proposed by them to <span class="persName">Captain Cook</span> and <span class="org">
+                                 <span class="">
+                                    <span class="">his people</span>
+                                 </span>
+                              </span>; so also is the joining noses.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>for name.<br/>
+            </span> 
+               
+            </p>
+           
+            
+            <p>
+               
+               <span class="line" id="L101">101  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">To these the <span class="person">
+                           <span class="">
+                              <span class="">Hero</span>
+                           </span>
+                        </span> leads his <span class="object">
+                           <span class="">
+                              <span class="">living store</span>
+                           </span>
+                        </span>,</span>
+                  </span>
+               </span>
+                  <span id="N8" class="anchor">[8]
+            <span class="note" id="n8">
+                     <i>His living store.---</i>
+                     <span class="interact">
+                        <span class="imp">
+                           <span class="">
+                              <span class="persName">Captain Cook</span> left <span class="object">
+                                 <span class="">
+                                    <span class="">various kinds of animals</span>
+                                 </span>
+                              </span> upon this <span class="geogFeat">coast</span>, together with <span class="object">
+                                 <span class="">
+                                    <span class="">garden-seeds</span>
+                                 </span>
+                              </span>,&amp;c. The <span class="groupname">Zealanders</span> had hitherto subsisted upon <span class="object">
+                                 <span class="">
+                                    <span class="">fish</span>
+                                 </span>
+                              </span>, and such <span class="object">
+                                 <span class="">
+                                    <span class="">coarse vegetables</span>
+                                 </span>
+                              </span> as their climate produced; and this want of better provision, it is supposed, induced them to <span class="interact">
+                                 <span class="">
+                                    <span class="blood">the horrid practice of eating human flesh</span>
+                                 </span>
+                              </span>.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span> 
+               <br/>
+            </span>
+               <span class="line" id="L102">102  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">And pours new wonders on th' uncultur'd <span class="geogFeat">shore</span>
+                     </span>
+                  </span>
+               </span>
+               <br/>
+            </span>                     
+               <span class="line" id="L103">103  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">The <span class="object">
+                           <span class="">
+                              <span class="">silky fleece</span>
+                           </span>
+                        </span>, <span class="object">
+                           <span class="">
+                              <span class="">fair fruit</span>
+                           </span>
+                        </span>, and <span class="object">
+                           <span class="">
+                              <span class="">golden grain</span>
+                           </span>
+                        </span>;</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L104">104  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">And future <span class="object">
+                           <span class="">
+                              <span class="">herds</span>
+                           </span>
+                        </span> and <span class="object">
+                           <span class="">
+                              <span class="">harvests</span>
+                           </span>
+                        </span> bless the <span class="geogFeat">plain</span>.</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L105">105  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">O'er the green soil his <span class="object">
+                           <span class="">
+                              <span class="">Kids</span>
+                           </span>
+                        </span> exulting play,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L106">106  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">And sounds his clarion loud the <span class="object">
+                           <span class="">
+                              <span class="">Bird of day</span>
+                           </span>
+                        </span>;</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L107">107  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">The downy <span class="object">
+                           <span class="">
+                              <span class="">Goose</span>
+                           </span>
+                        </span> her ruffled bosom laves,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L108">108  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">Trims her white wing, and wantons in the <span class="terrain">
+                        waves
+                     </span>;</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L109">109  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">Stern moves the <span class="object">
+                           <span class="">
+                              <span class="">Bull</span>
+                           </span>
+                        </span> along th' affrighted <span class="geogFeat">shores</span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L110">110  
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">And <span class="region">countless nations</span> tremble as he roars.</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               
+               <span class="line" id="L111">111  So when the <span class="concept">
+                  <span class="euro">
+                     <span class="">Daughter of eternal <span class="mythname">Jove</span>
+                     </span>
+                  </span>
+               </span>,<br/>
+            </span>
+               <span class="line" id="L112">112  And <span class="concept">
+                  <span class="euro">
+                     <span class="">Ocean's God</span>
+                  </span>
+               </span>, to bless their <span class="placeName">Athens</span> strove,<br/>
+            </span>
+               <span class="line" id="L113">113  The massy <span class="object">
+                  <span class="">
+                     <span class="">trident</span>
+                  </span>
+               </span> with gigantic force<br/>
+            </span>
+               <span class="line" id="L114">114  Cleaves the firm earth---and gives the stately <span class="object">
+                  <span class="">
+                     <span class="">Horse</span>
+                  </span>
+               </span>;<br/>
+            </span>
+               <span class="line" id="L115">115  He paws the ground, impatient of the rein,<br/>
+            </span>
+               <span class="line" id="L116">116  Shakes his high front, and thunders o'er the <span class="terrain">
+                     plain
+                  </span>.<br/>
+            </span>
+               <span class="line" id="L117">117  Then <span class="concept">
+                  <span class="pac">
+                     <span class="">Wisdom's Goddess</span>
+                  </span>
+               </span> plants the <span class="object">
+                  <span class="">
+                     <span class="">embryon seed</span>
+                  </span>
+               </span>,<br/>
+            </span>
+               <span class="line" id="L118">118  And bids new foliage shade the <span class="terrain">
+                     sultry mead
+                  </span>;<br/>
+            </span>
+               <span class="line" id="L119">119  'Mid the pale green the tawny <span class="object">
+                  <span class="">
+                     <span class="">olives</span>
+                  </span>
+               </span> shine,<br/>
+            </span>
+               <span class="line" id="L120">120  And <span class="org">
+                  <span class="">
+                     <span class="">famish'd thousands</span>
+                  </span>
+               </span> bless <span class="concept">
+                  <span class="pac">
+                     <span class="">the hand divine</span>
+                  </span>
+               </span>.<br/>
+            </span>
+               
+            </p>
+        
+            
+            <p>
+               
+               <span class="line" id="L121">121 Now the warm <span class="date">solstice</span> o'er the shining <span class="geogFeat">bay</span>, <br/>
+            </span>
+               <span class="line" id="L122">122 Darts from the north its mild meridian ray;<br/>
+            </span>      
+               <span class="line" id="L123">123 Again the <span class="person">
+                  <span class="">
+                     <span class="">Chief</span>
+                  </span>
+               </span> invokes the rising Gale,<br/>
+            </span>  
+               <span class="line" id="L124">124 And spreads again in <span class="terrain">
+                     desart seas
+                  </span> the sail;<br/>
+            </span>
+               <span class="line" id="L125">125 O'er <span class="terrain">
+                     dangerous shoals
+                  </span> his steady steerage keeps,<br/>
+            </span>      
+               <span class="line" id="L126">126 O'er  <span class="terrain">
+                     walls of coral
+                  </span>,<span id="N9" class="anchor">[9]
+            <span class="note" id="n9"> 
+                     <i>Walls of coral.---</i>
+                     <span class="terrain">
+                        The <span class="object">
+                           <span class="">
+                              <span class="">coral rocks</span>
+                           </span>
+                        </span> are described as rising perpendicularly from the greatest depths of the ocean, insomuch that the <span class="object">
+                           <span class="">
+                              <span class="">sounding-line</span>
+                           </span>
+                        </span> could not reach their bottom; and yet they were but just covered with water.--These rocks are now found to be fabricated by <span class="object">
+                           <span class="">
+                              <span class="">sea-insects</span>
+                           </span>
+                        </span>
+                        
+                     </span>.</span>
+               </span> ambush'd in <span class="terrain">
+                     the deeps
+                  </span>;<br/>
+            </span>        
+               <span class="line" id="L127">127 
+                  <span class="org">
+                  <span class="">
+                     <span class="">Strong Labour's hands</span>
+                  </span>
+               </span> the crackling <span class="object">
+                  <span class="">
+                     <span class="">cordage</span>
+                  </span>
+               </span> twine,<br/>
+            </span>
+               <span class="line" id="L128">128 And <span class="person">
+                  <span class="">
+                     <span class="">sleepless Patience</span>
+                  </span>
+               </span>
+                  <span id="N10" class="anchor">[10]
+            <span class="note" id="n10"> 
+                     <i>And sleepless Patience.---</i> "We had now passed several months with <span class="person">
+                        <span class="">
+                           <span class="">a man constantly in the <span class="object">
+                                 <span class="">
+                                    <span class="">chains</span>
+                                 </span>
+                              </span> heaving the <span class="object">
+                                 <span class="">
+                                    <span class="">lead</span>
+                                 </span>
+                              </span>
+                           </span>
+                        </span>
+                     </span>."</span>
+               </span>heaves the <span class="object">
+                  <span class="">
+                     <span class="">sounding-line</span>
+                  </span>
+               </span>.<br/>
+            </span>      
+            </p>
+         
+            
+            <p>
+               
+               <span class="line" id="L129">129 On a lone <span class="geogFeat">beach</span> a <span class="geogFeat">rock-built temple</span>
+                  <span id="N11" class="anchor">[11]
+            <span class="note" id="n11">
+                     <i>A rock-built temple.---</i>"On one part of this <span class="geogFeat">isle</span> there was <span class="geogFeat">a solitary rock</span>, rising on the <span class="geogFeat">coast</span> with <span class="geogFeat">arched cavities, like a majestic temple</span>."</span>
+               </span>stands,<br/>
+            </span>
+               <span class="line" id="L130">130 
+                  <span class="geogFeat">Stupendous pile! unwrought by mortal hands;</span>
+               <br/>
+            </span>
+               <span class="line" id="L131">131 Sublime the <span class="geogFeat">ponderous turrets</span> rise in air,<br/>
+            </span>
+               <span class="line" id="L132">132 And <span class="geogFeat">the wide roof basaltic columns bear</span>;<br/>
+            </span> 
+               <span class="line" id="L133">133 
+                  <span class="geogFeat">Thro' the long aisles the murm'ring tempests blow</span>,<br/>
+            </span>
+               <span class="line" id="L134">134 And <span class="mythname">Ocean</span> chides his <span class="terrain">
+                     dashing waves
+                  </span> below.<br/>
+            </span>
+               <span class="line" id="L135">135 From <span class="geogFeat">this fair fane</span>, along <span class="geogFeat">the silver sands</span>,<br/>
+            </span>
+               <span class="line" id="L136">136 
+                  <span class="concept">
+                  <span class="pac">
+                     <span class="">Two sister-virgins wave their snowy hands</span>
+                  </span>
+               </span>;<br/>
+            </span>
+               <span class="line" id="L137">137 First gentle <span class="mythname">Flora</span>
+                  <span id="N12" class="anchor">[12]
+            <span class="note" id="n12">
+                     <i>First gentle Flora.---</i>
+                     <span class="mythname">Flora</span> is the Goddess of <span class="concept">
+                        <span class="">
+                           <span class="">modern Botany</span>
+                        </span>
+                     </span>, and <span class="mythname">Fauna</span> of <span class="concept">
+                        <span class="">
+                           <span class="">modern Zoology</span>
+                        </span>
+                     </span>: hence the pupils of <span class="persName">Linnæus</span>
+                     call their <span class="object">
+                        <span class="">
+                           <span class="">books</span>
+                        </span>
+                     </span>
+                     <i>
+                        Flora Angelica—Fauna Danica
+                     </i>, &amp;c.--"The Flora of <span class="geogFeat">one of these islands</span> contain'd <span class="object">
+                        <span class="">
+                           <span class="">thirty new plants</span>
+                        </span>
+                     </span>."</span>
+               </span>--round her smiling brow<br/>
+            </span>
+               <span class="line" id="L138">138 
+                  <span class="object">
+                  <span class="">
+                     <span class="">Leaves of new forms</span>
+                  </span>
+               </span>, and <span class="object">
+                  <span class="">
+                     <span class="">flow'rs uncultur'd</span>
+                  </span>
+               </span> glow;<br/>
+            </span>
+               <span class="line" id="L139">139 Thin folds of <span class="object">
+                  <span class="">
+                     <span class="">vegetable silk</span>
+                  </span>
+               </span>,<span id="N13" class="anchor">[13]
+            <span class="note" id="n13">
+                     <i>Vegetable silk.---</i>In <span class="placeName">New-Zealand</span> is <span class="object">
+                        <span class="">
+                           <span class="">a flag of which <span class="org">
+                                 <span class="">
+                                    <span class="">the natives</span>
+                                 </span>
+                              </span> make their <span class="object">
+                                 <span class="">
+                                    <span class="">nets</span>
+                                 </span>
+                              </span> and <span class="object">
+                                 <span class="">
+                                    <span class="">cordage</span>
+                                 </span>
+                              </span>. The fibres of this vegetable are longer and stronger than our <span class="object">
+                                 <span class="">
+                                    <span class="">hemp</span>
+                                 </span>
+                              </span> and <span class="object">
+                                 <span class="">
+                                    <span class="">flax</span>
+                                 </span>
+                              </span>
+                           </span>
+                        </span>
+                     </span>; and some, manufactured in <span class="placeName">London</span>, is as white and glossy as <span class="object">
+                        <span class="">
+                           <span class="">fine silk</span>
+                        </span>
+                     </span>. <span class="interact">
+                        <span class="imp">
+                           <span class="">This <span class="object">
+                                 <span class="">
+                                    <span class="">valuable vegetable</span>
+                                 </span>
+                              </span> will probably grow in our climate.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>behind,<br/>
+            </span>
+               <span class="line" id="L140">140 Shade her white neck, and wanton in the wind;<br/>
+            </span>
+               <span class="line" id="L141">141 
+                  <span class="object">
+                  <span class="">
+                     <span class="">Strange sweets</span>
+                  </span>
+               </span>, where'er she turns, perfume the <span class="terrain">
+                     glades
+                  </span>,<br/>
+            </span>
+               <span class="line" id="L142">142 And <span class="object">
+                  <span class="">
+                     <span class="">fruits unnam'd</span>
+                  </span>
+               </span> adorn the <span class="terrain">
+                     bending shades
+                  </span>.<br/>
+            </span>
+            </p> 
+        
+            
+            
+                               
+            <p>            
+               <span class="line" id="L143">143  ---Next <span class="mythname">Fauna</span> treads, in youthful beauty's pride,<br/>
+            </span> 
+               <span class="line" id="L144">144 A playful <span class="object">
+                  <span class="">
+                     <span class="">Kangroo</span>
+                  </span>
+               </span>
+                  <span id="N14" class="anchor">[14]
+            <span class="note" id="n14">
+                     <i>A playful <span class="object">
+                           <span class="">
+                              <span class="">Kangroo</span>
+                           </span>
+                        </span>
+                     </i>.--<span class="object">
+                        <span class="">
+                           <span class="">The kangroo is an animal peculiar to those climates. It is perpetually jumping along on its hind legs, its fore legs being too short to be used in the manner of quadrupeds.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>bounding by her side;<br/>
+            </span> 
+               <span class="line" id="L145">145 Around <span class="concept">
+                  <span class="pac">
+                     <span class="">the Nymph</span>
+                  </span>
+               </span> her beauteous <span class="object">
+                  <span class="">
+                     <span class="">Pois</span>
+                  </span>
+               </span>
+                  <span id="N15" class="anchor">[15]
+            <span class="note" id="n15">
+                     <i>Beauteous Pois</i>.--"<span class="object">
+                        <span class="">
+                           <span class="">The poi-bird, common in those countries, has feathers of a fine mazarine blue, except those of the neck, which are of a beautiful silver grey; and two or three short white ones, which are in the pinion-joint of the wing. Under its throat hand two little tufts of curled white feathers</span>
+                        </span>
+                     </span>, called its <span class="concept">
+                        <span class="pac">
+                           <span class="">
+                              <i>poies</i>, which, being the <span class="groupname">Otaheitean</span> word for <span class="object">
+                                 <span class="">
+                                    <span class="">ear-rings</span>
+                                 </span>
+                              </span>
+                           </span>
+                        </span>
+                     </span>, occasioned our giving that name to the <span class="object">
+                        <span class="">
+                           <span class="">bird</span>
+                        </span>
+                     </span>; which is not more remarkable for the beauty of its plumage, than for the exquisite melody of its note."</span>
+               </span>display<br/>
+            </span> 
+               <span class="line" id="L146">146 Their varied plumes, and trill the dulcet lay;<br/>
+            </span> 
+               <span class="line" id="L147">147 A <span class="object">
+                  <span class="">
+                     <span class="">Giant-bat</span>
+                  </span>
+               </span>
+                  <span id="N16" class="anchor">[16]
+            <span class="note" id="n16">
+                     <i>A Giant-bat</i>.--<span class="object">
+                        <span class="">
+                           <span class="">The bats which <span class="persName">Captain Cook</span> saw in some of these countries were of incredible dimensions, measuring three feet and a half in breadth, when their wings were extended.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>, with leathern wings outspread,<br/>
+            </span> 
+               <span class="line" id="L148">148 
+                  <span class="object">
+                  <span class="">
+                     <span class="">Umbrella</span>
+                  </span>
+               </span> light, hangs quiv'ring o'er her head.<br/>
+            </span> 
+               <span class="line" id="L149">149 As o'er the <span class="geogFeat">cliff</span> her graceful steps she bends,<br/>
+            </span> 
+               <span class="line" id="L150">150 On glitt'ring wing her <span class="object">
+                  <span class="">
+                     <span class="">insect</span>
+                  </span>
+               </span>-train attends.<br/>
+            </span> 
+               <span class="line" id="L151">151 With diamond-eye her <span class="object">
+                  <span class="">
+                     <span class="">scaly tribes</span>
+                  </span>
+               </span> survey<br/>
+            </span> 
+               <span class="line" id="L152">152 Their <span class="concept">
+                  <span class="pac">
+                     <span class="">Goddess-nymph</span>
+                  </span>
+               </span>, and gambol in the spray.<br/>
+            </span> 
+                             
+               <span class="line" id="L153">153 With earnest gaze the still, enamour'd <span class="org">
+                  <span class="">
+                     <span class="">crew</span>
+                  </span>
+               </span>
+               <br/>
+            </span> 
+               <span class="line" id="L154">154 Mark the fair forms; and, as they pass, pursue;<br/>
+            </span>
+               <span class="line" id="L155">155 But round <span class="terrain">
+                     the steepy rocks
+                  </span>, and dangerous strand,<br/>
+            </span> 
+               <span class="line" id="L156">156 Rolls the white surf<span id="N17" class="anchor">[17]
+            <span class="note" id="n17">
+                     <i>Rolls the white surf</i>.--"As we passed this <span class="geogFeat">island</span>, <span class="terrain">
+                        many of its trees had an unusual appearance, and the richness of the vegetation
+                     </span> much invited <span class="groupname">our naturalists</span> to land, but their earnest wishes were in vain, from <span class="terrain">
+                        the dangerous reefs and the violence of the surfs
+                     </span>."</span>
+               </span>, and <span class="terrain">
+                     shipwreck guards the land
+                  </span>.<br/>
+            </span> 
+               
+               <span class="line" id="L157">157 So, when of old, <span class="placeName">Sicilian shores</span> along,<br/>
+            </span> 
+               <span class="line" id="L158">158 Enchanting <span class="mythname">Syrens</span> trill'd th' alluring song,<br/>
+            </span> 
+               <span class="line" id="L159">159 Bound to the <span class="object">
+                  <span class="">
+                     <span class="">mast</span>
+                  </span>
+               </span> the charm'd <span class="mythname">Ulysses</span> hears,<br/>
+            </span> 
+               <span class="line" id="L160">160 And drinks the sweet tones with insatiate ears;<br/>
+            </span> 
+               <span class="line" id="L161">161 Strains the strong <span class="object">
+                  <span class="">
+                     <span class="">cords</span>
+                  </span>
+               </span>, upbraids the prosp'rous gale,<br/>
+            </span> 
+               <span class="line" id="L162">162 And sighs, as <span class="mythname">Wisdom</span> spreads the flying <span class="object">
+                  <span class="">
+                     <span class="">sail</span>
+                  </span>
+               </span>.<br/>
+            </span> 
+            </p> 
+            
+            
+            
+            <p>
+               <span class="line" id="L163">163 Now leads <span class="mythname">H<span class="smallcaps">umanity</span>
+                  </span>the destin'd way,<br/>
+            </span>
+               <span class="line" id="L164">164 Where all the <span class="concept">
+                  <span class="pac">
+                     <span class="">Loves</span>
+                  </span>
+               </span> in <span class="placeName">Otaheite</span> stray.<br/>
+            </span>
+               <span class="line" id="L165">165 To bid the <span class="concept">
+                  <span class="pac">
+                     <span class="">Arts</span>
+                  </span>
+               </span> disclose their wond'rous pow'rs,<br/>
+            </span>
+               <span class="line" id="L166">166 To bid the <span class="concept">
+                  <span class="pac">
+                     <span class="">Virtues</span>
+                  </span>
+               </span> consecrate the bow'rs,<br/>
+            </span>
+               <span class="line" id="L167">167 She gives her <span class="person">
+                  <span class="">
+                     <span class="">Hero</span>
+                  </span>
+               </span> to its <span class="geogFeat">blooming plain</span>.---<br/>
+            </span>
+               <span class="line" id="L168">168 Nor has he wander'd, has he bled in vain!<br/>
+            </span>
+               <span class="line" id="L169">169 
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">His lips persuasive charm th' uncultur'd youth,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L170">170 
+                  <span class="interact">
+                  <span class="imp">
+                     <span class="">Teach Wisdom's lore, and point the path of Truth.</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L171">171 See! <span class="interact">
+                  <span class="imp">
+                     <span class="">chasten'd love</span>
+                  </span>
+               </span>
+                  <span id="N18" class="anchor">[18]
+            <span class="note" id="n18">
+                     <i>Chastn'd love.---</i>
+                     <span class="interact">
+                        <span class="imp">
+                           <span class="">
+                              <span class="persName">Captain Cook</span> observes, in his second voyage, that the women of <span class="placeName">Otaheite</span> were grown more modest, and that <span class="interact">
+                                 <span class="">
+                                    <span class="blood">the barbarous practice of destroying their children</span>
+                                 </span>
+                              </span> was lessened.</span>
+                        </span>
+                     </span>
+                  </span>
+               </span>in softer glances flows,<br/>
+            </span>
+               <span class="line" id="L172">172 See! <span class="interact">
+                  <span class="imp">
+                     <span class="">with new fires parental duty glows.</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+                  
+               <span class="line" id="L173">173 Thou smiling <span class="placeName">Eden</span> of the southern wave,<br/>
+            </span>
+               <span class="line" id="L174">174 Could not, alas! thy grateful wishes save<br/>
+            </span>
+               <span class="line" id="L175">175 That <span class="person">
+                  <span class="">
+                     <span class="">angel-goodness</span>
+                  </span>
+               </span>, which had bless'd thy <span class="geogFeat">plain</span>?---<br/>
+            </span>
+               <span class="line" id="L176">176 Ah! vain thy gratitude, thy wishes vain!<br/>
+            </span> 
+               <span class="line" id="L177">177 On a far distant, and remorseless <span class="geogFeat">shore</span>,<br/>
+            </span>
+               <span class="line" id="L178">178 Where <span class="org">
+                  <span class="">
+                     <span class="">human fiends</span>
+                  </span>
+               </span> their <span class="object">
+                  <span class="">
+                     <span class="">dire libations</span>
+                  </span>
+               </span> pour;<br/>
+            </span>
+               <span class="line" id="L179">179 Where <span class="concept">
+                  <span class="pac">
+                     <span class="">treachery</span>
+                  </span>
+               </span>, hov'ring o'er the blasted heath,<br/>
+            </span>
+               <span class="line" id="L180">180 Poises with ghastly smile the <span class="object">
+                  <span class="">
+                     <span class="">darts of death</span>
+                  </span>
+               </span>,<br/>
+            </span>
+               <span class="line" id="L181">181 Pierc'd by their <span class="object">
+                  <span class="">
+                     <span class="">venom'd points</span>
+                  </span>
+               </span>, <span class="person">
+                  <span class="">
+                     <span class="">your favorite</span>
+                  </span>
+               </span> bleeds,<br/>
+            </span>
+               <span class="line" id="L182">182 And <span class="interact">
+                  <span class="">
+                     <span class="blood">on his limbs the lust of hunger feeds</span>
+                  </span>
+               </span>!<br/>
+            </span>
+            </p> 
+            
+            
+            <p> 
+               
+               <span class="line" id="L183">183  Thus when, of old, the <span class="mythname">Muse</span>-born <span class="mythname">Orpheus</span> bore<br/>
+            </span>
+               <span class="line" id="L184">184 Fair <span class="concept">
+                  <span class="euro">
+                     <span class="">Arts</span>
+                  </span>
+               </span> and <span class="concept">
+                  <span class="euro">
+                     <span class="">Virtues</span>
+                  </span>
+               </span> to <span class="placeName">the Thracian shore</span>;<br/>
+            </span>
+               <span class="line" id="L185">185 Struck with sweet energy the warbling wire,<br/>
+            </span>
+               <span class="line" id="L186">186 And pour'd persuasion from th' immortal <span class="object">
+                  <span class="">
+                     <span class="">lyre</span>
+                  </span>
+               </span>;<br/>
+            </span>
+               <span class="line" id="L187">187 As <span class="org">
+                  <span class="">
+                     <span class="">soften'd brutes</span>
+                  </span>
+               </span>, the <span class="terrain">
+                     waving woods
+                  </span> among,<br/>
+            </span>
+               <span class="line" id="L188">188 Bow'd their meek heads, and listen'd to the song;<br/>
+            </span>
+               <span class="line" id="L189">189 Near, and more near, with rage and tumult loud,<br/>
+            </span>
+               <span class="line" id="L190">190 Round the <span class="concept">
+                  <span class="euro">
+                     <span class="">bold bard</span>
+                  </span>
+               </span> th' <span class="org">
+                  <span class="">
+                     <span class="">inebriate maniacs</span>
+                  </span>
+               </span> crowd.---<br/>
+            </span>
+               <span class="line" id="L191">191 
+                  <span class="interact">
+                  <span class="conflict">
+                     <span class="blood">Red on th' ungrateful soil his life-blood swims,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L192">192 
+                  <span class="interact">
+                  <span class="conflict">
+                     <span class="blood">And <span class="mythname">Fiends</span> and <span class="mythname">Furies</span> tear his quiv'ring limbs!</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               
+               <span class="line" id="L193">193 Gay <span class="placeName">Eden</span> of the south, thy tribute pay,<br/>
+            </span>
+               <span class="line" id="L194">194 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">And raise, in pomp of woe, thy <span class="persName">C<span class="smallcaps">ook's</span>
+                        </span> 
+                        <span class="object">
+                           <span class="">
+                              <span class="">Morai</span>
+                           </span>
+                        </span>!</span>
+                  </span>
+               </span>
+                  <span id="N19" class="anchor">[19]
+            <span class="note" id="n19">
+                     <i>Morai.---</i>
+                     <span class="interact">
+                        <span class="">
+                           <span class="cer">The <span class="object">
+                                 <span class="">
+                                    <span class="">Morai</span>
+                                 </span>
+                              </span> is a kind of <span class="object">
+                                 <span class="">
+                                    <span class="">funeral altar</span>
+                                 </span>
+                              </span>, which <span class="groupname">the people of <span class="placeName">Otaheite</span> 
+                              </span>raise to the memory of their deceased friends. They bring to it <span class="object">
+                                 <span class="">
+                                    <span class="">a daily tribute of fruits, flowers, and the plumage of birds</span>
+                                 </span>
+                              </span>. The <span class="person">
+                                 <span class="">
+                                    <span class="">chief mourner</span>
+                                 </span>
+                              </span> wanders around it in a state of apparent distraction, shrieking furiously, and <span class="interact">
+                                 <span class="">
+                                    <span class="blood">striking at intervals a <span class="object">
+                                          <span class="">
+                                             <span class="">shark's tooth</span>
+                                          </span>
+                                       </span> into her head. <span class="org">
+                                          <span class="">
+                                             <span class="">All people</span>
+                                          </span>
+                                       </span> fly her, as she aims at wounding not only herself, but others.</span>
+                                 </span>
+                              </span>
+                           </span>
+                        </span>
+                     </span>
+                  </span>
+               </span> 
+               <br/>
+            </span>
+               <span class="line" id="L195">195 Bid mild <span class="persName">Omiah</span> bring his choicest stores,<br/>
+            </span>
+               <span class="line" id="L196">196 The juicy <span class="object">
+                  <span class="">
+                     <span class="">fruits</span>
+                  </span>
+               </span>, and the luxuriant <span class="object">
+                  <span class="">
+                     <span class="">flow'rs</span>
+                  </span>
+               </span>;<br/>
+            </span>
+               <span class="line" id="L197">197 Bring the <span class="object">
+                  <span class="">
+                     <span class="">bright plumes</span>
+                  </span>
+               </span>, that drink the torrid ray,<br/>
+            </span>
+               <span class="line" id="L198">198 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">And strew each lavish spoil on <span class="persName">C<span class="smallcaps">ook's</span>
+                        </span> 
+                        <span class="object">
+                           <span class="">
+                              <span class="">Morai</span>
+                           </span>
+                        </span>!</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+            </p>
+            
+            
+            <p>
+               
+               <span class="line" id="L199">199 Come, <span class="persName">Oberea</span>, hapless fair-one! come,<br/>
+            </span>
+               <span class="line" id="L200">200 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">With piercing shrieks bewail <span class="person">
+                           <span class="">
+                              <span class="">thy Hero's</span>
+                           </span>
+                        </span> doom!</span>
+                  </span>
+               </span>---<br/>
+            </span>
+               <span class="line" id="L201">201 She comes!---she gazes round with dire survey!---<br/>
+            </span>
+               <span class="line" id="L202">202 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">Oh! fly <span class="person">
+                           <span class="">
+                              <span class="">the mourner</span>
+                           </span>
+                        </span> on her frantic way.</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L203">203 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">See! see! <span class="interact">
+                           <span class="">
+                              <span class="blood">
+                                 <span class="object">
+                                    <span class="">
+                                       <span class="">the pointed ivory</span>
+                                    </span>
+                                 </span> wounds <span class="person">
+                                    <span class="">
+                                       <span class="">that head</span>
+                                    </span>
+                                 </span>
+                              </span>
+                           </span>
+                        </span>,</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L204">204 Where late the <span class="object">
+                  <span class="">
+                     <span class="">Loves impurpled roses</span>
+                  </span>
+               </span> spread;<br/>
+            </span>
+               <span class="line" id="L205">205 Now stain'd with gore, her raven-tresses flow,<br/>
+            </span>
+               <span class="line" id="L206">206 In ruthless negligence of mad'ning woe;<br/>
+            </span>
+               <span class="line" id="L207">207 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">Loud she laments!---and long <span class="person">
+                           <span class="">
+                              <span class="">the Nymph</span>
+                           </span>
+                        </span> shall stray</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L208">208 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">With wild unequal step round <span class="persName">C<span class="smallcaps">ook's</span>
+                        </span> 
+                        <span class="object">
+                           <span class="">
+                              <span class="">Morai</span>
+                           </span>
+                        </span>!</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               
+               
+               
+               <span class="line" id="L209">209 But ah!---aloft on <span class="placeName">Albion</span>'s <span class="geogFeat">rocky steep</span>,<br/>
+            </span>
+               <span class="line" id="L210">210 That frowns incumbent o'er <span class="terrain">
+                     the boiling deep
+                  </span>,<br/>
+            </span>
+               <span class="line" id="L211">211 Solicitous, and sad, <span class="person">
+                  <span class="">
+                     <span class="">a softer form</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               <span class="line" id="L212">212 Eyes the lone flood, and deprecates the storm.---<br/>
+            </span>
+               <span class="line" id="L213">213 
+                  <span class="person">
+                  <span class="">
+                     <span class="">Ill-fated matron!</span>
+                  </span>
+               </span>---for, alas! in vain<br/>
+            </span>
+               <span class="line" id="L214">214 Thy eager glances wander o'er the main!---<br/>
+            </span>
+               <span class="line" id="L215">215    'Tis the vex'd billows, that insurgent rave,<br/>
+            </span> 
+               <span class="line" id="L216">216 Their white foam silvers yonder distant wave,<br/>
+            </span> 
+               <span class="line" id="L217">217    'Tis not his <span class="object">
+                  <span class="">
+                     <span class="">sails</span>
+                  </span>
+               </span>!---<span class="person">
+                  <span class="">
+                     <span class="">thy husband</span>
+                  </span>
+               </span> comes no more!<br/>
+            </span>
+               <span class="line" id="L218">218 
+                  <span class="person">
+                  <span class="">
+                     <span class="">His <span class="object">
+                           <span class="">
+                              <span class="">bones</span>
+                           </span>
+                        </span>
+                     </span>
+                  </span>
+               </span> now whiten an accursed <span class="geogFeat">shore</span>!---<br/>
+            </span>
+            </p>
+            
+            
+            <p>
+               
+            
+               <span class="line" id="L219">219 Retire,---for hark! the <span class="object">
+                  <span class="">
+                     <span class="">sea-gull</span>
+                  </span>
+               </span> shrieking soars,<br/>
+            </span>  
+    
+               <span class="line" id="L220">220 The lurid atmosphere portentous low'rs;<br/>
+            </span>  
+             
+               <span class="line" id="L221">221 
+                  <span class="mythname">Night</span>'s sullen spirit groans in ev'ry gale,<br/>
+            </span>
+             
+               <span class="line" id="L222">222 And o'er the waters draws the darkling veil,<br/>
+            </span>
+          
+               <span class="line" id="L223">223 Sighs in thy hair, and chills thy throbbing breast---<br/>
+            </span>
+            
+               <span class="line" id="L224">224 Go, <span class="person">
+                  <span class="">
+                     <span class="">wretched mourner!</span>
+                  </span>
+               </span>---weep thy griefs to rest!<br/>
+            </span>
+                   
+               <span class="line" id="L225">225 Yet, tho' through life is lost each fond delight,<br/>
+            </span>
+               
+            
+            
+               <span class="line" id="L226">226 Tho' set thy earthly <span class="object">
+                  <span class="">
+                     <span class="">sun</span>
+                  </span>
+               </span> in dreary night,<br/>
+            </span>
+        
+               <span class="line" id="L227">227 Oh! raise thy thoughts to yonder <span class="object">
+                  <span class="">
+                     <span class="">starry plain</span>
+                  </span>
+               </span>,<br/>
+            </span>
+              
+               <span class="line" id="L228">228 And own thy sorrow selfish, weak, and vain;<br/>
+            </span>
+         
+               <span class="line" id="L229">229 Since, while <span class="mythname">Britannia</span>, to his virtues just,<br/>
+            </span>
+              
+               <span class="line" id="L230">230 
+                  <span class="interact">
+                  <span class="">
+                     <span class="cer">Twines the bright <span class="object">
+                           <span class="">
+                              <span class="">wreath</span>
+                           </span>
+                        </span>, and rears th' <span class="object">
+                           <span class="">
+                              <span class="">immortal bust</span>
+                           </span>
+                        </span>;</span>
+                  </span>
+               </span>
+               <br/>
+            </span>
+               
+               <span class="line" id="L231">231 While on each wind of <span class="concept">
+                  <span class="">
+                     <span class="">heav'n</span>
+                  </span>
+               </span> his <span class="concept">
+                  <span class="">
+                     <span class="">fame</span>
+                  </span>
+               </span> shall rise,<br/>
+            </span>
+               <span class="line" id="L270">270 <br/>
+            </span>
+               <span class="line" id="L232">232 In endless <span class="object">
+                  <span class="">
+                     <span class="">incense</span>
+                  </span>
+               </span> to the smiling skies;<br/>
+            </span>
+               
+               <span class="line" id="L233">233  
+                  <span class="smallcaps">
+                     <span class="concept">
+                     <span class="">
+                        <span class="">The attendant Power</span>
+                     </span>
+                  </span>
+                  </span>, that bade his <span class="object">
+                  <span class="">
+                     <span class="">sails</span>
+                  </span>
+               </span> expand,<br/>
+            </span> 
+           
+               <span class="line" id="L234">234 And waft her <span class="concept">
+                  <span class="">
+                     <span class="">blessings</span>
+                  </span>
+               </span> to <span class="region">each barren land</span>,<br/>
+            </span> 
+         
+               <span class="line" id="L235">235 Now raptur'd bears him to <span class="concept">
+                  <span class="">
+                     <span class="">th' immortal plains</span>
+                  </span>
+               </span>,<br/>
+            </span> 
+           
+               <span class="line" id="L236">236 Where <span class="mythname">Mercy</span> hails him with congenial strains;<br/>
+            </span>
+             
+               <span class="line" id="L237">237 Where soars, on <span class="mythname">Joy</span>'s <span class="object">
+                  <span class="">
+                     <span class="">white plume</span>
+                  </span>
+               </span>, his spirit free,<br/>
+            </span>
+             
+               <span class="line" id="L238">238 And <span class="groupname">angels</span> choir him, while he waits for <span class="person">
+                  <span class="">
+                     <span class="">T<span class="smallcaps">hee</span>
+                     </span>
+                  </span>
+               </span>. <br/>
+            </span>
+               
+            </p>
+        
+         </div>
+   </body>
+</html>

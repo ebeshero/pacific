@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+   <head>
+      <title>Collection: English References to the Pacific</title>
+      <link rel="stylesheet" type="text/css" href="EccoBib.css"/>
+      <script type="text/javascript" src="ElegyJSColorNotes.js" xml:space="preserve">  </script>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+      <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Type of Markup', 'Counts'],
+          ['Conflict',     9],
+          ['Bloodshed',  1],
+          ['Sex',      9],
+          ['Imperialism',  3],
+          ['Trade', 4],
+          ['Ritual/Ceremonies',    7],
+          ['Affinity/Friendship',   10],
+        ]);
+
+        var options = {
+          title: 'Types of Interactions in Pacific References',
+          slices: {0: {color: '#C2A385'}, 1: {color: '#E69980'}, 2:{color: '#FFAB73'}, 3: {color: '#D1B2F0'}, 4:{color: '#99B280'}, 5:{color: '#CCCCFF'}, 6:{color: '#C4F1FF'}},
+          is3D: true,
+          fontName: "Palatino Linotype", 
+          backgroundColor: '#FFFFCC',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+   </head>
+   <body>
+      <div id="sidebar">
+         <div id="legend">
+            <div id="fieldset">
+               <fieldset>
+                  <legend>Click to Highlight:</legend>
+                  <input type="checkbox"
+                         id="CHARtoggle"
+                         onclick="toggle('character')"
+                         style="cursor:pointer"/>
+                  <span class="Testchars">Persons, Groups, and Mythic Entities</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="PLtoggle"
+                         onclick="toggle('place')"
+                         style="cursor:pointer"/>
+                  <span class="Testplaces">Places</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="OBtoggle"
+                         onclick="toggle('object')"
+                         style="cursor:pointer"/>
+                  <span class="Testobjects">Objects, Flora, and Fauna
+                            </span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Concepttoggle"
+                         onclick="toggle('concept')"
+                         style="cursor:pointer"/>
+                  <span class="Testconcepts">Abstract Concepts</span>
+                  <br/>
+                  <hr/>
+                            
+                            Cultural Interactions:<br/>
+                  <input type="checkbox"
+                         id="CItoggle"
+                         onclick="toggle('interact')"
+                         style="cursor:pointer"/>
+                  <span class="Testinteract">All Interactions</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Conflicttoggle"
+                         onclick="toggle('conflict')"
+                         style="cursor:pointer"/>
+                  <span class="Testconflict">Conflict</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Bloodtoggle"
+                         onclick="toggle('blood')"
+                         style="cursor:pointer"/>
+                  <span class="Testblood">Bloodshed</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Sextoggle"
+                         onclick="toggle('sex')"
+                         style="cursor:pointer"/>
+                  <span class="Testsex">Sex</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Imptoggle"
+                         onclick="toggle('imp')"
+                         style="cursor:pointer"/>
+                  <span class="Testimp">Empire Building</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Tradetoggle"
+                         onclick="toggle('trade')"
+                         style="cursor:pointer"/>
+                  <span class="Testtrade">Trade</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Certoggle"
+                         onclick="toggle('cer')"
+                         style="cursor:pointer"/>
+                  <span class="Testcer">Rituals and Ceremonies</span>
+                  <br/>
+                  <input type="checkbox"
+                         id="Affintoggle"
+                         onclick="toggle('affin')"
+                         style="cursor:pointer"/>
+                  <span class="Testaffin">Affinity (Friendship, Respect, Attraction)</span>
+                  <br/>
+               </fieldset>
+            </div>
+         </div>
+      </div>
+      <div id="banner">
+         <a href="index.html">
+            <img src="banner7.jpg" alt="Digital Archives and Pacific Cultures"/>
+         </a>
+      </div>
+      <div id="navigation">
+         <ul class="drop_menu">
+            <li>
+               <b>
+                  <a href="index.html">home</a> |</b>
+            </li>
+            <li>
+               <b>
+                  <a href="about.html">about</a> |</b>
+            </li>
+            <li>
+               <b>
+                  <a href="voyages.html">voyage publications</a> |</b>
+               <ul>
+                  <li>
+                     <a href="HawkesworthWallis.html">Hawkesworth: Wallis</a> * <a href="HwksV2Ch4-8PNum.xml">TEI</a> *</li>
+                  <li>
+                     <a href="Cookvoy1.html">Hawkesworth: Cook Voyage 1</a>
+                     <br/>* <a href="Cookvoy1.xml">TEI</a> *
+                     <br/>* <a href="CookVoy1graph.html">Graph of Cultural Markup in Cook Voyage 1: Book 1, Chs. X-XV (Tahiti)</a> *</li>
+                  <li>
+                     <a href="ForsterGeorgComplete.html">Georg Foster: Cook Voyage 2</a>
+                     <br/>* <a href="ForsterGeorgComplete.xml">TEI</a> *</li>
+                  <li>Johann Forster: Cook Voyage 2 <span class="tiny">[coming]</span>
+                  </li>
+                  <li>
+                     <a href="cookSecVoyageAll.html">James Cook: Cook Voyage 2</a>
+                     <br/>* <a href="cookVoy2Pnum.xml">TEI</a> *</li>
+                  <li>Cook Voyage 3 <span class="tiny">[coming]</span>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <b>
+                  <a href="maps.html">voyage maps</a> |</b>
+               <ul>
+                  <li>
+                     <a href="HwksWallisMap.html">KML: Wallis in the South Pacific</a>
+                  </li>
+                  <li><a href="HistOverlay.html">Historic Map Overlay: Society Islands in 1769</a></li>
+                  <li>Coming: Cook's First Voyage</li>
+                  <li>
+                     <a href="CookVoy2Map.html">KML: Cook's Second Voyage</a>
+                  </li>
+                  <li><a href="CookGeorgVoyageComp.html">KML: Forster and Cook Compared: Cook's Second Voyage</a></li>
+                  
+               </ul>
+            </li>
+            <li>
+               <b>
+                  <a href="poems.html">cultural responses</a> |</b>
+               <ul>
+                  <li>
+                     <a href="EccoLocSortDate.html">Scrapbook of Pacific References</a>
+                     * <a href="eccoBibSnips.xml">TEI</a> *</li>
+                  <li>
+                     <a href="InjuredIsland.html">The Injured Islanders (1779)</a> * <a href="InjuredIsland.xml">TEI</a> *</li>
+                  <li>
+                     <a href="CookElegy1780.html">Elegy on Captain Cook (1780)</a> * <a href="ElegyCook.xml">TEI</a> *</li>
+                  <li>
+                     <a href="PoemsGrphAnlys.xhtml">Graph of Cultural Interactions in the Poems</a>
+                  </li>
+                  <li>Omai: or a Trip Around the World <span class="tiny">[coming]</span>
+                  </li>
+                  <li><a href="siteIndex.html">Named People and Places</a></li>
+                  
+               </ul>
+            </li>
+            
+            
+            <li>
+               <b>
+                  <a href="http://www.pitt.edu/~ebb8/DHDS/">course</a>
+               </b>
+            </li>
+         </ul>
+      </div>
+      <div id="mainPage">
+         <h1>Bibliography Collection of English References to Pacific Topics</h1>
+         <hr/>
+         <h2> Introduction:</h2>
+         <p>This bibliography represents a collaborative effort to compile a
+                    list of works published from 1774 to 1797 that contains references to people,
+                    places, interactions, events, and objects relevant to Pacific voyages during
+                    this time period. Excerpts have been provided from each of these works to
+                    illustrate the impact the Pacific voyages of the eighteenth century had on the
+                    English-speaking world. </p>
+         <p>This pie graph helps to summarize our counts of the kinds of cultural interactions
+            our team marked in the passages we excerpted for the bibliography. Most of the cultural interactions, as marked by the collaborators, appeared to register peaceful experiences between Pacific and English-speaking peoples (27% of interactions). However, 21% of these interactions are also marked as points of conflict. The graph  and the following bibliography help to demonstrate how Atlantic media was processing early contact experiences in the Pacific: what topics they foregrounded for interest and cultural entertainment.</p>
+         <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+         <a id="sort"/> <h3>Sorted by Genre: Philosophy, Politics, Plays, Poetry, Novels</h3>
+         <h3>Remix: <a href="EccoLocSortDate.html#sort">Click to Sort by Date of Publication</a>
+         </h3>
+         <h2>Philosophy</h2>
+         <ul>
+            <li>
+               <b>1774-1775: </b>
+               <span class="author">Kames, Henry Home, Lord. </span>
+               <span class="philosophy">
+                  <i>Sketches of the history of man: In four volumes.</i>
+               </span>. <span class="pubPlace">Dublin: </span>
+               <span class="publisher">printed for James Williams. </span>
+               <p>In ECCO TCP. <span class="passage">vol. I. Sketch 1 ("DIVERSITY of MEN and of LANGUAGES"), pp. 20-21
+                                and 24-25. </span> Pp. 20-21: on <span class="character">Commodore
+                            Byron's</span> and on <span class="character">Cook's</span> voyages: Mentions
+                        of <span class="character">Banks</span> and <span class="character">Solander</span> leaving
+                            <span class="place">Otaheite</span> to find <span class="place">Society
+                            Islands</span>, <span class="place">Islands of Oahena</span>. See p.
+                        24: <span class="place">Otaheite</span> mentioned in opposition to other more
+                        violent cultures, and compared with the ancient
+                            <span class="character">Caledonians</span>: Intelligent resistance to
+                            <span class="character">Wallis</span>, ease of making peace--more impressive than
+                        most, apparently.</p>
+               <p>
+                  <span class="passage">vol. I. Sketch 2 ("Progress of Men with respect to FOOD and POPULATION"),
+                                p. 58. </span> "The island of
+                            <span class="place">Otaheite</span> is healthy, the people tall and well
+                        made; and by temperance, <span class="object">vegetables</span> and <span class="object">fish</span> being their chief nourishment, they live to a
+                        good old age, with scarce any ailment. There is no such thing known among
+                        them as <span class="object">rotten teeth</span>: the very smell of <span class="object">wine</span> or <span class="object">spirits</span> is
+                        disagreeable; and they never deal in <span class="object">tobacco</span> nor <span class="object">spiceries</span>."</p>
+               <p>
+                  <span class="passage">vol. I. Sketch 6 ("Progress of the FEMALE SEX"), pp.
+                            194-196. </span> On free love in
+                            <span class="place">Otaheite</span>: They are good people, but "seem to have
+                        as little notion of <span class="concept">modesty</span> as of <span class="concept">chastity</span>. More on "<span class="concept">polygamy</span>" on p.
+                        196.</p>
+               <p>
+                  <span class="passage">vol. II. Book I. Continued: Sketch 7
+                                    ("Progress of Manners"), pp.
+                                6-7. </span>
+                        <span class="place">Otaheite</span> mentioned in a syncretic description of
+                        bodily cleaning "in several nations that have made little progress in the
+                        arts of life." <span class="character">Otaheitian</span>
+                        <span class="concept">cleanliness</span> in both sexes is mentioned after
+                            <span class="character">Caribbean islanders</span> and before historic descriptions
+                        of the ancient <span class="character">Gauls</span>.</p>
+               <p>
+                  <span class="passage">vol. II. Sketch 1 ("Progress of Men in Society"), p. 156. </span>
+                        <span class="interact">
+                     <span class="conflict">On the practices of <span class="concept">stealing</span> and <span class="concept">piracy</span>
+                     </span>
+                  </span>, <span class="character">Otaheitians</span> mentioned after the
+                            <span class="character">Scottish Highlanders</span> and the rebellion of 1745! Idea:
+                        that theft isn't committed among their own, but against outsiders.
+                            "<span class="character">Bougainville</span> observes, that the
+                            <span class="character">inhabitants of Otaheite</span>, named by <span class="character">the
+                            English</span>, <span class="place">King-George's island</span>, <span class="interact">
+                     <span class="conflict">made no difficulty of stealing from
+                            his people</span>
+                  </span>; <span class="interact">
+                     <span class="affin">and yet never steal
+                            among themselves, having neither locks nor bars in their
+                        houses</span>
+                  </span>."</p>
+               <p>
+                  <span class="passage">vol. II: Sketch 1 ("Progress of Men in Society"), p. 167. </span>
+                        Attempt to address a philosophical question about whether people are
+                        naturally sociable or antisocial and brutally violent. "<span class="interact">
+                     <span class="affin">In a nascent society, where men hunt and fish in common,
+                            where there is plenty of game, and where the sense of property is faint,
+                            mutual affection prevails, because there is no cause of discord; and <span class="interact">
+                           <span class="conflict">dissocial passions find
+                                sufficient vent against neighbouring tribes</span>
+                        </span>. Such is the
+                            condition of the <span class="character">North-American savages</span>, who continue
+                            hunters and fishers to this day; and such is the condition of all brute
+                            animals that live in society, as mentioned above. The island
+                                <span class="place">Otaheite</span> is divided into many small <span class="concept">cantons</span>, having each a chief of its own. These
+                            cantons never make war on each other, tho' they are <span class="interact">
+                           <span class="conflict">frequently at war with the inhabitants of
+                                neighbouring islands</span>
+                        </span>. The <span class="character">inhabitants of the new
+                                    <span class="place">Philippine islands</span>
+                        </span>, if
+                                <span class="character">Father Gobien</span> be credited, are better fitted
+                            for society than any other known nation. Sweetness of temper, and love
+                            to do good, form their character. They never commit acts of violence:
+                                <span class="concept">war</span> they have no notion of; and it is a
+                            proverb among them, That a man never puts a man to death.
+                                <span class="character">Plato</span> places the seat of <span class="concept">justice</span> and of <span class="concept">happiness</span> among the
+                            first men; and among them existed the golden age, if it ever did
+                            exist.</span>
+                  </span> But when a nation, becoming populous, begins with rearing
+                        flocks and herds, proceeds to appropriate land, and is not satisfied without
+                        matters of <span class="concept">luxury</span> over and above; <span class="concept">selfishness</span> and <span class="concept">pride</span> gain ground, and
+                        become ruling and unruly passions. Causes of discord multiply, vent is given
+                        to <span class="concept">avarice</span> and <span class="concept">resentment</span>;
+                        and among a people not yet perfectly submissive to government, <span class="interact">
+                     <span class="conflict">dissocial passions rage, and threaten
+                            a total dissolution of society: nothing indeed suspends the impending
+                            blow</span>
+                  </span>,..." </p>
+               <p>
+                  <span class="passage">vol. IV, Part II: Sketch 3 ("Principles and Progress of THEOLOGY"), Chapter
+                                2, p. 152:. </span>
+                        <span class="concept">Syncretism</span> in action here:
+                            <span class="place">Otaheite's</span> spiritual beliefs are sketched here by
+                        way of comparison with several other island or "savage" cultures with
+                        (according to this author) tendencies toward <span class="concept">monotheism</span>. Passage: " The <span class="character">North-American
+                            savages</span> have all of them a notion of a supreme Deity, creator
+                        and governor of the world, and of inferior deities, some good, some ill.
+                        These are supposed to have bodies, and to live much as men do, but without
+                        being subjected to any distress. The same creed prevails among the negroes
+                        of <span class="place">Benin</span> and <span class="place">Congo</span>, among the
+                        people of <span class="place">New Zeland</span>, among the inhabitants of
+                            <span class="place">Java</span>, of <span class="place">Madagascar</span>, of
+                        the <span class="place">Molucca islands</span>, and of the <span class="place">Caribbee
+                            islands</span>. The <span class="character">Chingulese</span>, a tribe in the
+                        island of <span class="place">Ceylon</span>, acknowledge one <span class="myth">God</span> creator of the universe, with subordinate deities who act as
+                        his deputies: agriculture is the peculiar province of one, navigation of
+                        another. The creed of the <span class="character">Tonquinese</span> is nearly the same.
+                        The inhabitants of <span class="place">Otaheite</span>, termed <span class="place">King
+                            George's island</span>, believe in <span class="character">one supreme
+                            Deity</span>; and in <span class="character">inferior deities</span> without
+                        end, who preside over particular parts of the creation. They pay no
+                        adoration to <span class="character">the supreme Deity</span>, thinking him too
+                        far elevated above his creatures to concern himself with what they do. They
+                        believe <span class="concept">the stars to be children of the sun and
+                        moon</span>, and <span class="concept">an eclipse to be the time of <span class="interact">
+                        <span class="sex">copulation</span>
+                     </span>
+                  </span>."</p>
+               <hr/>
+            </li>
+            <li>
+               <b>1775: </b>
+               <span class="philosophy">
+                  <i>An apology for Mrs. Eugania Stanhope, editor of the Earl of
+                        Chesterfield's letters to Philip Stanhope, Esq. addressed to that Lady. By
+                        an Amateur ...</i>
+               </span>. <span class="pubPlace">London: </span>
+               <p>The terms <span class="concept">arreoy"</span> and
+                            <span class="place">"otaheite"</span> are used in normal context in these
+                        letters. <span class="character">Omiah</span> is mentioned as well. Passage: "Most
+                        fotunately for this purpose is lately arrived in <span class="place">England
+                            </span>
+                  <span class="character">Omiah</span>, a <span class="concept">native</span>
+                        of that <span class="place">Island.</span> With him I humbly propose that you may
+                        be joined in office, to conduct and direct the pleasures of the <span class="concept">new Arreoy;</span> and that the instituiton of this <span class="concept">society</span> should be celebrated by <span class="interact">
+                     <span class="cer">tattowing,</span>
+                  </span> and other rites similar to those used in
+                            <span class="place">Otaheite</span>, of whih an execellent description is
+                        given by the late ingenious
+                                <span class="character">Dr.Hawkesworth</span>"<span class="passage">(p.85-86). </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1775: </b>
+               <span class="philosophy">
+                  <i>Beauties of nature and art displayed, in a tour through the world; ...
+                        Illustrated and embellished with copper plates.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">G.Robinson. </span>
+               <span class="passage">vol. 11, 12, 15. </span>
+               <p>The text refers to <span class="place">Otaheite</span> multiple
+                        times as well as talking about how the Otaheitians made their <span class="object">weapons</span> from the wood of the Etoa tree. It gives
+                        descriptions of the types of <span class="object">weapons</span> they made from
+                        the wood. Passage: "<span class="character">Mr. Sergeant Hofkins</span>, a gentleman
+                        of considerable fortune in <span class="place">Herefordshire</span>, having
+                        invited <span class="character">King James</span> the first, while he was on a
+                        progress that way, to his house, elegantly entertained his <span class="concept"> Majesty;</span> and as an instance of the longevity of the
+                            <span class="concept">inhabitants</span> of
+                            <span class="place">Herefordshire</span>, procured ten old men and women,
+                        whose ages put together amounted to more than one thousand years, to <span class="interact">
+                     <span class="affin">dance</span>
+                  </span> the morrice before the king"
+                                <span class="passage">(p. 104).. </span>
+                        </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1778: </b>
+               <span class="author">Caulfield. </span>
+               <span class="philosophy">
+                  <i>An essay on the immateriality and immortality of the soul, and Its
+                        Instinctive Sense of Good and Evil; In Opposition to the Opinions advanced
+                        in The Essays introductory to Dr. Priestley's Abridgment of Dr. Hartley's
+                        Observations on Man. To which are added, Strictures on Dr. Hartley's Theory;
+                        Thoughts on the Origin of Evil; and Proof of the contradictory Opinions of
+                        Dr. Priestley and his Author. With an Appendix, In Answer to Dr. Priestley's
+                        Disquisitions on matter and spirit. By the author of The Letters in Proof of
+                        a particular, as well as a general Providence, Which were addressed to Dr.
+                        Hawkesworth (on his Publication of the Voyages round the World) under the
+                        Signature of a Christian.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <p>Letters, Philospohy. Letters in which someone speaks of
+                            <span class="character">Omiah</span> and his return to
+                            <span class="place">Otahetie</span>. Involving complications which may arise
+                        from <span class="character">Omiah's</span> travels around the globe and his new found
+                        knowledge of the world at large. Passage: "It is my pleasure to think of
+                            <span class="character">Omiah’s</span> return to <span class="place">Otaheite</span>.
+                        I now chuse to think of <span class="character">Lord Pigot’s</span> dangerous
+                        situation in <span class="place">India</span>. Now what possible relation- of
+                        association of circumstances can be discovered, which made me fly from the
+                        view of the <span class="character">King of Prussia’s</span> campaigns, the
+                            <span class="character">Duchess of Kingston’s</span> change to <span class="character">Countess
+                            of Bristol</span>?- Or from her Ladyship’s change to the bloody
+                        fields of <span class="place">America?</span> Or from the contention
+                            in<span class="place">America</span>, to the return of
+                            <span class="character">Omiah</span>, or from the return of
+                            <span class="character">Omiah</span> to the confinement, and danger, of
+                            <span class="character">Lord Pigot?</span>
+                    </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1781: </b>
+               <span class="author">MacNally, Leonard. </span>
+               <span class="philosophy">
+                  <i>Sentimental excursions to Windsor: and other places, with notes
+                        critical, illustrative, and explanatory</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for J. Walker. </span>
+               <p>In ECCO TCP. See <span class="passage">"A
+                                    Meditation", pp. 16-20. </span>: on the <span class="concept">
+                     <span class="pac">"Timiradi dance"</span>
+                  </span> of
+                            <span class="place">Otaheite</span>, saying this dance was apparently
+                        practiced by the virtuous yet not modest <span class="character">Lacedaemonians</span>,
+                        with a footnote citing "<span class="character">Forster</span>, who attended
+                            <span class="character">Captain Cooke</span> on his second voyage." Reflection on
+                        whether or not <span class="concept">chastity</span> is necessary--"I concluded
+                        with a modern voyager (citing <span class="character">Forster</span>)...that <span class="concept">modesty</span> and <span class="concept">chastity</span>, which
+                        have long been supposed to be inherent in the human mind, are local ideas,
+                        unknown in the state of nature, and modified according to the various
+                        degrees of <span class="concept">civilization</span>."</p>
+               <hr/>
+            </li>
+            <li>
+               <b>1783: </b>
+               <span class="author">Alexander, William. </span>
+               <span class="philosophy">
+                  <i>The history of women, from the earliest antiquity, to the present time;
+                        giving some account of almost every interesting particular concerning ... </i>
+               </span>. Ed. <span class="editor">Unknown</span>
+               <span class="pubPlace">London: </span>
+               <span class="publisher">London : printed for W. Strahan, and T. Cadell, in the Strand,
+                        MDCCLXXIX. </span>
+               <p> Cultural Note, Philosophy. This publication goes into some
+                        level of detail about Tahitian women. Culural notes in regard to life before
+                        and after marriage as well as actions during such times. Passage: " <span class="interact">
+                     <span class="cer">Strolling female dancers, who live by that
+                            profession, are not, however, peculiar to the <span class="place">East
+                                Indies;</span> they have of late been met with in
+                                <span class="place">Otaheite</span>, and several other places; but
+                            besides their strolling dancers in <span class="place">Otaheite</span>, they
+                            have a dance called <span class="concept">
+                           <span class="pac">Timoradee</span>
+                        </span>,
+                            which the young girl’s preform, whenever eight or ten of them can be got
+                            together; <span class="interact">
+                           <span class="sex">it consists in every motion,
+                                gesture, and tone of voice that is truly lascivious; and being
+                                brought up to it form their childhood, in every motion, and in every
+                                gesture, they keep time with an exactness scarcely excelled by the
+                                most expect stage-dancers of <span class="place">Europe</span>
+                           </span>
+                        </span>.
+                            this diversion is allowed to the virgin, it is prohibited to the wife;
+                            who, from the moment of marriage must abstain from it forever."</span>
+                  </span>
+                    </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1788: </b>
+               <span class="author">More, Hannah. </span>
+               <span class="philosophy">
+                  <i>Thoughts on the importance of the manners of the great to
+                        general society</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for T. Cadell. </span>
+               <p>In ECCO TCP. See <span class="passage">pp.
+                            35-36. </span> Mention of hypocritical people willing to <span class="interact">
+                     <span class="imp">support missions to
+                                <span class="place">Tahiti</span>
+                     </span>
+                  </span>, but sacrilegiously enjoying <span class="interact">
+                     <span class="trade">Sunday haircuts</span>
+                  </span>: "I am persuaded
+                        that there are multitudes of well-meaning people who would gladly contribute
+                        to <span class="interact">
+                     <span class="imp">a mission of <span class="concept">Christianity</span> to <span class="place">Japan</span> or
+                                <span class="place">Otaheite</span>
+                     </span>
+                  </span>, to whom it never occurred,
+                        that <span class="interact">
+                     <span class="trade">the hair-dresser, whom they are
+                            every Sunday detaining from church, has <span class="concept">a soul to be
+                                saved</span>; that <span class="concept">the law of the land</span>
+                            co-operates with <span class="concept">the law of <span class="myth">God</span>
+                        </span>, to forbid their employing him; and that they have no
+                                <span class="concept">right</span>, either legal or moral, to this
+                            portion of his time.</span>
+                  </span>" </p>
+               <hr/>
+            </li>
+         </ul>
+         <h2>Politics</h2>
+         <ul>
+            <li>
+               <b>1776: </b>
+               <span class="author">Late Member of the Continental Congress. </span>
+               <span class="politics">
+                  <i>The true merits of a late treatise, printed in America,
+                        intitled, Common sense: clearly pointed out. Addressed to the inhabitants of
+                        America. By a late member of the Continental Congress, a native of a
+                        republican state.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for W. Nicoll. </span>
+               <p>In ECCO TCP. Essay attacking Thomas
+                                Paine's <i>Common Sense</i>.
+                                <span class="passage">See pp. 23-24. </span>: that
+                            <span class="place">England</span> made it possible for
+                            <span class="character">Protestants</span> to live in religious freedom in the
+                            <span class="place">New World</span>, and if <span class="character">Paine</span> (et.
+                        al.) don't like it, they can go to "<span class="place">Otaheite</span>, and the
+                            <span class="place">Islands in the North West</span>" as a "Sanctuary for
+                        him and his Friends."</p>
+               <hr/>
+            </li>
+            <li>
+               <b>1785: </b>
+               <span class="author">Boswell, James. </span>
+               <span class="politics">
+                  <i>A letter to the people of Scotland, on the alarming attempt to infringe
+                        the Articles of the Union, and introduce a most pernicious innovation, by
+                        diminishing the number of the lords of session</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for Charles Dilly. </span>
+               <p>Letter, Politics. A letter presented to the people of
+                        <span class="place">Scotland</span> in regards to the Lords of Session getting a raise. Speaks in
+                        regards to children in situations of starvation and murder in
+                            <span class="place">Egypt</span>, <span class="place">China</span> and
+                            <span class="place">Otaheite</span>. Passage:" <span class="interact">
+                     <span class="conflict"> Suppose it should be thought right to increase the
+                            salaries of the <span class="character">Lords of Session</span>; is there no way of
+                            doing it but making two-thirds of them devour the rest, like
+                                <span class="character">Pharaoh</span>’s lean and fat kine? Is the state so
+                            poor, that we must adopt a measure similar to the barbarous permission
+                            in <span class="place">China</span> and <span class="place">Otaheite</span>, to
+                            murder their children, left they should not have food enough?"</span>
+                  </span>
+                    </p>
+               <hr/>
+            </li>
+         </ul>
+         <h2>Plays</h2>
+         <ul>
+            <li>
+               <b>: </b>
+               <span class="author">Burgoyne, John. </span>
+               <span class="play">
+                  <i>The maid of the oaks: a new dramatic entertainment. As it is performed at
+                        the Theatre-Royal, in Drury-Lane</i>
+               </span>. <span class="pubPlace">1774: </span>
+               <span class="publisher">printed for T. Becket. </span>
+               <p>Play. Mentions <span class="place">Otahetie</span> in one line
+                        which refers to a young man and the possibility of traveling to south seas
+                        at some future point. Passage: "<span class="character">Dupely</span>. No,
+                        no; I am a true friend, and prepar'd for all your whimsies, amorous and
+                        poetical. Your summons found me the day after my arrival, and I took soft
+                        immediately- next to my eagerness to see you, was that of being in time for
+                        the Fete Champerte- Novelty and pleasure are the beings I pursue-They have
+                        led me to half the world over already, and for ought I know they may
+                        sometime or other carry me to the <span class="place">Otaheite</span>." </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1774: </b>
+               <span class="author">Colman, G., Esq.Hull, Thomas. </span>
+               <span class="play">
+                  <i>Henry the Second: or, the fall of Rosamond: a tragedy; as it is performed
+                        at the <span class="place">Theatre-Royal, Covent-Garden</span>
+                  </i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for John Bell. </span>
+               <p> In ECCO TCP. Hull is the author of the play, but G. Colman wrote the Epilogue in the voice of <span class="character">Oberea</span> of <span class="place">Otaheite</span>. She's being scornful of the representation of women in the play just performed. 
+                        <br/>
+                  <br/>
+                  <span class="poetryBlock">
+                     <span class="line"> Great and Fair Ladies!<br/>
+                     </span>
+                           <span class="line">  Lords gallant and mighty!<br/>
+                     </span> 
+                            <span class="line"> Behold a Female- Fresh from
+                            <span class="place">Otaheite</span>.<br/>
+                     </span> 
+                            <span class="line"> Stretch to the <span class="place">Southern
+                                Ocean</span> your Idea,<br/>
+                     </span> 
+                            <span class="line"> And View, In me, the <span class="character">Princess
+                                    Oberea</span>.<br/>
+                     </span>
+                     <span class="line"> Full three long Hours I've sat, with smother'd Rage,<br/>
+                     </span> 
+                        <span class="line"> To hear the Nonsense of your tragick Stage,<br/>
+                     </span>  
+                         <span class="line"> To see <span class="character">a Queen</span> majestically swagger,<br/>
+                     </span>
+                        <span class="line">  A <span class="object">Bowl</span> in this Hand, and in this a <span class="object">Dagger</span>;<br/>
+                     </span>
+                         <span class="line"> 
+                        <span class="interact">
+                           <span class="conflict">To stab or poison (cruel Inclination!)</span>
+                        </span>
+                        <br/>
+                     </span> 
+                        <span class="line"> 
+                        <span class="interact">
+                           <span class="sex"> 
+                              <span class="character">A Maid</span>, who gave a Husband Consolation</span>
+                        </span>
+                        <br/>
+                     </span>
+                  </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1792: </b>
+               <span class="author">O'Keefe, John. </span>
+               <span class="play">
+                  <i>The farce of the Modern antiques, or the merry mourners. In two acts. As performed at the <span class="place">Theatre-Royal, Smoke-Alley</span>
+                  </i>
+               </span>. <span class="pubPlace">Dublin: </span>
+               <span class="publisher">printed for the Booksellers. </span>
+               <p>In ECCO TCP. <br/>In Act I of this farce, a character named Mr. Cockletop imagines himself as a number of historic figures, including <span class="character">Dr. Solander</span>, in a brief soliloquy on his desire for his wife's niece: "Only that my brain is for ever running on my wife's charming niece Belinda; (oh! how I do love her: I love every thing old, but girls, and guineas;) I should certainly be second a <span class="character">Sir Hans Sloane</span>— I'd be a <span class="character">Solander</span>, and a <span class="character">Monmouth Geoffry</span>."<br/>
+                  <br/>Later in Act I, a huckster named Frank presents Mr. Cockletop with a hamper full of supposedly rare (fake) items for sale, and sells Cockletop his own hat with a piece cut out of it as a "cap of liberty." On the items list of materials for sale Cockletop reads of a "cloth of Otaheite," which Frank presents him as a piece cut from Cockletop's own coat:<br/>
+                        
+                       <br/> "Cock.
+                        Great! this is indeed, what the Romans call'd the Pi-leus, or Cap of Liberty:
+                        
+                        puts it on his had and reads;
+                        " <span class="interact">
+                     <span class="trade">
+                        <span class="object">half a yard of cloth from <span class="place">Otahiete</span>, being a part of <span class="object">the mantle of <span class="character">Queen Oberea</span>
+                           </span>, presented by her to <span class="character">Captain Cook</span>
+                        </span>
+                     </span>
+                  </span>."<br/>
+                        
+                        <br/>Frank.
+                        Zounds, I was in such a hurry to get to work, that I've forgot half my tools.<br/>
+                        
+                       <br/> Cock.
+                        Where's <span class="object">the cloth from <span class="place">Otahiete</span>
+                  </span>?<br/>
+                        
+                        <br/>Frank.
+                        I dare say it's here,
+                        
+                        (feels the coat he has on)
+                        no, mustn't hurt poor Joey. Eh!
+                        (cuts of <span class="object">the skirt of Cockletop's coat</span> while he's admiring the things)
+                        belike that's it,—
+                        (gives it.)<br/>
+                       <br/> Cock.
+                        What wonderful soft texture; we've no such cloath in <span class="place">England</span>, this must have been <span class="object">the fleece of a very fine sheep</span>.<br/>
+                        
+                       <br/> Frank.
+                        Aye, taken from the back of an old stupid ram.
+                        <br/>
+                      <br/>  Cock.
+                        Speak of what you understand you clown, much talk may betray little knowledge. Cut your coat according to your cloath.<br/>
+                        
+                        <br/>Frank.
+                        Yes, Sir, I cut your coat according to your cloth. I must fix him in his opinion now, with a little finesse,
+                        
+                        (aside.)
+                        <span class="interact">
+                     <span class="trade">Measter do expect fifty pounds for this balderdash</span>
+                  </span>.<br/>
+                       <br/> Cock.
+                        Here's the money.
+                        
+                    <br/> 
+               </p>
+               <hr/>
+            </li>
+         </ul>
+         <h2>Poetry</h2>
+         <ul>
+            <li>
+               <b>1774: </b>
+               <span class="author">Courtenay, John (1738-1816). </span>
+               <span class="poem">
+                  <i>An epistle (moral and philosophical) from an officer at Otaheite. To Lady
+                        Gr*s**n*r. With notes, critical and historical. By the author of The rape of
+                        Pomona.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">33 pages MDCCLXXIV. [1774].Literature and Language. </span>
+               <p> Poem, Notes. Notes within the poem which speak about the
+                        Timorodee dance, which the author believes will soon be as popular as other
+                        'suggestive' dances growing in popularity in England. Passage: “See his
+                        advertisement in the Moring Post, Sur l’ Art de Transplanter les Puceleges,
+                        Francois, Italiens, ou Espangnols.—If We reason from analogy,
+                            <span class="place">Otaeheite</span> would soon rival
+                            <span class="place">France</span> and <span class="place">Spain</span> in this
+                        commodity; as the <span class="concept">
+                     <span class="pac">Timorodee dance</span>
+                  </span>, is
+                        more joyous, expressive and animating than either the Fandango, or the
+                        Cotillion. ---<span class="character">Lady Wortley Montague</span>, (who was reckoned
+                        no indifferent judge of such things) describes the sympathetic effect of a
+                        similar dance, in a very pretty manner. <span class="interact">
+                     <span class="affin">
+                            "The dance, says her Ladyship, was very different from what I had seen
+                            before; nothing could be more artful, or more proper to raise certain
+                            ideas. The tunes so soft;<span class="interact">
+                           <span class="sex"> the motions so
+                                languishing, accompanied with pauses and dying eyes! Half falling
+                                back, and then recovering themselves in so artful a manner, that I
+                                am very positive, the coldest and most rigid of prude upon earth,
+                                could not have looked upon them without thinking of something not to
+                                be spoken of”. </span>
+                        </span>
+                     </span>
+                  </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b> 1779: </b>
+               <span class="author">Perry, James. </span>
+               <span class="poem">
+                  <i>Mimosa: or, The sensitive plant; A poem. Dedicated to Mr.
+                        Banks, and addressed to Kitt Frederick, Dutchess of Queensberry,
+                        Elect.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <p> In ECCO. This publication is a poem about the <span class="object">Mimosa plant</span>, discovered on
+                            <span class="place">Otaheite</span>. In the dedication to this poem, author
+                            <span class="character">James Perry</span> speaks to <span class="character">Mr.
+                            Banks</span>, imploring him to spread the word about this plant and
+                        its many significant properties. Passage: "The world will determine with
+                        what justice I dedicate the <span class="object">SENSITIVE PLANT</span>, to a <span class="character">Gentleman so deeply skilled in the science
+                            of <span class="concept">Botany</span>
+                  </span>; and whose desire of acquiring
+                        knowledge has led him to climates, most happily adapted to the nourishment
+                        and the cultivation of that wonderful <em>lusus naturæ</em>. The plains
+                        of <span class="place">Otaeite</span>, (known as they are to us by the luxurious
+                        descriptions we have recieved from you, and your compatriots;) rear this
+                        plant to an amazing height... and <span class="character">Queen Oberea</span>, as well
+                        as her enamoured subjects, feel the most sensible delight in handling,
+                        exercising, and proving its virtues." </p>
+               <hr/>
+            </li>
+            <li>
+               <b> 1779: </b>
+               <span class="author">Fitzgerald, Gerald.. </span>
+               <span class="poem">
+                  <i>The injured islanders, or the influence of art upon the happiness of
+                        nature: a poetical epistle from Oberea of Otaheite to Captain Wallis. By the
+                        ...</i>
+               </span>. <span class="pubPlace">Dublin: </span>
+               <p> Poem, Preface. Looks at how <span class="character">Oberea</span>
+                        treated <span class="character">Captain Wellis</span> as well as difficulty which
+                            <span class="character">Oberea</span> had with her ruling after his visit.
+                        Passage: "And a similar <span class="interact">
+                     <span class="conflict">Revolution</span>
+                  </span>, a little before this, had stripped
+                            <span class="character">Oberea</span> of that Wealth and Power which so eminently
+                        distinguished her at <span class="character">Captain Walls’</span> arrival; she was
+                        then the <span class="character">Queen of O’Taheite</span>, and <span class="interact">
+                     <span class="affin">treated him with peculiar Generosity and
+                            Regard: A Remembrance of their mutual Affection- a Sense of her
+                            subsequent Misfortunes- and a patriotic Feeling</span>
+                  </span>." </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1780: </b>
+               <span class="poem">
+                  <i>The Flower-piece, a collection of modern poems.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <p>This collection of poems contains one as an epistle from
+                            <span class="character">Queen Oberea</span> to <span class="character">Joseph Banks</span>
+                            (<span class="character">Tupia</span> referred to as her "prime minister" and
+                            <span class="place">Otaheite</span> as island). Passage:
+                                <span class="passage">(p.172).. </span>
+                       <br/>
+                  <br/>
+                  <span class="poetryBlock"> 
+                     <span class="line"> There first at eve thy opening sails I spy'd,<br/>
+                     </span>
+                        <span class="line"> And eager glow'd to cleave the briny tide.<br/>
+                     </span>
+                        <span class="line"> My <span class="concept">faithful</span> senate in wife debate,<br/>
+                     </span>
+                        <span class="line"> And weigh'd the dubious interests of the state.<br/>
+                     </span>
+                        <span class="line"> Though some with branding'd lance for <span class="interact">
+                           <span class="conflict">war</span>
+                        </span> declare,<br/>
+                     </span>
+                        <span class="line"> With all frantic signs of wild <span class="concept">despair;</span>
+                        <br/>
+                     </span>
+                        <span class="line"> Yet I more soft to gentle peace inclin'd,<br/>
+                     </span>
+                        <span class="line"> And sooth'd the terrors of <span class="character"> Tupia's</span> mind.<br/>
+                     </span>
+                        <span class="line"> Send them, I cry'd, twice twleve delicious dogs,<br/>
+                     </span>
+                        <span class="line"> And give them cocoas, women, bread, and hogs<br/>
+                     </span>
+                  </span>
+                    </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1782: </b>
+               <span class="author">Mason, William. </span>
+               <span class="poem">
+                  <i>The Dean and the 'Squire: A Political Eclogue. Humbly dedicated
+                        to <span class="character">Soame Jenyns, Esq.</span>
+                  </i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for J. Debrett, successor to Mr. Almon. </span>
+               <p>In ECCO TCP. See <span class="passage">lines 210 -
+                                230. </span> References to
+                            "<span class="place">Zealand-New</span>," "<span class="place">Otaheite</span>,"
+                        and "<span class="character">Queen Oberea</span>" with the idea of criminals going
+                        into exile to <span class="place">the Pacific</span>, and questioning the kinds
+                        of freedom they would find, <span class="interact">
+                     <span class="sex">"taxed" by
+                                <span class="character">Queen Oberea's</span> supposed sexual appetite.
+                            Continues by discussing such a life as comparable to
+                                <span class="character">Adam</span> and <span class="character">Eve</span>
+                     </span>
+                  </span>: <br/>
+                  <br/>
+                  <span class="poetryBlock">
+                            <span class="line"> 
+                                <span class="interact">
+                           <span class="sex">But a cool hundred
+                                        <span class="character">Eves</span> and
+                                <span class="character">Adams</span>;</span>
+                        </span>
+                        <br/>
+                     </span>
+                            <span class="line"> 
+                        <span class="interact">
+                           <span class="sex">I think they would, or soon, or late,
+                                    by <em>
+                                 <span class="concept">quasi compact</span>
+                              </em> found a
+                                        <span class="concept">state</span>.</span>
+                        </span>
+                        <br/>
+                     </span>
+                        </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1793: </b>
+               <span class="author">Preston, William. </span>
+               <span class="poem">
+                  <i>The poetical works of William Preston, Esq. in two volumes.
+                        ...</i>
+               </span>. <span class="pubPlace">Dublin: </span>
+               <span class="passage">vol. 1. </span>
+               <p>In ECCO. Another poem, this time from "a <span class="character">lady of quality in England"</span> to <span class="character">Omiah</span>.
+                        Passage: <br/>
+                  <br/>
+                  <span class="poetryBlock">
+                            <span class="line"> If yet thy land preserves <span class="character">Opano's</span> name,<br/>
+                     </span>
+                            <span class="line"> And <span class="character">Oberea</span>
+                                <span class="interact">
+                           <span class="affin">pines with am'rous
+                                flame</span>
+                        </span>;<br/>
+                     </span>
+                            <span class="line"> If yet, untouch'd, the sacred <span class="object">bread-tree</span>
+                                grows,<br/>
+                     </span>
+                            <span class="line"> Which saw <span class="interact">
+                           <span class="sex">their transports</span>
+                        </span>, and
+                                retains <span class="interact">
+                           <span class="affin">their vows</span>
+                        </span>; <br/>
+                     </span>
+                            <span class="line"> If joys remember'd rapture can impart,<br/>
+                     </span>
+                            <span class="line"> And <span class="place">London</span> lives within
+                                    <span class="character">Omiah's</span> heart;<br/>
+                     </span>
+                            <span class="line"> Dear shall this greeting from thy <span class="place">Britain</span>
+                                prove,<br/>
+                     </span>
+                            <span class="line"> And dear <span class="interact">
+                           <span class="affin">these wishes of eternal
+                                        <span class="concept">love</span>
+                           </span>
+                        </span>.<br/>
+                     </span>
+
+                        </span>
+                    </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1794: </b>
+               <span class="author">Darwin, Erasmus.. </span>
+               <span class="poem">
+                  <i>The botanic garden. Part II. Containing the loves of the plants. A poem.
+                        With philosophical notes.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <p>Poem. Mentions <span class="place">Otahetie</span> and a flower
+                        found there called a Mimosa. Passage:<br/>
+                  <br/>
+                  <span class="poetryBlock">
+                            <span class="line"> As round his shine the gaudy circles bow,<br/>
+                     </span>
+                            <span class="line"> And seal with muttering lips the faithless vow,<br/>
+                     </span>
+                            <span class="line"> 
+                        <span class="interact">
+                           <span class="sex">Licentious Hymen joins their mingled
+                                    hands,</span>
+                        </span>
+                        <br/>
+                     </span>
+                            <span class="line"> And loosey twines the meretricious bands-<br/>
+                     </span>
+                            <span class="line"> Thus where pleased <span class="character">Venus</span>, in the <span class="place">
+                           <span class="pac">southern main</span>
+                        </span>,<br/>
+                     </span>
+                            <span class="line">  Sends all her smiles on <span class="place">Otaheite’s</span> plain,<br/>
+                     </span>
+                            <span class="line">  Wide o’er the isle her silken net she draws,<br/>
+                     </span>
+                            <span class="line"> And the Loves laugh at all, but Natures Laws.<br/>
+                     </span>
+                        </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1794: </b>
+               <span class="poem">
+                  <i>Bell's classical arrangement of fugitive poetry. Vol. XVI.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed by John Bell, British Library, Strand, Bookseller to His
+                        Royal Highness the Prince of Wales, MDCCXCIV. </span>
+               <p>
+                  <span class="character">"Omiah"</span> and
+                            <span class="place">"Otaheite"</span> used in orginal context. The
+                        publication contains poems about <span class="character">Omiah</span> and
+                            <span class="place">Tahiti,</span> some taking on the perspective of
+                            <span class="character">Omiah.</span> Passage: <span class="passage">(p.
+                                116). </span>
+                       <br/>
+                  <br/>
+                  <span class="poetryBlock"> 
+                     <span class="line"> My Lord applauds <span class="character">OMIAH's</span> skill,<br/>
+                     </span>
+                        <span class="line"> Erects a kingdom at his will,<br/>
+                     </span>
+                        <span class="line"> Then gives the king this nice <span class="object">toy;</span>
+                        <br/>
+                     </span>
+                        <span class="line"> Resigns an Isle, and <span class="place">Boston town</span>,<br/>
+                     </span>
+                        <span class="line"> 
+                        <span class="interact">
+                           <span class="imp">Joins <span class="place">Otaheite</span> to the <span class="object">crown,</span>
+                           </span>
+                        </span>
+                        <br/>
+                     </span>
+                        <span class="line"> And makes <span class="character">OMIAH</span> VICEROY!<br/>
+                     </span>
+                  </span>
+                    </p>
+               <hr/>
+            </li>
+         </ul>
+         <h2>Novels</h2>
+         <ul>
+            <li>
+               <b>1778: </b>
+               <span class="author">Way, G. L.. </span>
+               <span class="novel">
+                  <i>Learning at a loss, or the amours of Mr. Pedant and Miss
+                        Hartley. A novel. In two volumes. Vol. II</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for the author, and sold by H. Gardner; and J.
+                        Bew. </span>
+               <p>In ECCO TCP. Epistolary comical novel. See pp. 10-12,
+                        describing a bachelor's study as a place full of interesting stuff: Passage:
+                        "His <span class="object">Chimney</span> was decorated with <span class="object">Jockey Whips</span> perpendicularly suspended from their <span class="object">Thongs,</span> and every other Part of the Walls seemed
+                        loaded with an astonishing Variety of Curbs, Snaffles, Cavessons and
+                        Martingals, with five thousand other <span class="object">
+                     <span class="pac">
+                            Instruments of Equestrian Utility,</span>
+                  </span> full as curious and entertaining
+                        to me, as the <span class="object">
+                     <span class="pac">Weapons of <span class="place">New
+                                Zealand</span> or <span class="place">Otaheite,</span>
+                     </span>
+                  </span> or the
+                        old Bandoleers and Shot Pouches in the Armoury in the Tower."
+                                <span class="passage">(pp. 11-12). </span>
+               </p>
+               <hr/>
+            </li>
+            <li>
+               <b>1780: </b>
+               <span class="author">Croft, Herbert, Sir. </span>
+               <span class="novel">
+                  <i>Love and madness. A story too true. In a series of letters between
+                        parties, whose names would perhaps be mentioned, were they less known, or
+                        less lamented.</i>
+               </span>. <span class="pubPlace">London: </span>
+               <span class="publisher">printed for G. Kearsly. </span>
+               <p>Novel. An epistolary novel which speaks of
+                            <span class="character">Omiah's</span> return to <span class="place">Otahetie</span>
+                        and speculation on regards to difficulty he may find at this return. Also
+                        speaking of possible feeling of the writer for <span class="character">Omiah</span>.
+                        Passage: <span class="interact">
+                     <span class="affin"> "Come then to-marrow—and
+                            surely <span class="character">Omiah</span> will not murder love! Yet I thought
+                            the other day he caught our eyes conversing. Eyes speak a language all
+                            can understand.—But, is a child of nature to nip in the bud that
+                            favorite passion which his <span class="character">mother Nature</span>
+                            planted, and still tends?—What will <span class="character">Oberea</span> and her
+                            coterie say to this, <span class="character">Omiah</span>, when you return from
+                            making the tour of the globe? They’ll black-ball you depend on it."</span>
+                  </span>
+                    </p>
+               <hr/>
+            </li>
+         </ul>
+      </div>
+   </body>
+</html>

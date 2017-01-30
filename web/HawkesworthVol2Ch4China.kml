@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Folder>
+      <name>CHAP. IV. The Passage from the Streight of Magellan, to King George the
+                    Third's Island, called Otaheite, in the South Sea, with an account of the
+                    Discovery of several other Islands, and a description of their
+                    Inhabitants.</name>
+      <Folder>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>95° 46′ W. and at noon, our latitude was 42°
+                        24′ S. and the variation, by azimuth, 11° 6′ E</description>
+            <Point>
+               <coordinates>95.766,42.4,0</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>On the 30th, [day Thursday 30] the variation, by azimuth, was 8° 30′ E. our
+                    latitude was 32° 50′; longitude, by account, 100′ W. I began now to keep the
+                    ship to the northward, as we had no chance of getting westing in this latitude</description>
+            <Point>
+               <coordinates>100,32.833333,0</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>On the third of May, [month May] [day Sunday 3] about four in the afternoon, we
+                    had an observation of the sun and moon, by which we found our longitude to be
+                    96° 26′ W. the variation by the azimuth was 5° 44′ E. at six in the evening,
+                    [day Monday 4] and at six the next morning, it was 5° 58′ E. Our latitude, this
+                    day at noon, was 28° 20′ S.</description>
+            <Point>
+               <coordinates>96.433333,28.333333,0</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>At four in the afternoon we had several observations
+                    for the longitude, and found it to be 96° 21′ W.; at seven in the evening, the
+                    variation was 6° 40′ E. by the azimuth, and the next morning at 10 it was, [day
+                    Tuesday 5] by amplitude, 5° 48′ E.; at three in the afternoon, the variation, by
+                    amplitude, was 7° 40′ E.</description>
+            <Point>
+               <coordinates>96.433333,28.333333,0</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>Our latitude was 27° 28′ S. longitude, by account, 106° W.</description>
+            <Point>
+               <coordinates>106,27.466667,0</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>[No name given]</name>
+            <description>I called it WHITSUN ISLAND. [place Whitsun-island] It
+                    is about four miles long, and three wide. Its latitude is 19° 26′ S. and its
+                    longitude, by observation, 137° 56′ W.</description>
+            <Point>
+               <coordinates>137.933333,19.433333,0</coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+   </Folder>
+</kml>

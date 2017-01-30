@@ -1,0 +1,132 @@
+html{
+    background-color: #0F6771;
+    /*background-image: url('TahitIsl2.jpg'); 
+background-size: 100% 100%;
+    background-repeat:no-repeat;
+background-attachment:scroll;*/
+background-color:  #2C3764;
+    color: #580000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
+body{
+   /*background-color: #BBD6F1;*/ 
+   
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+margin-right:auto;
+padding: 10px 10px 40px 10px;
+border-radius: 10px;
+
+}
+div#banner{
+margin-left: auto;
+margin-right:auto;
+border:0;
+padding: 0;
+opacity:.9; 
+float:top
+}
+div#navigation{
+background-color: #F2F5CC;
+    color: #A04747;
+margin-left: auto;
+margin-right:auto;
+text-align:center;
+width: 90%;
+   padding: 0px 19px 40px;
+float:top;
+position:relative;
+top:-25px;
+
+}
+
+div#navigation ul.drop_menu {
+padding:5px 60px 5px;
+list-style-type:none;   
+    
+}
+div#navigation ul.drop_menu li { float:left; padding:5px 8px 5px 8px;  }
+
+div#navigation ul.drop_menu li ul 
+{background-color: #9DD5BA;
+color: #660033;
+
+position:absolute;
+left:-9999px;
+top:-9999px;
+list-style-type:none;
+}
+
+div#navigation ul.drop_menu li ul li 
+{
+font-size:.8em; font-weight:bold;
+list-style-type:none;
+
+}
+div#navigation ul.drop_menu li ul li span.tiny {
+font-size:.75em; font-weight:normal    
+}
+
+div#navigation ul.drop_menu li:hover { position:relative; background:#7EC9B3; }
+
+div#navigation ul.drop_menu li:hover ul {
+
+left:0px;
+
+top:50px;
+
+background:#9DD5BA;
+
+padding:3px;
+
+}
+
+
+div#navigation ul.drop_menu li:hover ul li a {
+
+
+
+background-color:#9DD5BA;
+
+}
+
+div#navigation ul.drop_menu li:hover ul li a:hover { text-decoration:underline; }
+
+
+
+div#mainPage{
+     margin-left: auto;
+margin-right:auto;
+text-align:left;
+width: 90%;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFFFCC;
+    border-radius: 10px;
+     position:relative;
+    top:-15px;
+  z-index:-1; 
+}
+h1 {
+color:#A04747;
+letter-spacing:3px;
+display:block;
+text-align:center;
+font-size:38px}
+h2 {color:#00005C; font-size:20px; padding:0; display:block; text-align:center; 
+}
+
+h3 {color:#00005C; display:block; text-align:center; font-size:16px;
+}
+img{
+border-radius:10px;
+}
+
+p{
+    padding: 0px 20px 0px 20px;
+}
+a{
+color:#00005C;
+text-decoration:none;}
+a:hover{
+text-decoration:underline;}

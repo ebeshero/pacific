@@ -1,0 +1,93 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" type="text/css" href="histoverlay.css"/>
+        <title>Mapping Project</title>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+            <meta charset="utf-8">
+                <title>Society Islands</title>
+                <style>
+      html, body, #map-canvas {
+        height: 75%;
+        margin: 35px;
+        padding: 10px
+      }
+    </style>
+                <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+                <script>
+// This example uses a GroundOverlay to place an image on the map
+// showing an antique map of Society Islands
+// Greg Gismondi
+
+//Creating a variable named historicalOverlay
+var historicalOverlay;
+
+//Starting a function to create a map
+function initialize() {
+    //Here is creating the variables for the center, southwest, and northeast points
+    
+    
+    
+   //This variable is the center point of zoom when first opening the html 
+  var center = new google.maps.LatLng(-17.533, -149.833);
+   //This variable is the south west point of the whole image. Latitude first then Longitude:
+   //North is +; South is -; East is +; West is -
+  var southWest = new google.maps.LatLng(-23.656403, -156.670508);
+  //This variable is the north east point of the whole image. Latitude first then Longitude:
+  //North is +; South is -; East is +; West is -
+  var northEast = new google.maps.LatLng(-13.406531, -135.328517);
+  
+  //This variable is the combination of southWest and northEast
+  var imageBounds = new google.maps.LatLngBounds(southWest,northEast);
+
+   //This variable contains the zoom option and center option: Notice the center = the center variable.
+  var mapOptions = {
+    zoom: 6,
+    center: center
+  };
+  
+  //This is opacity settings
+  var overlayOpts = {
+      opacity:0.5
+  }
+
+   //This creates the map using map-canvas parameters set in html and combining them with the map options
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+    //This calls the variable historicalOverlay and set it to a new overlay with a url for:
+    //Map image, variable for SW and NE, Opacity, and the google map itselt
+  historicalOverlay = new google.maps.GroundOverlay(
+      'http://i.imgur.com/Yg6O1OA.jpg',
+      imageBounds, overlayOpts);
+  historicalOverlay.setMap(map);
+}
+
+//This loads the function initialize where the map details are created
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+    </head>
+    <body>
+        <div id="banner">
+            <a href="index.html">
+                <img src="banner7.jpg" alt="Digital Archives and Pacific Cultures"/>
+            </a>
+        </div>
+        <h1>Historic Map Overlay</h1>
+        <p>Below is an historic map of 1769 charting the first Pacific voyages of Wallis, Carteret, and Cook, overlaid upon a modern Google Map of French Polynesia. Clicking on the zoom button, or on the words "French Polynesia," zooms the viewer to render the historic mapping of Tahiti translucently visible within the modern Google view.</p>
+       
+        <div id="map-canvas"></div>
+      
+        <div id="mainPage">
+           
+            
+            
+            <p>This view helps to visually summarize and compare the trajectories of the early Pacific voyages. We have chosen the 1769 French map primarily because of its early publication date and <a href="http://commons.wikimedia.org/wiki/File:1769_Cook_Map_of_Tahiti,_the_Society_Islands,_and_the_Vicinity_-_Geographicus_-_OtahitiDecouverts-cook-1769.jpg">public availability in high resolution</a> (thanks to Geographicus Rare Antique Maps) for our map overlay. Two members of our Fall 2013 mapping group, Gregory Gismondi and Bryan Cardonick, applied a Google Apps script to connect and merge the digitized historic map with a Google Map of the same region.  <b><a href="maps.html">See All Maps: Digital Archives and Pacific Cultures</a></b></p>
+            
+        </div>
+       
+      
+    </body>
+</html>

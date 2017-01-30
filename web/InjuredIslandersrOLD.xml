@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Injured Islanders</title>
+        <respStmt>
+          <resp>transcribed, encoded, and edited by</resp>
+          <persName>Digital Humanities Class, Fall 2012</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+          
+        </sponsor>
+        <funder>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+          
+        </funder>
+        <principal>
+          <persName>Elisa E. Beshero-Bondar</persName>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, encoding, and notes coded by</resp>
+          <persName>Megan Hughes,</persName>
+          <persName>Ashley Necciai,</persName>
+          <persName>Khalil Zeigler</persName>
+          <orgName>Fall 2012 Digital Humanities Class</orgName>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+        </respStmt>
+      </editionStmt>
+        <publicationStmt>
+            <publisher>Elisa Beshero-Bondar for demonstration purposes only. May not be reproduced without
+              permission</publisher>
+            <address>
+               <addrLine/>
+            </address>
+            <idno type="ISBN"/>
+            <availability>
+              <p/>
+            </availability>
+            <distributor/>
+          </publicationStmt>
+      <sourceDesc>
+        
+          <listBibl>
+            <biblStruct>
+              <monogr>
+                <author>Fitzgerald, Gerald</author>
+                <title>
+                  The Injured Islanders, or the Influence of Art upon the Happiness of Nature: A Poetical Epistle from Oberea of Otaheite to Captain Wallis. By the Author of the Academick Sportsman.
+                </title>
+                <imprint>
+                  <publisher>Printed by T. T. Faulkner, in Parliament Street.</publisher>
+                  <pubPlace>Dublin</pubPlace>
+                  <date>1779</date></imprint>
+                <biblScope>First 150 lines, coded by Megan Hughes, Ashley Necciai, and Khalil Zeigler, Fall 2012 Digital Humanities Class at <ref target="http://greensburg.pitt.edu">the University of Pittsburgh at Greensburg</ref>.</biblScope>
+              </monogr>
+            </biblStruct>
+          </listBibl>
+    
+        
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <div type="introduction">
+        <p><ref target="PPCInjured.html#Intro">Editor's Introduction</ref>, by Megan Hughes, Ashley Necciai, and Khalil Zeigler</p>
+      </div>
+      
+      <div type="preface">
+        <p>
+          Preface 
+          
+          Few Subjects of similar Nature have afforded more 
+          Entertainment to the Public than the late Voyages
+          to the <placeName>Southe Ocean</placeName>; their Design, and the Degree of 
+          Success that has attended it, are now generally known :
+          But whatever Advantages either the Spirit of Enterprise, 
+          or commercial and Scientifick Interests may derive from 
+          some Discoveries that have been made in <placeName>that distant He-
+          misphere</placeName>,it is much to be lamented, that the innocent 
+          Natives have been Sufferers by the Event <note type="author" anchored="true"> “It were indeed sincerely to be wished, says <ref target="InjuredPPC.html#Forster">Mr. FORSTER</ref>, that the Intercourse which has lately subsisted between Europeans and the Natives of the <placeName>South Sea Islands</placeName>, may be broken off in Time, before the Corruption of Manners which unhappily characterizes <placeName>civilized Regions</placeName>, may reach that innocent Race of Men, who live here fortunate in their Ignorance and Simplicity: But it is a melancholy Truth that the Dictates of Philantropy do not harmonize with the Political Systems of <placeName>Europe</placeName>.” FORSTER’S Voyages, V.I. P.247—8. Dub. Ed.</note>: The imagin-
+          ary Value annexed to European Toys and Manufactures
+          and the Ravages of a particular Disorder have already in-
+          jured their Morals and their Peace; even the Instruments 
+          of Iron, which so much facilitate the ordinary Operations
+          of Industry, have been used as Weapons of Destruction, 
+          or perverted to the Purposes of Ambition and Revenge. 
+          The Truth of this Observation appears from the Use which 
+          the Head of a sequestered Family' at <placeName>Dusky Bay</placeName> in <placeName>New 
+          Zealand</placeName> intended to make of the Axes he received (See 
+          FORST. V. I. p. 142.)—from the Magnitude and Destina- 
+          tion of the Fleet of <placeName>O’Taheite</placeName> assembled at <placeName>Oparee</placeName> in 
+          April 1774, about seven Years after the Discovey of the 
+          <placeName>Island</placeName> by Captain WALLIS (ibid V. II P. 51—5.)—and 
+          also from the Commotions excited by Tootahah, who had 
+          been Sovereign of it when Captain COOK first arrived there 
+          in 1769: One of these, which was occasioned: by an Abuse 
+          of the Presents he had received (ibid. P. 80.) deprived him 
+          in the End, of his Kingdom and his Life. And a similar 
+          Revolution, a little before this, had stripped Oberea of 
+          that Wealth and Power which so eminently distinguished 
+          her at Captain WALLIS’S Arrival; she was then Queen of 
+          <placeName>O’Taheite</placeName>, and treated him with peculiar Generosity and 
+          Regard: A Remembrance of their mutual Affection—a 
+          Sense of her subsequent Misfortunes—and a Patriotic Fee-
+          inging for the Fate of her <placeName>Country</placeName>, are the Basis of the fol-
+          lowing Poem.
+          
+          Before I conclude, it may not be improper to observe,
+          that the Natives of <placeName>O'Taheite</placeName>, whose singular Customs
+          and Manners are occasionally described, may be considered
+          by many who have only read <ref target="InjuredPPC.html#Hawkesworth"> Doctor Hawkesworth's
+            Compilation,</ref> as fitter Subjects for Ridicule than  <ref target="InjuredPPC.html#Pangyrick">Panegyrick;</ref>
+          but whoever peruses the Memoirs given of them by
+          the latest Voyagers, will find that the more these hospi-
+          table and happy Islanders are known, the more pleasing
+          they appear : <ref target="InjuredPPC.html#Character">He will also find that the irregular Gratification 
+            of their Passions, which has been regarded as the
+            most exceptionable Part of their Character,</ref> was trans-
+          mitted through a <ref target="#FalseMedium">false Medium </ref> to our View. It must be
+          notwithstanding allowed that in this, as in every other
+          Country, there is a Diversity of Projects which may af-
+          ford the Wit, as well as the Buffoon, an Opportunity of
+          taking an unfavourable Survey, and of sporting with the
+          Defects of unassisted Nature. Entitled to the same Liberty,
+          I have chosen what, I am persuaded, every Advocate
+          for Humanity would choose, to look through a different 
+          Perspective, which has presented me with several
+          Objects in the Lives aud Circumstances of these Fellow-
+          citizens of the World, that even European Grandeur
+          might envy or admire. It is not, however, my Intention
+          to hazard, farther than what is consistent with the Pro-
+          priety of my Plan, any invidious Comparison between
+          the Happiness of Natural and Civilized Society, which
+          might lead me into a Deviation from local Images, and
+          that Precision and  <ref target="InjuredPPC.html#Perspicuity">Perspicuity,</ref> which in a descriptive Poem
+          of this Nature, I think necessary, and have endeavoured
+          to preserve; how far I have succeeded or failed in this
+          Design, is submitted with Respect, to the Judgment and
+          Indulgence of the candid Public.
+          
+        </p>
+        
+        
+      </div>
+      
+      <div type="poem">
+        
+        <head>
+         The Injured Islanders
+          or 
+          The Influence of Art Upon 
+          The Happiness of Nature: 
+          A Poetical Epistle from Oberea Otaheite<note type="author" anchored="true"> Called Taiti by M. Bougainville and Taheitee by Mr. Forster</note>
+          <ref target="InjuredPPC.html#latin">Quod Sol atque Imbres dederant, quod Terra crearat sponte sua, satis id placabat Pedlora Donum.</ref>
+        </head>
+     <lg>
+       <l n="1">REMOV'D from Pow'r, from all its Pomp retir'd, </l>
+       <l n="2"> And far from <ref target="InjuredPPC.html#Thee">Thee</ref> whom most my Soul admir'd,</l>
+       <l n="3">No more I shine to emulate the Day </l>
+       <l n="4">Rob'd in the Lustre of Imperial Sway;</l>
+       <l n="5">No suppliant Crowds attend my sov'reign Will</l> 
+       <l n="6">Anxious to hear, and ardent to fulfil;</l>
+       <l n="7">No flatt'ring Scenes my festive Hours prolong</l>
+       <l n="8">Where Mirth convivial cheers the circling Throng;</l>
+       <l n="9">Each splendid Round of high-born State resign'd,,</l>
+       <l n="10">I try the humbler Comforts of the Mind; </l>
+       <l n="11">The Task unpractis'd growing Cares control,</l>
+       <l n="12">And fond Remembrance ravages my Soul;</l>
+       <l n="13">In vain I seek the <ref target="InjuredPPC.html#solace">Solace of the Shade</ref>,</l>
+       <l n="14">Where the <ref target="InjuredPPC.html#turtle">green Turtle</ref> flutters thro' the Glade;</l>
+       <l n="15">Or up the Steep with straining Steps I roam,</l>
+       <l n="16">Where the pure Stream precipitates in Foam,</l>
+       <l n="17">Where Dew-dropp'd Shrubs breathe Fragrance as I stray;</l>
+       <l n="18">That lures the Breeze which steals their Sweets away:</l>
+       <l n="19">There as I sit above the level Plain,</l>
+       <l n="20">Sooth'd by responsive Murmurs from the <placeName>Main</placeName>, </l>
+       <l n="21">And round expatiate o'er each vary'd Hue</l>
+       <l n="22">Of once lov'd Landscapes op'ning to my View,</l>
+       <l n="23">Still from each Sense their transient Beauties fly,</l>
+       <l n="24">Or feebly strike, and in a Moment die ;</l>
+       <l n="25">Still in my Breast I miss my <ref target="InjuredPPC.html#wonted">wonted</ref> Ease, </l>
+       <l n="26">Nor Time restores it, nor can Pleasure please.</l>
+       <l n="27">From Thee, whose <concept type='euro'>Pow'r</concept> astonish'd Isles behold</l>
+       <l n="28">O'er Waves triumphant, and in Terrors bold,</l>
+       <l n="29">Whose fearless <concept type='euro'>Eye</concept>, where burning Suns have shone,</l>
+       <l n="30">Search'd the wide Waste, and mark'd out Worlds un-known,</l> 
+       <l n="31">From Thee, bright Offspring of the distant Skies!</l>
+       <l n="32">These new-born Cares, illustrious Wallis, rife;</l>
+       <l n="33">Contemn'd for Thee, where e'er my Footsteps stray,</l>
+       <l n="34">The Charms of Nature idly tempt my Way,</l>
+       <l n="35">Unheeded Blooms their fragrant Odours shed,</l> 
+       <l n="36">Untasted Sweets in mantling Clusters spread.</l>
+       <l n="37">Nor Fruits my Taste, nor Flow'rs attract my Eye,</l>
+       <l n="38">The <ref target="InjuredPPC.html#Jambu">Jambu's Richness</ref>, nor Gardenia's Die;</l>
+       <l n="39">To Thee alone, on Fancy's rapid Wing,</l>
+       <l n="40">My Soul, my Sense, my wafted Wishes spring; </l>
+       <l n="41">In ev'ry Change my restless Passions find,</l>
+       <l n="42">Thy hast'ning Image follows close behind,</l>
+       <l n="43">Presents each Art, attendant in thy Train,</l>
+       <l n="44">To scatter <concept type='euro'>Commerce</concept> o'er the boundless <placeName>Main</placeName>,</l>
+       <l n="45">Rude Nature rescue from it's rough Disguise, </l>
+       <l n="46">And grant each <concept type='euro'>Good</concept> that <concept type='euro'>social Manners</concept> prize:—</l>
+       <l n="47">Thy partial Favor to <placeName>this Isle</placeName> profess'd—</l>
+       <l n="48">Thy grateful Presents to the Heart address'd—</l>
+       <l n="49">Thy fervent Vows in Friendship's Guise array'd,</l>
+       <l n="50">While more than Friendship ev'ry Vow convey'd— </l>
+       <l n="51">These all recurring, constant as the Day,</l>
+       <l n="52">Reign in my Breast resistless in their Sway,</l>
+       <l n="53">Usurp the Scenes my free-born Pleasures knew,</l>
+       <l n="54">Nor leave a Wish unleagu'd with Love and You.</l>
+       <l n="55">Late, as along the Verdure-vested Lawn </l>
+       <l n="56">My Morning Steps approach'd the blushing Dawn,</l>
+       <l n="57">Far from the <placeName>Beach</placeName>, and pendent from the Sky,</l>
+       <l n="58">A distant <object type='euro'>Vessel</object> caught my longing Eye,</l>
+       <l n="59">The purple Streamers, Wave by Wave, appear,</l>
+       <l n="60">And Love still whispers, lo! thy Wallis near; </l>
+       <l n="61">Oh joyful Hope!— to greet Thee I prepare,</l>
+       <l n="62">And bind the <ref target="InjuredPPC.html#Tomou">Tomou</ref> <note type="author" anchored="true"> Human Hair plaited, in which they stick Flowers of various Kinds, particularly the(Gardenia) Cape Jessamine.</note> round my fragrant Hair,</l>
+       <l n="63">With grateful Gifts of vegetable Store</l>
+       <l n="64">I haste impatient to the crowded <placeName>Shore</placeName>,</l>
+       <l n="65">In vain I haste,—no Wallis meets me there, </l>
+       <l n="66">No Friend, no Fondness to reward my Care,</l>
+       <l n="67">Bereft of power, and destitute of Train,</l>
+       <l n="68">My humble Off'rings<note type="author" anchored="true">"She complained to the Lieutnant that she was poor (teetee) and had not a Hog to give her Friends" Foster, V.I.P 293</note> scarce Acceptance gain,</l>
+       <l n="69">To richer Chiefs, who rule <placeName>Taheitee</placeName>'s Land,</l>
+       <l n="70">The <object type='euro'>British Treasures</object> pass from Hand to Hand, </l>
+       <l n="71">The Crimson Plumes,<note type="author" anchored="true">Red Feathers are highly valued at <placeName>O'taheite</placeName>.</note> the <object type='euro'>Beads</object> of brightest Die,</l>
+       <l n="72">The <object type='euro'>Mirrors</object> faithful to the Gazer's Eye,</l>
+       <l n="73">The precious <object type='euro'>Gifts</object>, whose boasted <concept type='euro'>Aid</concept> we feel,</l>
+       <l n="74">Of pointed <object type='euro'>Iron</object>, and of polish'd <object type='euro'>Steel</object>,—</l>
+       <l n="75">Boast tho' we may, to judge them by the past, </l>
+       <l n="76">These <object type='euro'>Gifts</object> may prove our fatal <concept type='euro'>Foes</concept> at last,</l>
+       <l n="77">By piercing <object type='euro'>Steel</object> tho' proudest Forests fall, </l>
+       <l n="78">And take new Forms at Man's <concept type='euro'>Imperial</concept> Call,</l>
+       <l n="79">By <object type='euro'>Steel</object> too Man his Fellow Man annoys,</l>
+       <l n="80">It tempts as <concept type='euro'>Plunder</concept>, and as <concept type='euro'>Death</concept> destroys, </l>
+       <l n="81">The dang'rous <concept type='euro'>Wealth</concept> exotic <concept type='euro'>Wants</concept> inspires</l>
+       <l n="82">Where equal Nature  <ref target="InjuredPPC.html#levelled">levell'd</ref> all Desires,</l>
+       <l n="83">And, social Freedom sapp'd by envious <concept type='euro'>Strife</concept>,</l>
+       <l n="84">We risk at once our Morals and our Life.</l>
+       <l n="85">Curs'd the <concept type='euro'>Desire</concept> for <concept type='euro'>Wealth</concept> like this that made </l>
+       <l n="86">A rival Chief<note type="author" anchored="true">Sovereign of the lesser,or <placeName>South-East Peninsula</placeName> of the <placeName>Island</placeName>; for an Account of the War, see FORSTER V.II. P. 78. </note> my Royal Realms invade !</l>
+       <l n="87">The lifted <object type='euro'>Ax</object>—Ah! Wallis, shal I tell?</l>
+       <l n="88">On all our Friends with dreadful <concept type='euro'>Havock</concept> fell,</l>
+       <l n="89">An instant Flight thy Obra scarce could save,</l>
+       <l n="90">Where the stern <placeName>Mountain</placeName><note type="author" anchored="true">The Mountains always afford them Refuge from impending Danger, till the Passion of the Conqueror, which is violet, but lasting, has subsided.</note> frowns upon the Wave— </l>
+       <l n="91">Where  <ref target="InjuredPPC.html#Cloud-girt">Cloud-girt</ref> Rocks their cheerless Bosoms bare,</l>
+       <l n="92">The Wretches last sad Refuge from <concept type='euro'>Despair</concept> ! —</l>
+       <l n="93">There, to conceal me from the furious Foe,</l>
+       <l n="94">I sunk depress'd in solitary Woe;</l>
+       <l n="95">As some tall Palm-Tree, Sov'reign of the Plain,</l>
+       <l n="96">That tops the Grove, and glads th'admiring Swain,</l>
+       <l n="97">If sudden Shook by Autumn's angry Storm,</l>
+       <l n="98">Shrinks from the Blast to hide its humbled Form,</l>
+       <l n="99">Stripp'd of its Fruit, it's Foliage and it's Pride,</l>
+       <l n="100">It naked stands, and droops on ev'ry Side; </l>
+       <l n="101">So helpless Obra, in a luckless Hour,</l>
+       <l n="102">Yields to <ref target="InjuredPPC.html#Fate">her Fate,</ref> divested of her Pow'r,</l>
+       <l n="103"> Her only Trust in <ref target="InjuredPPC.html#Tanes">Tane's</ref> <note type="author" anchored="true"> A Son of their supreme Deities, whom they suppose to take a greater Part in the Affairs of Mankind. See HAWK. Voyages, V. II. P.81. Dub. Ed. </note>" wife Decree,</l>
+       <l n="104">In Hope, in Love, in Justice, and in Thee.</l>
+       <l n="105">Nor here alone <concept type='euro'>Commotion</concept>'s hostile Hand</l>
+       <l n="106">With <concept type='euro'>Rage</concept> and <concept type='euro'>Rapine</concept> wastes a trembling Land,</l>
+       <l n="107">'Gainst <placeName>other Shores</placeName> what fatal <concept type='euro'>Projects</concept> rise!</l>
+       <l n="108">What <ref target="InjuredPPC.html#Fleets"><object type='euro'>Fleets</object></ref> <note type="author" anchored="true">The Fleet here alluded to was intended against the Island of <placeName>Eimeo</placeName>, whose Chief had revolted : It consisted of 159 great double Canoes of War, from 50 to 90 Feet long between Stem and Stern, besides 70 smaller ones, &amp;c. &amp;c. and yet was only the naval Force of a single District. Hence it appears how much they must have been indebted to European Tools and Models in this respect, since Captain Wallis' Discovery of the Island when no such Armaments could be seen. See FORS. V. II. P. 51-4, &amp;c.</note> tremendous fill my wond'ring Eyes !</l>
+       <l n="109">Already launch'd, I see their awful Form</l>
+       <l n="110">Mount the high Waves, and dare the threat'ning Storm,</l>
+       <l n="111">See their fell <concept type='euro'>Purpose</concept> Freedom to o'erwhelm,</l>
+       <l n="112"><concept type='euro'>Pride</concept> at the <object type='euro'>Prow</object>, <concept type='euro'>Presumption</concept> at the <object type='euro'>Helm</object>--</l>
+       <l n="113">See <ref target="InjuredPPC.html#SubjectIsles">subject <placeName>Isles</placeName>,</ref> late Objects of our Care,</l>
+       <l n="114">Mark'd out for <concept type='euro'>Plunder</concept>, <concept type='euro'>Servitude</concept>, <concept type='euro'>Despair</concept>,--</l>
+       <l n="115">Invading <concept type='euro'>Power</concept> <concept type='euro'>Imperial Rights</concept> define--</l>
+       <l n="116">Asserted Liberty these Rights decline--</l>
+       <l n="117"><concept type='euro'>Discord</concept> and <concept type='euro'>War</concept> in dread <concept type='euro'>Confusion</concept> rise</l>
+       <l n="118">With Widow's Wailings, and with Orphan's Cries--</l>
+       <l n="119">The ravag'd Plains to <concept type='euro'>Desolation</concept> giv'n,</l>
+       <l n="120">And ev'ry <concept type='euro'>Crime</concept> that calls the Wrath of Heav'n:</l>
+       <l n="121">Ah! what a <concept type='euro'>Change</concept> from all that charm'd before,</l>
+       <l n="122">When kindred Love connected ev'ry Shore,</l>
+       <l n="123">When mutual Int'rest, spreading unconfin'd,</l>
+       <l n="124">Parental Care and <ref target="InjuredPPC.html#FilialDuty">Filial Duty </ref>join'd—: .</l>
+       <l n="125">Such were the Bands that held our happy <placeName>State</placeName>,</l>
+       <l n="126">Ere <concept type='euro'>Lux'ry</concept> taught <concept type='euro'>Ambition</concept> to be great—</l>
+       <l n="127">Ere <concept type='euro'>Lust</concept> of <concept type='euro'>Power</concept> to <concept type='euro'>Deeds</concept> oppressive led—</l>
+       <l n="128">Ere <ref target="InjuredPPC.html#Crimes"> <placeName>Europe</placeName>'s <concept type='euro'>Crimes</concept> </ref>with <placeName>Europe</placeName>'s <concept type='euro'>Commerce</concept> spread;</l>
+       <l n="129">Do these, alas! thy hapless <placeName>Country</placeName> shake?</l>
+       <l n="130"><concept type='euro'>Corruption</concept> sap it, and <concept type='euro'>Contention</concept> break?</l>
+       <l n="131">Or dares proud <concept type='euro'>Trade</concept>, if meant for all Mankind,</l>
+       <l n="132">Here, only here, the dearest Ties unbind?</l>
+       <l n="133">In <ref target="InjuredPPC.html#stinted"> stinted</ref> Regions pour it's Blessings round?</l>
+       <l n="134">In Climes luxuriant ev'ry Bliss confound?</l>
+       <l n="135">As Draughts, which there the languid Frame sustains</l>
+       <l n="136">Too pow'rful here intoxicate the Brain, *</l>
+       <l n="137">Till giddy Reason, fick'ning and unsound,</l>
+       <l n="138">To <concept type='euro'>Madness</concept> turns, and spreads a <concept type='euro'>Ruin</concept> round.</l>
+       <l n="139">O Thou, in whom my Heart still seeks Repose,</l>
+       <l n="140">Haste to prevent, or mitigate our <concept type='euro'>Woes</concept>,</l>
+       <l n="141">O Wallis, haste, and, emulous of Praise,</l>
+       <l n="142">Our drooping Spirits to their Level raise,</l>
+       <l n="143">Till native Joys, the Mists of Error past,</l>
+       <l n="144">Again return, and brighten to the last.</l>
+       
+       <!-- We are annotating and editing up to here-->
+       
+     </lg>
+        <lg>
+       <l n="145">danst thou forget? can Memory e'er "betray </l>
+       <l n="146">The last fad Hour I urged your longer Stay?</l>
+          <l n="147">The <object type='euro'>Masts</object> were rear'd with <object type='euro'>Arms</object> extended wide</l>
+       <l n="148">To scourge the Storm, and awe th'insurgent Tide,</l>
+       <l n="149">While, fondly flutt'ring to the favourite Gale,</l>
+          <l n="150">Rose the fair Bosom of the swelling <object type='euro'>Sail</object> </l>
+       <l n="151">Back to the <placeName>Beach</placeName>, desponding still, and stow,</l>
+          <l n="152">I vainly turn'd to shun the coming <concept type='euro'>Woe</concept>,</l>
+       <l n="153">No Shark-tooth' Punctures pour'd a sanguine Stream,</l>
+       <l n="154">But Heart-sprung Sorrows flooded all my Frame,</l>
+       <l n="155">Till my faint Soul in silent Anguish fell, </l>
+       <l n="156">Rose but in Sighs, and feebly breath'd—farewell!</l>
+       <l n="157">Touch'd with my Grief, and friendly to my Fears,</l>
+          <l n="158">Midst the broad <object type='euro'>Deck</object> you mark'd the circling Years,</l>
+       <l n="159">On sacred Plumes this solemn Vow express'd,</l>
+       <l n="160">To Heav'n and me alternately address'd, </l>
+       <l n="161">That ere the splendid Ruler of the Day</l>
+       <l n="162">Could close the Circuit of his annual Way,</l>
+       <l n="163">A quick Return, if Life indulg'd Desire,</l>
+       <l n="164">Should prove the Witness of your faithful Fire-</l>
+       <l n="165">Give willing Wallis to his Obra's Arms, </l>
+       <l n="166">For Obra then had Empire, and had Charms !—</l>
+       <l n="167">Pour at her Feet—fond Tribute of his Heart!</l>
+       <l n="168">The richest Products <placeName>distant Realms</placeName> impart</l>
+       <l n="169">Whate'er for Use or Ornament designed,</l>
+       <l n="170">What decks the Person or delights the Mind, </l>
+       <l n="171">Should here transplanted own his fost'ring Hand,</l>
+       <l n="172">Bloom all around, and bless the lovely Land.</l>
+       <l n="173">Where now are all these flatt'ring prospects fled ?</l>
+       <l n="174">Where the fond Hopes that once my Fancy led ?</l>
+       <l n="175">Where the kind Looks ? the sympathetic Tears ? </l>
+       <l n="176">The soothing Vows that calm'd my rising Fears ?</l>
+       <l n="177">The promis'd Gifts to dissipate Despair ?</l>
+       <l n="178">Baits to entice! and springes to ensnare \</l>
+       <l n="179">My captive Heart, still struggling to be free,</l>
+       <l n="180">Strives but in vain, to fly from Love and Thee, </l>
+       <l n="181">Yet oft resigns, indulgent to it*s Ease,</l>
+       <l n="182">Lost in Reflection's solitary Maze :</l>
+          <l n="183">As in the <object type='euro'>Tube</object>, which lifts the gazing Eye</l>
+       <l n="184">To radiant Beauties of the spangled Sky,</l>
+       <l n="185">The wond'ring Sense sees Worlds superior reign,</l> 
+       <l n="186">Impatient mounts, and dwells on ev'ry Scene ;</l>
+          <l n="187">With equal <concept type='euro'>Zeal</concept>, to foreign Coasts and Climes,</l>
+       <l n="188">To different Empires, and to distant Times,</l>
+       <l n="189">Thy dear Description oft my Memory draws,</l>
+       <l n="190">And awful opes immense Creation's Laws ? </l>
+       <l n="191">But chiefly fix'd my fondest Thoughts abide</l>
+          <l n="192">Where subject Seas display <concept type='euro'>Britannia's Pride</concept>,</l>
+       <l n="193">Where hardy Chiefs, on arduous Actions bent,</l>
+       <l n="194">Contemn like Thee the Limits of Content,</l>
+          <l n="195">Till, by the Tempest of <concept type='euro'>Ambition</concept> hurl'd,</l>
+       <l n="196">They live, or die—the Sov'reigns of the World.</l>
+       <l n="197">Ev'n now their haughty Standards I survey</l>
+       <l n="198">Rear'd in this <placeName>Isle</placeName>, as Ensigns of their Sway,</l>
+       <l n="199">Each dark Recess excursive they explore,</l>
+       <l n="200">Search the deep Vale, or coast the coral Shore,</l> 
+       <l n="201">Mount the rough Rocks, with Herbs fantastic spread,</l>
+       <l n="202">And dare disclose the Morais of the Dead :</l>
+       <l n="203">Nor earth alone—the- starry Heights they trace,</l>
+       <l n="204">And watch the Planets in their fond embrace,</l>
+       <l n="205">Whose Bliss connubial in th' Eclipse's Shade.</l>
+          <l n="206">Their impious Eyes with prying <object type='euro'>Tubes</object> pervade,</l>
+       <l n="207">Till secret Nature, pierc'd by Mortal Sight,</l>
+       <l n="208">A Captive yields, and blushes into Light.</l> 
+          <!-- Lines numbers need to be fixed from 209- end-->
+       <l n="211">Say to what tend these forward Views that raise</l>
+          <l n="212"><concept type='euro'>Presumptuous</concept> Mortals to their Maker's Ways ? </l>
+          <l n="213">To what can <concept type='euro'>Arts</concept>, or <concept type='euro'>Industry</concept> aspire ?</l>
+          <l n="214">What proud <concept type='euro'>Ambition</concept>'s utmost Aims defiTe ?</l>
+       <l n="215">But cheerful Ease, that wants nor Toil, nor Skill;</l>
+       <l n="216">The Sun can give it, and the cooling Rill,</l>
+       <l n="217">Prolifick Earth the balmy Blessing shows </l>
+       <l n="218">In Fruit-clad Hills, and Valleys of Repose,</l>
+       <l n="219">Such as in Pomp of vary'd Dies display</l>
+       <l n="220"><placeName>This beauteous Island</placeName> to the Beams of Day-</l>
+       <l n="221">Such as perennial charm the loit'ring Swain</l>
+       <l n="222">On <placeName>Mat'vai</placeName>'s Banks, or sweet <placeName>Paparra</placeName>'s Plain; </l>
+       <l n="223">Ah ! blissful Seats of Innocence and Ease !</l>
+          <l n="224">Ere Pride-born <concept type='euro'>Commerce</concept> taught it's Pow'r to please—</l>
+          <l n="225">Ere <concept type='euro'>Wants</concept> created, kindled new <concept type='euro'>Desires</concept>—</l>
+          <l n="226">Ere tend'rest Passions felt consuming <concept type='euro'>Fires</concept> ;</l>
+          <l n="227">Yes, WALLrs, yes, this last—this worst of <concept type='euro'>Woes</concept> </l>
+          <l n="228">From boasted <placeName>Europe</placeName>'s baneful <concept type='euro'>Commerce</concept> flows,</l>
+       <l n="229">Some vagrant Chief, of ever-hateful Name,</l>
+          <l n="230">Approach'd our <placeName>Isle</placeName>, and spread the wasting <concept type='euro'>Flame</concept> ;</l>
+          <l n="231">Thro' ev'ry Nerve th'infectious <concept type='euro'>Terrors</concept> rove,</l>
+       <l n="232">Sap the shrunk Frame, and taint each Source of Love</l> 
+          <l n="233">Ah ! whence this <concept type='euro'>Pest</concept> that Confidence destroys,</l>
+       <l n="234">And prostrate lays Life's dear domestic Joys ?</l>
+          <l n="235">Whence the dire <concept type='euro'>Change</concept> ? ye unsuspecting Fair !</l>
+          <l n="236">Your Blooms a Desert! and your Bliss <concept type='euro'>Despair</concept>?</l>
+       <l n="237">Whence—but enough, my chiding Thoughts be still! </l>
+          <l n="238">Some foreign Hand mould heal each foreign <concept type='euro'>ill</concept>,</l>
+       <l n="239">Hope flies to Thee ; thy Guidance to implore</l>
+       <l n="240">I fend Tupia to the <placeName>British Shore</placeName>-</l>
+       <l n="241">Send, but in vain,—alas, his hapless End !</l>
+       <l n="242">Lost was my statesman, Counsellor, and Friend—,</l> 
+       <l n="243">Lost ere he knew, for Knowledge was his Aim,</l>
+       <l n="244">What tempted <placeName>Britons</placeName> <placeName>Tropic Isles</placeName> to claim .</l>
+       <l n="245">Lost, ere he learn'd their Language, or their Laws,</l>
+       <l n="246">And died a Patriot in his <placeName>Country</placeName>'s Cause :</l>
+       <l n="247">Lo ! next Omiah dares the task pursue, </l>
+       <l n="248">And bears this fond Commission to thy View,</l>
+       <l n="249">Asks, and entreats in Obra's injur'd Name,</l>
+       <l n="250">Thy wish'd-for Presence to restore her Fame,</l>
+          <l n="251">Her haughty <concept type='euro'>Foes</concept>,, her Subjects' Fears remove,</l>
+       <l n="252">And share at once her Empire and her Love. .' </l>
+       <l n="253">Canst thou forget, how cheerful, how content</l>
+       <l n="254"><placeName>Taheitee</placeName>'s Sons their Days of Pleasure spent!</l>
+       <l n="255">With rising Morn they sought the healthful Stream^</l>
+       <l n="256">And walk'd, or work'd till sultry Noon-tide came,</l>
+          <l n="257">Then social join'd, from vain <concept type='euro'>Distinctions</concept> free,</l> 
+       <l n="258">In Mirth convivial round the spreading Tree,</l>
+       <l n="259">While tuneful Flutes, and warbling Wood-notes near,</l>
+       <l n="260">In rival Strains still charm'd the list'ning Ear :</l>
+       <l n="261">At grateful Eve they mix'd the artless Tale,</l>
+       <l n="262">The Jest, the Dance, the vegetable Meal; </l>
+       <l n="263">Paid the last Visit at some Fountain's Head,</l>
+       <l n="264">To cleanse, and cool them for the peaceful Bed ;</l>
+       <l n="265">Deem'd the bright Sun declin'd for them alone,</l>
+       <l n="266">These <placeName>Isles</placeName> the World, and all the World their own.</l>
+       <l n="267">Say thou, whose Judgment diff'rent Nations boast, </l>
+       <l n="268">From cultur'd <placeName>Britain</placeName> to this friendly coast,</l>
+       <l n="269">What lovelier Climes more pleasing Fruits afford</l>
+       <l n="270">Than this, of all thy piercing Eye explor'd ?</l>
+       <l n="271">Where can the Bread-fruit sweeter Pulp produce ?</l>
+       <l n="272">Where richer Cocoas more delicious Juice? </l>
+       <l n="273">Where finer Robes of Mulberry Rinds are worn?</l>
+       <l n="274">Where fairer Virgins than these Robes adorn!—</l>
+          <l n="275">Where smiles the Land where fewer <concept type='euro'>Ills</concept> assail ?</l>
+          <l n="276">Where fewer <concept type='euro'>Fears</concept>, or <concept type='euro'>Passions</concept> can prevail ?</l>
+       <l n="277">No Serpents here their poison'd Volumes wreathe;</l> 
+          <l n="278">^Jo tainted Gales with fell <concept type='euro'>Diseases</concept> breathe ;</l>
+          <l n="279">No varying <concept type='euro'>Arts</concept> to multiply <concept type='euro'>Desires</concept>,</l>
+          <l n="280">No <concept type='euro'>Av'rice</concept> chills, and no <concept type='euro'>Ambition</concept> fires ;</l>
+       <l n="281">Each Blessing granted as our Wishes rife,</l>
+       <l n="282">We live, and love—the Fav'rites of the Skies, </l>
+       <l n="283">While kind Etuas watchful still preside,</l>
+       <l n="284">And.Nature's Tasks th'aerial Bands divide;</l>
+       <l n="285">Some o'er the Sea control the Tempest's Roar,</l>
+       <l n="286">Impel the Tides, or shove them from the Shore;</l>
+       <l n="287">Some o'er the Land exert their genial Pow'rs, </l>
+       <l n="288">Deck the bright Year, or guide the fleeting Hours,</l>
+       <l n="289">With lib'ral Hand dispense Profusion round,</l>
+       <l n="290">With fragrant Breath perfume the fertile Ground,</l>
+       <l n="291">Gild the gay Groves with Fruits' refreshing Cheer,</l>
+       <l n="292">Nor ask from Toil the Products of the Year ; </l>
+       <l n="293">And pleas'd, or anger'd, as the Work they find,</l>
+       <l n="294">In Rain-Bows smile, or murmur in the Wind.</l>
+       <l n="295">Hence favour'd Man, with ev'ry Good supply'd,</l>
+       <l n="296">Health in his Look, and Plenty at his Side,</l>
+       <l n="297">His only Toil, amidstrthe Forests free, </l>
+       <l n="298">To point the Pearl-Hook, fell the stubborn Tree ;</l>
+       <l n="299">Or watch the swift Bonetas as they glide,</l>
+       <l n="300">Launch the Canoe, and chace them with the Tide:</l>
+       <l n="301">His manly Mirth too, on the Beach retir'd .</l>
+       <l n="302">Oft hast thou seen, and seeing still admir'd— </l>
+       <l n="303">Lo! now he mounts, as Surf-swoll'n Billows heave—</l>
+       <l n="304">Now sinks beneath, and wantons with the Wave ;</l>
+       <l n="305">Or strains the Bow-String, conscious of his Might,</l>
+       <l n="306">And smiling views the distant Arrow's Flight;</l>
+       <l n="307">No obvious Mark allures his level Aim, </l>
+          <l n="308">To practice <concept type='euro'>Murder</concept> for perverted <concept type='euro'>Fame</concept>-</l>
+          <l n="309">No private <concept type='euro'>Pique</concept> a <object type='euro'>Duel</object> here can draw</l>
+          <l n="310">To Blood-stain'd Fields, and boast it <concept type='euro'>Honor</concept>'s Law-</l>
+       <l n="311">Let <placeName>British Climes</placeName> the horrid Fiend admire</l>
+       <l n="312">Who sports with Life, and bids it quick expire, </l>
+       <l n="313">Dreads no Resentment from Almighty Sway,</l>
+       <l n="314">Or impious braves it in the Face of Day,</l>
+       <l n="315">Tho' awful Conscience scares his forfeit Rest,</l>
+          <l n="316">The purple <concept type='euro'>Crime</concept> still blaz'ning in his Breast-</l>
+       <l n="317">Sets in his View a yet unconquer'd Foe— </l>
+          <l n="318">A Widow's <concept type='euro'>Anguish</concept>, or an Orphan's <concept type='euro'>Woe</concept>,</l>
+       <l n="319">Or some sad Lover's last upbraiding Sigh,</l>
+       <l n="320">Who wretched finds no Refuge but—to die.</l>
+       <l n="321">Ah ! Wallis haste, fliould yet that Name remain</l>
+       <l n="322">To crown my Hopes, and prove my Fears are vain!</l> 
+          <l n="323">Haste from the <placeName>Land</placeName> where <concept type='euro'>Arts</concept> engender <concept type='euro'>Strife</concept>,</l>
+          <l n="324">And not an <concept type='euro'>Art</concept> but rears some Foe to Life ;</l>
+       <l n="325">What Joys can there ingenuous Freedom boast,</l>
+          <l n="326">Where fatal <concept type='euro'>Fashions</concept> spread from Coast to Coast ?</l>
+          <l n="327">Where cultur'd <concept type='euro'>Commerce</concept>, as it shoots on high, </l>
+          <l n="328">But opes new <concept type='euro'>Wants</concept> it never can supply, </l>
+       <l n="329">Or grown luxuriant o'er the gloomy Soil</l>
+          <l n="330">Sinks by its Weight, or tempts the <concept type='euro'>Rage</concept> of <concept type='euro'>Spoil</concept>;</l>
+       <l n="331">Else, if the History of thy Realms be true,</l>
+          <l n="332">Whence the <concept type='euro'>Vicissitudes</concept> describ'd by you ? </l>
+          <l n="333">Why <concept type='euro'>Arts</concept> have stonriih'd—why have <concept type='euro'>Arts</concept> decay'd,</l>
+          <l n="334">As faithless <concept type='euro'>Fortune</concept> flatter'd, or betray'd ?</l>
+          <l n="335">Why <concept type='euro'>War</concept>'s wide-wasting <concept type='euro'>Revolution</concept> hurl'd</l>
+          <l n="336">The Seat of <concept type='euro'>Empire</concept> round the ravag'd World ?</l>
+          <l n="337">Why the fierce <placeName>North</placeName> a gen'ral <concept type='euro'>Chaos</concept> spread, </l>
+          <l n="338">That swept all <placeName>Europe</placeName> as the <concept type='euro'>Ruin</concept> sped ? . .</l>
+          <l n="339">Each rising <concept type='euro'>Virtue</concept> peristi'd in it's Bloom,</l>
+          <l n="340">Each splendid <concept type='euro'>Science</concept> sliar'd the dreadful <concept type='euro'>Doom</concept>,</l>
+          <l n="341">While <concept type='euro'>Desolation</concept>, dark'ning all behind,</l>
+          <l n="342">Drew down <concept type='euro'>Oblivion</concept>'s Curtain o'er the Mind. </l>
+       <l n="343">Involved each glorious Character of Fame,</l>
+       <l n="344">And scarcely left a Record or a Name,</l>
+       <l n="345">Till struggling Time compos'd his frighted Form,</l>
+       <l n="346">And glean'd the Gothic Relicks of the Storm,</l>
+       <l n="347">Reviving Rays in great Columbus shone, </l>
+       <l n="348"><placeName>New Worlds</placeName> appear'd, and Empires—now their own.</l>
+       <l n="349">These awful Scenes depicted to my View</l>
+       <l n="350">(And Fame, O Wallis, proves the Painting true,}</l>
+          <l n="351">Oft to my Mind some dreadful <concept type='euro'>Change</concept> present,</l>
+          <l n="352">Some distant <concept type='euro'>Danger</concept>, or some dire <concept type='euro'>Event</concept>, </l>
+          <l n="353">Some gath'ring <concept type='euro'>Tempest</concept> black'ning from afar,</l>
+          <l n="354">Some bursting <concept type='euro'>Rage</concept> of desolating <concept type='euro'>War</concept>,—</l>
+       <l n="355">Ah I mail this <placeName>Isle</placeName>, so late admir'd by Thee,</l>
+       <l n="356">To Plenty sacred, and to Pleasure free—</l>
+       <l n="357">This Land, where Peace diffus'd it's hallow'd Pow'r,</l> 
+       <l n="358">Where social Virtues cheer'd each pasting Hour,</l>
+          <l n="359">A barren <concept type='euro'>Waste</concept>, a lifeless Scene appear,</l>
+          <l n="360">By <concept type='euro'>Rapine</concept> plunder'd, or enslav'd by <concept type='euro'>Fear</concept> ?</l>
+       <l n="361">Some Tyrant's Conquest, or some Pirate's Spoil ?</l>
+       <l n="362">It's native Blessings banish'd from the Soil!— </l>
+          <l n="363">Ah ! shall its Sons, to seek fictitious <concept type='euro'>Wealth</concept>,</l>
+       <l n="364">For lordly Masters lose their florid Health ?</l>
+          <l n="365">For glitt'ring <object type='euro'>Ore</object>, that ever useless shines,</l>
+       <l n="366">Shun the bright Day, and sink in dismal MistCs,</l>
+          <l n="367">Or, bent to <concept type='euro'>Burdens</concept>, on she Surface go,,. </l>
+          <l n="368">Inurti to all the Discipline of <concept type='euro'>Woe</concept>—.</l>
+       <l n="369">Forbid it thou great Tane', ever blest !</l>
+       <l n="370">If e'er my Wishes reach'd thy pitying Breast,</l>
+       <l n="371">If e'er a suppliant won thy friendly Care,</l>
+       <l n="372">Oh! spare my <placeName>Country</placeName>, mighty Tane'spare ! </l>
+          <l n="373">Ere <concept type='euro'>Ills</concept> like these o'er native Rights prevail,</l>
+       <l n="374">Dart the keen Lightning at each daring Sail,</l>
+       <l n="375">Bid the loud Tempest rouse the whelming Wave,</l>
+          <l n="376"> And not a Foe the surging <concept type='euro'>Fury</concept> save :</l>
+          <l n="377">Or far remove, if <concept type='euro'>Vengeance</concept> be forgot, </l>
+       <l n="378">These injur'd <placeName>Isles</placeName> to some sequester'd Spot,</l>
+       <l n="379">Some placid Corner of the boundless <placeName>Main</placeName>,</l>
+          <l n="380">Unmark'd by <concept type='euro'>Science</concept>, unexplor'd by <concept type='euro'>Gain</concept>,</l>
+       <l n="381">Where Nature still her Empire safe may hold</l>
+          <l n="382">From foreign <concept type='euro'>Commerce</concept>, <concept type='euro'>Confidence</concept>, and <object type='euro'>Gold</object>,</l> 
+          <l n="383">From foreign <concept type='euro'>Arts</concept>—from all that's foreign free,</l>
+       <l n="384">Save Wallis only—if approv'd by Thee,</l>
+       <l n="385">Yes, Wallis,; yes, from Thee no Fears alarm,</l>
+       <l n="386">Whose highest Rage Submission could disarm-</l>
+       <l n="387">Well do my Thoughts recall that awful Hour </l>
+       <l n="388">When first we felt, and trembled at thy Pow'r,</l>
+       <l n="389">Some dreadful Demon, with an hostile Band,</l>
+       <l n="390">We fear'd Thee sent to desolate our <placeName>Land</placeName>,</l>
+       <l n="391">What could, alas! defenceless Troops inspire?</l>
+          <l n="392">What check the <concept type='euro'>Fury</concept> of destructive Fire? </l>
+       <l n="393">Repell'd, confounded, Patriot Valour fled,</l>
+          <l n="394">As all around the rapid <concept type='euro'>Ruin</concept> sped,</l>
+       <l n="395">Till first in Mercy, as the first in Sway,</l>
+       <l n="396">Your Pity spar'd what Pow'r could take away,</l>
+          <l n="397">Resistance conquer'd saw <concept type='euro'>Resentment</concept> cease, </l>
+          <l n="398">Hush'd was the <concept type='euro'>War</concept>, and rais'd each downcast Face </l>
+       <l n="399">'Twas then to meet Thee on the crowded <placeName>Shore</placeName>,</l>
+       <l n="400">The peaceful Plantain in my Hand I bore,</l>
+       <l n="401">In due Obeisance half my Bosom bar'd,</l>
+       <l n="402">And fond Respect by mutual Rites rever'd,</l> 
+       <l n="403">A kindling Zeal ere Complaisance began,</l>
+       <l n="404">And all the Hero soft'ning in the Man:</l>
+       <l n="405">Pleas'd with the Manners of my mighty Guest,</l>
+       <l n="406">I fearless led Thee to the Social Feast,</l>
+       <l n="407">Where Palm-spread Sheds on stately Pillars stood,</l> 
+       <l n="408">Midstr cooling Shades and Vistas of the Wood,</l>
+       <l n="409">Each op'ning Front drew Fragrance from the Air,</l>
+       <l n="410">You gaz'd—you vow'd a Paradise was there;</l>
+       <l n="411">Smil'd as the Cocoa, soothing to the Soul,</l>
+       <l n="412">Pour'd the sweet Bev'rage from its native Bowl, </l>
+       <l n="413">Or vary'd Viands op'd their grateful Store,</l>
+       <l n="414">Fruits from the Grove, and Fishes from the Shore,</l> 
+       <l n="415">New Wonder rose, when rang'd around for Thee,</l>
+       <l n="415">Attendant Virgins danc'd the Timrodee,</l>
+       <l n="416">And vocal Bards, the Pleasure to prolong, </l>
+       <l n="417">Sung the hold Deeds and Heroes of their Song;</l>
+       <l n="418">But chiefly Thee, thy Vict'ry and thy Praise,</l>
+       <l n="419">The noblest Subject of their simple Lays,</l>
+       <l n="420">Till the tir'd Sun, on Western Waves repos'd,</l>
+       <l n="421">Dismiss'd the Ev'ning, and the Heiva clos'd. </l>
+       <l n="422">If native Pleasures, simply thus supply'd,</l>
+       <l n="423">Disclaim the Arts that minister to Pride,</l>
+       <l n="424">What tempts Thee, wand'ring with the faithless Main,</l>
+          <l n="425">To barter Ease for <concept type='euro'>Perils</concept> and for <concept type='euro'>Pain</concept> ?</l>
+       <l n="426">Does churlish Nature stint thy Parent Soil ? </l>
+          <l n="427">Does <concept type='euro'>Wealth</concept> superfluous prompt to wanton <concept type='euro'>Spoil</concept> ?</l>
+          <l n="428">Do restless <concept type='euro'>Longings</concept> for a deathless Name</l>
+       <l n="429">Glow in thy Breast, and animate thy Frame ?__.</l>
+          <l n="430">Vain is each <concept type='euro'>Wish</concept> that flatt'ring <concept type='euro'>Hope</concept> inspires,</l>
+          <l n="431">If in the <concept type='euro'>Toil</concept>, the Taste for Joy expires, </l>
+       <l n="432">If unrestrain'd we urge the wayward Mind</l>
+       <l n="433">Without a Glance on wasting Time behind ;</l>
+       <l n="434">Year following Year, and Day succeeding Day,</l>
+       <l n="435">Relentless drive Life's boasted Bliss away,</l>
+       <l n="436">From Beauty sever Love's attracting Die, </l>
+       <l n="437">Youth from the Cheek, and Radiance from the Eye,</l>
+       <l n="438">Each pleasing Passion of the Soul subdue—</l>
+       <l n="439">Such as thy Obra felt—still feels for you—</l>
+       <l n="440">Ev'n this, O Wallis, must that Pow'r obey</l>
+       <l n="441">That strikes unseen, and strengthens with Delay,</l> 
+          <l n="442">That Pride-plum'd <concept type='euro'>Conquest</concept> strips of all it's Fame,</l>
+       <l n="443">Nor leaves recording Pyramids a Name.</l>
+       <l n="444">When such the Lot of Life's too transient State,</l>
+       <l n="445">Canst thou still tempt each Precipice of Fate ?</l>
+       <l n="446">Canst thou delights from peaceful Pleasures fled, </l>
+       <l n="447">In Out-cast Realms where Nature's Horrors spread I</l>
+       <l n="448">Where bleak <placeName>Fuego</placeName> rears it's barren Coast</l>
+       <l n="449">Where savage <placeName>Zealand</placeName> pours its hideous Host—</l>
+       <l n="450">Or onward still, where, parted from the Night,</l>
+       <l n="451">The Polar Day prolongs its cheerless Light; </l>
+       <l n="452">There drifted <placeName>Ice-lands</placeName> dim the weary'd Eye</l>
+       <l n="453">There Fogs eternal wrap the languid Sky</l>
+       <l n="454">There whirling Sea-Spouts, formidably proud,</l>
+       <l n="455">Dart from beneath, and chace the flying Cloud ;</l>
+       <l n="456">Or fierce Tornados, bursting thro' the Air, </l>
+       <l n="457">Rend the wild Waves, and spread around Despair :</l>
+       <l n="458">Ah ! Wallis, haste—the dreadful Regions shun,</l>
+       <l n="459">Where dismal Deaths in dark Disguises run,</l>
+       <l n="460">Where fancy'd Lands, remov'd from ev'ry Joy,</l>
+       <l n="461">If found, deceive us if pofless'd, destroy ; </l>
+       <l n="462">Here malt thou find each Solace of thy Woes</l>
+       <l n="463">That Man can ask—if what to ask he knows ;</l>
+       <l n="464">Here, in thy fav'rite, fond <placeName>Taheitee</placeName>, still</l>
+       <l n="464">It's Sons obsequious, and it's Laws thy Will;</l>
+       <l n="465">Thy faithful Obra, aided by thy Hand, </l>
+       <l n="466">Again shall rife, the Empress of the Land,</l>
+          <l n="467">Her Awe-struck Foes, to shun impending <concept type='euro'>Ire</concept>,</l>
+       <l n="468">Quick to the Mountain's silent Gloom retire;</l>
+       <l n="469">Or prostrate—penitent—their Deeds deplore,</l>
+          <l n="470">Her <concept type='euro'>Wrongs</concept> redress, her Regal Rights restore ; </l>
+       <l n="471">Till, smiling Peace thro' ev'ry Region seen,</l>
+       <l n="472">She rules triumphant, and expires—a Queen.</l>
+       
+       
+     </lg>         
+     
+     
+      </div>
+    </body>
+  </text>
+</TEI>
+
+        
+       

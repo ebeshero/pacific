@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>People, Places, and Contexts in Anna Seward's Elegy on Captain Cook</title>
+        <respStmt>
+          <resp>transcribed, encoded, and edited by</resp>
+          <persName>Digital Humanities Class, Fall 2012</persName>
+        </respStmt>
+        <sponsor>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+          
+        </sponsor>
+        <funder>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+          
+        </funder>
+        <principal>
+          <persName>Elisa E. Beshero-Bondar</persName>
+        </principal>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+        <respStmt>
+          <resp>Transcription, encoding, and notes</resp>
+          <persName>Digital Humanities Class</persName>
+          <orgName>University of Pittsburgh at Greensburg</orgName>
+        </respStmt>
+      </editionStmt>
+        <publicationStmt>
+            <publisher>Elisa Beshero-Bondar for demonstration purposes only. May not be reproduced without
+              permission</publisher>
+            <address>
+               <addrLine/>
+            </address>
+            <idno type="ISBN"/>
+            <availability>
+              <p/>
+            </availability>
+            <distributor/>
+          </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl><author><persName>Elisa Beshero-Bondar</persName>, <persName>Sayre Greenfield</persName> and <orgName>Fall 2012 Digital Humanities Class at the University of Pittsburgh at Greensburg</orgName></author>
+            <title>People, Places, and Contexts in Anna Seward's "Elegy on Captain Cook"</title>
+          </bibl>
+    
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+        <p>This page identifies information about quotations, people, events, and contexts mentioned in or relevant to <persName ref="#ASeward">Anna Seward's</persName> poem, <title>"Elegy on Captain Cook" (1780).  
+        </title></p>
+      <p><ref target="#DHclass">All annotations and coding here were initially written by students in the Fall 2012 Digital Humanities course</ref> at the <ref target="http://greensburg.pitt.edu">University of Pittsburgh at Greensburg</ref>. Annotations, codes, images, and links were originally written and contributed by Bryan Cardonick, Carrie Hood, Jacob Hornin, Megan Hughes, Joseph Martin, Ashley Necciai, Mattia Piazza, Zach Pivirotto, Albert Simak, Nicole Wong, and Khalil Zeigler. Corrections were made by <ref target="http://greensburg.pitt.edu/academics/faculty/sayre-n-greenfield">Prof. Sayre Greenfield</ref> and <ref target="http://greensburg.pitt.edu/academics/faculty/elisa-e-besherobondar">Prof. Elisa Beshero-Bondar</ref>. Research for these annotations was conducted using proprietary databases only accessible through university library subscription, including <ref target="http://mlr.com/DigitalCollections/products/ecco/">ECCO (Eighteenth-Century Collections Online)</ref> in particular for accounts of Captain Cook's voyages. Since we aim to make this site accessible to readers who lack university access to expensive proprietary databases, wherever possible we point links from this page to readily available and authoritative public versions of resources and images, including <ref target="http://www.gutenberg.us/">Project Gutenberg</ref> and <ref target="http://archive.org/about/#why">the Internet Archive</ref>. We are currently revising external links and entries and we hope to add more annotations to the Elegy as well as to connect it to related digital research on Pacific cultural contact including editions of Gerald Fitzgerald's <title level="m" rend="italic">The Injured Islanders: an Epistle from Oberea to Captain Wallis</title> (1779), and scenes from the 1785 pantomime production of <title level="m" rend="italic">Omai, or a Trip Round the World</title>, both of which are currently underway, with research and annotations under development by our students in the Digital Humanities course. We welcome <ref target="mailto:ebb8@pitt.edu">input and advice</ref> on the ongoing project.
+          
+        </p>
+        
+        <p> <ref target="SewardElegy.html">Link to Variorum Edition of the 1780 and 1810 texts </ref> </p>
+      <lb/>
+        <list type="simple">
+          <item n="*"><graphic url="Anna_Seward.jpg"></graphic>
+            <term rend="bold" xml:id="Seward">Anna Seward, December 12, 1742 - March 25, 1809. (influence and inspiration for this work):</term>
+            <gloss target="#Seward">
+              For Anna Seward, Thomas Seward, Dr. Erasmus Darwin (not to be confused with his grandson, Charles Darwin), 
+              Thomas Day, and Richard Lovell Edgeworth, were some of the strongest influences on her literary career. Thomas 
+              Seward taught Anna to read from the literary works of Milton, Pope, and Shakespeare at the age of three, and 
+              recite the first three books of <title level="m" rend="italic">Paradise Lost</title> at the age of nine. Erasmus Darwin 
+              influenced Seward through encouraging her to write and pursue literature as a serious career.
+              <lb/>
+              See Sylvia Bowerbank's entry on <ref target="http://www.oxforddnb.com/view/article/25135">Seward, Anna (1742–1809)</ref> in the Oxford Dictionary of National Biography.
+              <lb/>
+              <lb/>
+         </gloss>
+          </item><lb/>
+       
+          <item n="*">
+            <term rend="bold" xml:id="Nine">the Nine</term>
+            <gloss target="#Nine">  
+              
+              the Nine: The Nine Muses of the Greek Mythology were deities that gave artists, philosophers and individuals the necessary inspiration for creation. Hesiod reveals that they were called <hi rend="italic">mousai</hi> in Greek, as the Greek word “mosis” refers to the desire and wish.
+              
+              The Nine Muses were: Clio, Euterpe, Thalia, Melpomeni, Terpsichore, Erato, Polyhymnia, Ourania and Calliope.
+              
+              It wasn't uncommon for ancient writers to appeal to the muses at the beginning of their works, it seems as if this is the case here as well.
+              <ref target="http://www.greekmyths-greekmythology.com/nine-muses-in-greek-mythology/">The Nine Muses of the Greek Mythology</ref>
+              
+              
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Yew">Blasted Yew:</term>
+            <gloss target="#Yew">
+              
+              The yew tree is associated with death, for the fact that it is very toxic to humans in many ways. In mythology the yew tree is considered sacred as far back as the Druids in pre-Christian times and continued on after as well. They are seen as a sign of death and ressurection due to the fact that their branches can sprout new trunks where they touch the ground. They were also used in burial practices as well.
+              <title level="m" rend="italic"> <ref target="http://www.treesforlife.org.uk/forest/mythfolk/yew.html">Mythology and Folklore of the Yew</ref></title>
+              <!--This next part seems unlikely, but the image might be useful at another point in the edition project? Perhaps this is also a reference in some manner to "One Tree Hill" at which Cook marked the passage of Venus as well? 
+			  <title level="m" rend="italic">View of Matavai Bay, Tahiti from One Tree Hill from the Museum of the History of Science, University of Oxford</title><lb/>  
+              <graphic url="tahiti1600.jpg"></graphic> <lb/> -->
+              
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Laurel">Green Laurel:</term>
+            <gloss target="#Laurel">
+              
+              Wreath woven from leaves of the bay laurel, in ancient Greece placed on the head of a victorious athlete, and in classical Rome on the head of military hero. Here the bay laurel appears to honor Captain Cook's immense contributions to the sciences in voyaging around the world, encountering many new cultures, and  mapping the little known South Seas. The laurel wreath image was used on a brass medal designed by Joseph Banks and struck by Matthew Boulton in 1772. Cook reportedly took 2000 of these brass medals on his second and third voyages to the Pacific, for use as gifts to the peoples he encountered. The front of the medal features an image of King George III crowned by a laurel wreath, and the reverse carries images of the HMS Resolution and the HMS Adventure, the ships that made the second voyage. See images of <ref target="http://www.powerhousemuseum.com/collection/database/?irn=303636">the front and back of the medal and more information</ref> courtesy of the Powerhouse Museum collection at <location><placeName>Sydney, Australia</placeName></location>.  
+            
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="oaken">Oaken Bough:</term>
+            <gloss target="#oaken">
+              
+              Bough refers to branches, usually large branches, likely referring here to the English oak as a patriotic symbol of enduring strength. 
+              <!--NEED SOMETHING SPECIFIC HERE ON OAK BOUGHS in garlands round Cook's head...English oak?-->
+            </gloss></item>
+          <lb/>
+          
+          <lb/>
+          <item n="*"> 
+            <term rend="bold" xml:id="garlands">Gay Garlands:</term>
+            <gloss target="#garlands">
+             
+              The reference to garlands could also relate to how Cook was received by the Polynesian peoples as it is customary to use such decorative adornments for visitors and themselves during celebrations. For example, see this entry from Captain Cook's journal during the first voyage: 
+              
+              "No one of the Natives made the least opposition at our landing, but came to us with all imaginable Marks of Friendship and Submission." 
+              
+              <title level="m" rend="italic"> <ref target="http://www.gutenberg.org/files/8106/8106-h/8106-h.htm#ch3">The Project Gutenberg EBook of Captain Cook's Journal During the First Voyage Round the World (Chapter 3, Tahiti)</ref></title>
+              
+              <lb/>
+              For more direct references to garlands, see Hawkesworth Vols II - III, pp. 195 and 237. On p. 237 garlands are described in funeral contexts in Tahiti. Seward's linkage of garlands with oars is ambiguous. It seems unlikely that "trophied oars" refers to "trophy oars" won at university rowing races, as at Oxford or Cambridge. It seems more likely that Seward is referring to Polynesian practices, as recorded in her sources, which might relate to the ceremonial significance of Cook "along a thousand shores." One rather ominous but fitting association might be to Hawkesworth (Voyages II-III), p. 262, reinforced by an entry in Joseph Banks's journal of 20 July 1769, in which Banks and others observe a Morai on the island of Ulietea (near Bolabola), which contained a model of a canoe attached to human jawbones, as "trophies of war" and conquest by warriors from Bolabola. <lb/>Image: <hi rend="italic">Captain Cook's Reception in Tonga</hi><lb/>  
+              <graphic url="CookTonga.jpg"></graphic> <lb/> 
+              <!--ADD tags and title refs and links!-->
+              
+            </gloss>
+          </item>  
+          
+          <lb/><lb/>
+          <item n="*">
+            <term rend="bold" xml:id="roseatebowers">History of Greenhouse Development</term>
+            <gloss target="#roseatebowers">
+              To have roses growing in the "wint'ry snows", or in the winter, London, England had developed greenhouses long before 1780, when this elegy was published. One of the earliest greenhouses in Europe was seen in Italy as described by poet Iovianus Pontanus with "trees in tubs and overwintering of trees in wooden sheds." In the European Renaissance period, "wintering sheds with open flues [was] first reported." During the 1500's, England developed their first flowers in a glasshouse during winter using solar heating. In 1632, The English Oxford Conservatory was built and "heated with burning charcoal in a metal wagon." See <ref target="http://campus.extension.org/file.php/424/Unit-01/ghhistory.html">History of Greenhouse Development site</ref></gloss>
+          </item>          <lb/><lb/>
+          
+          <item n="*">
+            <term rend="bold" xml:id="icecups">History of Ice Cream and Shaved Ice</term>
+            <gloss target="#icecups">
+              A form of ice cream or shaved ice dessert, was first seen by the masses in 1660. Before that, Alexander the Great was known to enjoy snow and ice flavored by honey and nectar. Throughout his reign from 54-86 A.D, Roman Emperor Julius Caesar was also known for sending men to collect ice and snow from nearby mountains to later be flavored with various fruits and juices. In the 1600's, in return from a trip to the Far East, Marco Polo brought back recipes that closely resembles sherbet and ice cream recipes of today. In England at the same time, "cream ice" was served to Charles I regularly along with his meals. See the International Dairy Foods Association site, <ref target="http://www.idfa.org/news--views/media-kits/ice-cream/the-history-of-ice-cream/">"The History of Ice Cream"</ref>.  <lb/><lb/></gloss>
+          </item>  
+          
+          <item n="*">
+            <term rend="bold" xml:id="burningline">Definition: burning Line</term>
+            <gloss target="#burningline">"The equator; word was first used in England 1588."--Oxford English Dictionary</gloss>
+            <lb/><lb/>
+          </item>  
+          
+          <item n="*">
+            <term rend="bold" xml:id="churchfane">Definition: fane</term>
+            <gloss target="#churchfane">"A temple; word was first used in England 1400's."--Oxford English Dictionary. </gloss>
+            <lb/><lb/>
+          </item>  
+          
+          <item n="*">
+            <term rend="bold" xml:id="redcancer">James Thomson's "Dawn In Summer"</term>
+            <gloss target="#redcancer">
+              This line is a quote from a poem, <ref target="http://www.poemhunter.com/poem/dawn-in-summer/">"Dawn in Summer"</ref> by famous Scottish poet James Thomson (11 September 1700 – 27 August 1748). This poem is part of a series called "The Seasons", written in 1730. Seward quotes Thomson's lines, "When now no more th' alternate twins are fired, And Cancer reddens with the solar blaze, Short is the doubtful empire of the Night And soon, observant of approaching Day." Anna Seward may have quoted this line from Thomson's poem to draw similarities, for in both the "Cancer reddens in the solar blaze", this "blaze" led Captain Cook as a sort of guide, same with the "twins" from "Dawn in summer".</gloss>
+          </item>  
+          <lb/><lb/>
+          
+          <item n="*">
+            <term rend="bold" xml:id="Vermeil">Vermeil</term>
+            <gloss target="#Vermeil">
+              Color. Vermillion or a very bright red color. Can also mean Gilded, Gold covering Silver/Bronze. 
+              
+            </gloss>
+          </item>          
+          <lb/>
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Light">Light on the Icy Rock</term>
+            <gloss target="#Light">
+              Cook's voyage accounts describe many "Ice Islands" and ice floating through the ocean while enroute. See gloss on <ref target="#Floating">"Floating Fragments"</ref> below.  
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Goddess">Goddess of the New Columbus</term>
+            <gloss target="#Goddess">
+              Mythical Figure. Much like the idea of Lady Liberty the icon "Goddess of the New Columbus" was used as a metaphor of something divine. Believed to be guiding the way of Captain Cook on his explorations which many felt he was a more modern day Columbus. 
+              
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="4">
+            <term rend="bold" xml:id="Peterels">Peterels</term>
+            <gloss target="#Peterels">
+              A Tube-Nosed Seabird from the order of Procellariformes. Having different classifications such as "Snow" , "Cape" and "Storm".  The most likely seen by Captain Cook would be the Blue Petrel, or <hi rend="italic">Halobaena caerula</hi>, though the Broad-billed Prion, <hi rend="italic">Pachyptila vittata</hi> is another possibility. 
+              
+              <hi rend="italic">Blue Petrel</hi> <ref target="http://www.patteson.com/southern_ocean.htm">Excellent images of South Sea birds, including the Blue Petrel, the Broad-billed Prion, Wandering Albatross, and other species.</ref> <lb/>  
+              <graphic url="bluepetrel.jpg"></graphic> <lb/>
+            </gloss>
+          </item>
+          <lb/>
+          
+          <lb/>
+          <item n="5">
+            <term rend="bold" xml:id="Floating">Floating Fragments</term>
+            <gloss target="#Floating">
+              Seward's annotation doesn't correlate well with the lines of her poem, which associate Cook's path through the ice islands with the Goddess of the New Columbus (or the Americas). Her note is almost directly taken, with some small changes, from the entry for Dec. 26, 1772 in Cook's <title level="m" rend="italic">Voyage towards the South Pole</title> vol. 1, p. 31, <lb/> and this passage on Dec. 26, 1772 refers to a location in the South Atlantic, <location><geo>58.31 S 26.57 E</geo></location>, en route to the Cape of Good Hope by which direction Cook was heading to the Pacific via South Africa, not South America on his second voyage.  
+              "In the course of the last twenty-four hours we passed through several fields of broken loose ice. There were in general narrow, but of of considerable length, in the direction of N.W. and S.E. The ice was so close in one, that it would hardly admit a ship through it."<lb/>
+              On the following page (32), Cook mentions coming "to a resolution, to run as far West as the meridian of <location><placeName>Cape Circumcision</placeName></location>." This was according to plan, as Cook describes in log of his first days in the voyage on pp. 3-4, that after first stopping in South Africa they would then explore the South Atlantic as far as they could, locate Cape Circumcision and determine if it were part of an island (<location><placeName>Bouvet Island</placeName></location>) or part of the Antarctic continent.  
+              
+              <lb/><lb/>View of the ice islands as seen in Cook’s second voyage on Jan.9th 1773. Plate 61 from James Cook, <title level="m" rend="italic">A new, authentic and complete collection of voyages round the world undertaken and performed by Royal Authority containing an authentic, entertaining, full and complete history of Captain Cook's first, second, third and last voyages undertaken by order of His present Majesty for making discoveries in geography, navigation, astronomy in the southern and northern hemispheres and successively performed in the years 1768, 1769, 1770, 1771-1772, 1773, 1774, 1775-1776, 1777, 1778, 1779, 1780….</title> London, George William Anderson, 1784.
+              <graphic url="iceislands.jpg"></graphic>
+              <lb/> Cook's voyage account also describes icy fragments breaking off from the ice cliffs and constantly falling out to sea during January 17, 1775. 
+              <lb/><title level="m" rend="italic"> <ref target="http://libweb5.princeton.edu/visual_materials/maps/websites/pacific/cook2/cook2.html">Act:II The Second Voyage. From Princton.Edu.</ref></title>
+              <title level="m" rend="italic">Map of Captain Cook's Voyages</title> Image from Answers.Com.<lb/>  
+              <graphic url="VoyageMap.png"></graphic>
+             
+              <lb/><lb/>
+            </gloss>
+          </item>
+          
+          <item n="*">
+            <term rend="bold" xml:id="Furling">Furling the iron</term>
+            <gloss target="#Furling">
+              Furling the iron sails: This quote is not from Captain Cook's Journal, contrary to what Seward indicates. 
+              The actual quote that this line is derived from is written "Our ropes were like wires, Sails seemed like 
+              boards or plates of metal."
+              <lb/>
+              For more information, please see Angela Rehbein's PhD dissertation, <title level="m"><ref target="https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/14224/research.pdf?sequence=2">
+                "Domesticating the Empire: Women Writers And Colonial Discourse I Late Eighteenth-Century British Literature"</ref></title> (University of Missouri, July 2011, pp. 52-53 n. 16).
+              <lb/><lb/><!--Dissertation-->
+            </gloss>
+          </item>
+          <lb/>
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Vast">And the vast</term>
+            <gloss target="#Vast">
+              And the vast: <location><geo>53.25 S 36.75 W</geo></location> <!--ADD MORE TO IDENTIFY THIS LOCATION--> Seward is giving us an idea of how noisy it 
+              was when one of these ice-shelves broke.            
+              <lb/>
+              For the actual journals kept by Capt. James Cook, see the Gutenberg Project, <title level="m" rend="italic"><ref target="http://www.gutenberg.org/catalog/world/readfile?fk_files=1501338">
+                A Voyage Towards the South Pole And Round the World, Volume 1. Project Gutenberg</ref></title>
+              <lb/><lb/>
+            </gloss>
+          </item>
+          <lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Nature">"Till Nature draws the circumscribing line"</term>
+            <gloss target="#Nature">This encircling line is referring to the circle of ice that formed around Cook's ship which practically 
+              immobilized it. <location><geo> 54.833 S, 21.567 E; 55.917 S, 38 E.</geo></location>
+              <!--ADD MORE TO IDENTIFY THIS LOCATION--> 
+              For further reading see Vol. 2 of Capt. Cook's journals, on the Gutenberg Project, <title level="m" rend="italic"><ref target="http://www.gutenberg.org/catalog/world/readfile?fk_files=1501701">
+                A Voyage Towards the South Pole And Round the World, Volume 2. Project Gutenberg</ref></title>
+            </gloss>
+          </item>
+          <item n="*">
+            <term rend="bold" xml:id ="antarcticZealand">antarctic Zealand</term>
+            <gloss target="#antarcticZealand">
+              This passage refers to the fact that Captain James Cook was the first explorer to circumnavigate the cold waters of <location><placeName>New Zealand</placeName></location> whose GPS coordinates are <location><geo>41 S, 174 E</geo></location>.  Upon his arrival to the island, the native cannibal savages awaited Cook and his crew.  The crew was eventually welcomed as they embarked displaying olive branches which signifies that peace.
+              <lb/><lb/>
+            </gloss>
+          </item>
+          <item n="*">
+            <term rend="bold" xml:id="olivebranch">Olive-Branch</term>
+            <gloss target="#olivebranch">The olive-branch was seen by Europeans as a sign of peace. At the point Seward is referencing in the voyage account, Captain Cook is landing on the coast of New Zealand. Seward describes the "olive-branch in vain"; thus they are running into unfriendly territory and may encounter hostile natives even though Cook and his crew come in peace. See Cook, James, <title level="m" rend="italic"> A Voyage towards the South Pole, and round the World. Performed in His Majesty's ships the Resolution and Adventure, in the years 1772, 1773, 1774, and 1775</title> Vol. 1. (1777), p. 91 (ECCO). See also John Tillotson, <title level="m" rend="italic"> Pioneers of Civilisation,</title>(1891) p. 83; <!--book-->and John Rickman <title level="m" rend="italic">Journal of Captain Cook's Last Voyage to the Pacific Ocean, on Discovery: Performed in the Years 1776, 1777, 1778, 1779.</title> (1781) p. 82. <!--book-->
+            </gloss></item>
+          <item n="*">
+            <term rend="bold" xml:id="livestock">Livestock</term>
+            <gloss target="#livestock">This is on Cook's third voyage. Cook brought many items with him on his voyages either for trade or for his crew to use. The new wonders are the items are the items that Cook is bringing onto the shore, things that the natives have never seen before, thus being new wonders. Cook brought things such as most notably livestock. Kids (goats), hogs, bulls, and sheep. They encountered geese and ducks whenever sailing. Though some of the livestock was not in good health from sailing, Cook still received some things for them in trade with the natives for things like old clothes. Food like fruit, potatoes, and many kinds of poultry were also brought along. <!--ADD DETAIL HERE-->See James Cook, <title level="m" rend="italic">The three Voyages of Captain Cook Round the World.</title> (1824) p. 223; <!--book-->and James Cook <title level="m" rend="italic">A Voyage towards the South Pole, and round the World. Performed in His Majesty's ships the Resolution and Adventure, in the years 1772, 1773, 1774, and 1775</title> Vol. 1. (1777), pp. 8 and 173 (ECCO). 
+              
+            </gloss>
+          </item>          <lb/><lb/>
+          <item n="*">
+            <term rend="bold" xml:id="wallsofcoral">Encountered Walls of Coral Reefs-</term>
+            <gloss target="#wallsofcoral">
+              The islands of Tongatabu and Eaoowe are guarded by coral reefs that extend out from the shore one hundred fathoms more or less. Near a half drowned island they found a river that lead to a lake where there were great walls of coral that rose out of the water.  He also mentions another group of islands that were linked together by great walls of coral.  
+              <!--Add LINKS or an image?-->
+              <lb/> 
+              
+              James Cook, <title level="m" rend="italic">A Voyage towards the South Pole, and round the world.  Performed in His Majesty's ships the Resolution and Adventure, in the years 1772, 1773, ..., Vol. 1</title> (London, 1777, pp. 212,313, 315. ECCO)
+            </gloss>
+            
+          </item>          <lb/><lb/>
+          
+          <item n="*">
+            <term rend="bold" xml:id="soundingline">Sounding Line Definition-</term>
+            <gloss target="#soundingline">
+              The main definition of a sounding line is: A line used in sounding the depth of water; also, a line or other material forming this.
+              
+              In Sewards Note: "We had now passed several months with a man constantly in the chains heaving the lead."  The man in the chains and the "sleepless Patience" most likely refer to the single man who was constantly measuring the depths of the water.   
+              
+            
+              See Oxford English Dictionary, "chain, n." 9th definition: <lb/>
+              a) "A measuring line, use in land-surveying, formed of one hundred iron rods called links joined together by eyes at their ends. <lb/>
+              b) A chain's length, as a lineal measure, equal to 66 feet, or four poles.
+              <lb/> 
+             
+              <!--Add LINKS or an image?-->
+              Oxford English Dictionary</gloss>
+            
+          </item>          <lb/><lb/>
+          
+          <item n="*">
+            <term rend="bold" xml:id="athensmyth">Creation of Athens-</term>
+            <gloss target="#athensmyth">
+              There is a myth regarding the creation of Athens.  Poseidon and Athena wanted custody over Attica, and so to settle the matter they held a contest over who could give the people the most useful gift.  The people were the judges of this.  When Poseidon struck his trident down on the soil of the Acropolis, water and horses sprang forth as his gift to them.  Except the water was salt water since Poseidon is the God of the ocean.  Athena struck the ground with her spear and an olive tree blossomed, giving the people food, and oils that they used in their daily lives. Athena won the contest, and so Attica became Athens in homage to their patron goddess.  The Acropolis is where they believed that the two Gods held their contest and is thus a very sacred site to them.  
+              <!--Add LINKS!-->
+              <lb/> 
+              
+             
+              
+              Britannica: Academic Edition entry on Poseidon</gloss>
+            
+          </item>          
+          <lb/><lb/>
+          
+          <lb/>
+          <!-- Linneaus entry-->
+          <item n="*">
+            <term rend="bold" xml:id= "Linnæus"> Carl Linnæus (1707–1778)</term>
+            <gloss target="#Linnæus">
+              was a famous doctor and botanist 
+              who, in his first book, “classified the three kingdoms of nature and 
+              outlined the sexual system for the classification of plants”. In his 
+              travels, he met and won the friendship of many other botanists, and 
+              quickly rose to fame. His book <title level="m" rend="italic">Flora Anglica</title> was published for him by William Hudson in 1762 <!--Provide More Publication Info--> 
+              and was “one of the first [books classifying] floras to use the binomial 
+              system”. It was because of Daniel Solander’s status as his Linnæus’ 
+              pupil, that Sir Joseph Banks employed him. Linnæus’ ideas impacted the 
+              world of botany. Sir Joseph Banks likely read his books before 
+              journeying with Captain Cook. For more informantion on Carl Linnæus,
+              read:,Gina Douglas' <title level="a"> Linnaeus, Carl [later Carl von Linné] (1707–1778), naturalist and taxonomist</title> in the Oxford Dictionary of National Biography. 
+            </gloss>
+            <!-- Linneaus picture-->
+            <lb/><graphic url="Carl.jpg"></graphic><lb/>
+          </item>
+          <!-- Flora and Fauna Entry-->
+          <item n="*"> 
+            
+            <term rend="bold" xml:id="Examples">Examples of some useful plants and insteresting animals are:</term>
+            <gloss target="#Examples">Sugarcane, bananas, coconuts, bamboo, sweet potato, yam, and the kangaroo.
+            </gloss>
+          </item>
+          <!-- Vegetable Silk entry -->
+          <item n="*">
+            <term rend="bold" xml:id= "Vegetablesilk"> Vegetable silk</term>
+            <gloss target="#Vegetablesilk"> is a strong fibre that comes from one of two plants in New Zealand- <lb/><hi rend="italic">Phormium tenax</hi>(Monrovia Red)<graphic url="Tenax.jpg"></graphic><lb/>  
+              or <hi rend="italic">Phormium colensoi</hi> (Mountain Lily)<graphic url="Colensoi.jpg"></graphic>. </gloss><lb/>
+            
+          </item> 
+          <!-- Flag Entry-->
+          <item n="*">
+            <term rend="bold" xml:id="Flag">A flag</term>, according to the Oxford English Dictionary is: <gloss target="#Flag">
+              <lb/>1.	“One of various endogenous plants, with a bladed or ensiform leaf, mostly growing in moist places. Now regarded as properly denoting a member of the genus Iris (esp. I. pseudacorus) but sometimes (as in early use) applied to any reed or rush”. <lb/>
+              <lb/>2.	“The blade or long slender leaf of a plant, e.g. of Irisand of cereals”.<lb/>
+              
+              <lb/>The note about New Zealand and the flags is directly for Sir Joseph Banks’ journal, in the pages where he describes two different plants. For more information from Joesph Banks' <title level="m" rend="italic"> <ref target="http://gutenberg.net.au/ebooks05/0501141h.html">Joseph Banks' Endeavour Journal</ref></title> at Project Gutenberg and read his account of New Zealand. <!--GIVE MORE SPECIFIC CITATION and CHANGE LINK--><lb/>
+              
+              
+              
+            </gloss>
+          </item>          
+          <item n="*">
+            <term rend="bold" xml:id="Kangroo">Kangroo</term>
+            <gloss target="#Kangroo">
+              During Cook's first voyage around the world (1768-1771), Captain Cook and his crew beached their ship in the Endeavour River, Queensland. 
+              Cook sent a group of three men to hunt pidgeons and, when they returned, one described seeing an animal "something less than a greyhound; it was of a Mouse Colour, very slender made, and swift of Foot". See the entry in <ref target="http://www.gutenberg.org/files/8106/8106-h/8106-h.htm">Captain Cook's journal</ref> for June 23rd, 1770.
+              Most believe that Cook's men spotted a Kangaroo, though the Australian Museum published <ref target="http://australianmuseum.net.au/Uploads/Journals/17254/567_complete.pdf">a paper</ref> in which they say they believe that Cook's men did not see a Kangaroo but a Whiptail Wallaby <ref target="http://www.wildlife.org.au/wildlife/speciesprofile/mammals/whiptail_wallaby.html"> (Macropus parryi)</ref>. They came 
+              to this conclusion by comparing the description of the animal and the description given by Dr. Daniel Solander (1733-1782) to a specimen they obtained from Cooktown.
+            </gloss>
+            <lb/>
+            <graphic url="Kangaroosketch.jpg"></graphic>
+            <lg><l> Picture from the <ref target="https://pictures.royalsociety.org/image-rs-9202"> Royal Society Picture Library</ref></l></lg>
+          </item>          <lb/><lb/>
+          
+          
+          
+          <item n="*">
+            <term rend="bold" xml:id="BeauteousPois"> Beauteous Pois </term>
+            <gloss target="#BeauteousPois">
+              The Beauteous Pois refers to the <ref target="http://www.teara.govt.nz/en/1966/tui/1">Prosthemadera novaeseelandiae </ref>, whose common name is the Tui bird. The bird is native to New Zealand and are known for their beautiful song and distinctive white tufts of feathers on their throats.
+            </gloss>
+            
+          </item>
+          
+          <item n="*"> 
+            <term rend="bold" xml:id="giant-bat"> giant-bat</term>
+            <gloss target="#giant-bat">
+              Captain Cook mentioned seeing an abundance of large bats on the isle of Middleburg. See the entry for October 1773 in Captain James Cook, <title level="m" rend="italic">A voyage towards the South Pole, and round the world. Performed in His Majesty's ships the Resolution and Adventure, in the years 1772, 1773, Vol. 1 of 2 </title> (London, 1777, p.215. ECCO) Middleburg, also called <location><placeName> Eua or Eavo-wee</placeName></location>, was discovered in 1642 by Captain Tasman (1603-1659).
+              Today, Eua is a part of the <location><placeName>Kingdom of Tonga</placeName></location>, an archipelago in the South Pacific, south of <location><placeName>Samoa </placeName></location> and twenty degrees south of the Equator. The island's coordinates, according to <ref target="http://gutenberg.net.au/ebooks06/0600571h.html">Captain Tasman</ref> are 21° 50' South Latitude, Longitude 205° 29', or <location><geo>21.5 205.29</geo></location>.
+            </gloss>
+            
+            
+          </item>
+          
+          <item n="*">
+            <term rend="bold" xml:id ="whitesurf"> White surf</term>
+            <gloss target="#whitesurf">
+              Rolls the white surf could possibly refer to New Zealand. Seward mentions 'steepy rocks' in her elegy, which could refer to the steep cliffs on the north western side of the island. Seward's footnote for this line also mentions how the naturalist's aboard Cook's ship wanted to land on 
+              an island full of unusual vegetation, but could not due to violent weather and the danger of the reefs. Similarly, <ref target="http://libweb5.princeton.edu/visual_materials/maps/websites/pacific/cook1/cook1.html">Cook was unable to land on New Zealand </ref> until they reached the Cook Strait due to dangerous weather conditions, frustrating Banks and his party of botanists.
+              <!--Find a more direct 18th-c source for this in Voyage Accounts-->
+              
+            </gloss>
+          </item>
+          
+          <lb/><lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Sirenreference">Seward's Sirens: </term>
+            <gloss target="#Sirens">
+              This is a reference to the sirens found in the <title level="m" rend="italic">Odyssey</title> by Homer. The reference is made even more obvious by the fact that it is explained in this particular stanza. A work which Seward might have read in order to understand the myth/ legend surrounding the sirens would be: <lb/> <lb/> Bryant, Jacob, <title level= "m" rend="italic"> A New System, Or, An Analysis of Ancient Mythology: Wherein an Attempt Is Made to Divest Tradition of Fable; And to Reduce the Truth to Its Original Purity.</title> London, 1774-1776. ECCO. <lb/> <lb/> In this work Bryant describes the sirens, spelled “syrens”, as: <lb/> <lb/> “whose voices and music are represented as wonderfully taking; so that nothing could withstand their harmony. But this was not their chief excellence: their knowledge was still more captivating” (p. 519). <lb/> <lb/> This is all in reference, according to Bryant, to the sirens being a representation of different cultures and their highly regarded musical qualities. These cultures include:  <lb/> <lb/>The Hyperboreans, Egyptians, Canaanites, and the Iberians of Baetica. <lb/> <lb/> Even still more interesting, Bryant explains how these cultures were “to have delighted in a kind of dirges, and funeral music”. (p. 518) 
+            </gloss> </item>
+          <lb/><lb/>
+          <item n= "*"> 
+            <term rend="bold" xml:id="lovelyladies">The Lovely Ladies of Othaheite: </term>
+            <gloss target="#Ladies">
+              In <title level= "m" rend="italic"> Mr. Dalrymple's observations on Dr. Hawkesworth's preface to the second edition,</title> London, 1773 (ECCO), <lb/> <lb/> Alexander Dalrymple responds to eighteenth-century attitudes about Tahitian women: “I take this opportunity to say, I have heard Mr. Banks repeatedly declare, that so far are all  the Women of Othaheite from being Prostitutes and abandoned, that many of them have as much modesty as he ever met with in any country” (p. 6).<lb/> <lb/> <!--REVISE THIS in light of Hawkesworth--> The attitude of Seward toward Tahitian women reflects this writing, and what Mr. Banks said about them. The quote goes further to dispute what Dr. Hawkesworth said about Tahitian women, but little information can be found about his exact words against them. The only thing that can be for certain is he held in opposite view from Dalrymple, Seward, and Mr. Banks. Their view is supported by: "[ . . .] among the women; for these, by their education, being bred to the practice of sensual delights, pride themselves more in giving pleasure to many, then in being constant to one" in <lb/> <lb/> <title level="m" rend="italic"> Journal of the Resolution's voyage, in 1772, 1773, 1774, and 1775, on discovery to the southern hemisphere, by which the non-existence of an undiscovered continent, between the equator and the 50th degree of Southern latitude, is demonstratively proved. Also a journal of the Adventure's voyage, in the years 1772, 1773, and 1774. With An Account of the Separation of the two Ships, and the most remarkable Incidents that befel each. Interspersed With Historical and Geographical Descriptions of the Islands and Countries discovered in the Course of their respective Voyages. </title> Dublin, 1776, p. 44 (ECCO). 
+            </gloss>    
+          </item>
+          <lb/><lb/>
+          <item n="*">
+            <term rend="bold" xml:id="killinbabes">The Practice of Killing Babies: </term>
+            <gloss target="#Babies">
+              the " chasten'd love in softer glances flows" in Seward's poem would reference to the fact that Cook discovered this in his second voyage: "Oedidee denies that the children they have by their mistresses are put to death, as we understood from Tupia and others." See James Cook's <lb/> <title level="m" rend="italic"> A voyage round the world, performed in His Britannic Majesty's ships the Resolution and Adventure, in the years 1772, 1773, 1774, and 1775. Written by James Cook, commander of the Resolution, and George Forster, F.R.S. Illustrated with a chart of the southern hemisphere, shewing the tracts of some of the most distinguished navigators; and a variety of portraits of persons and views of places, drawn during the voyage by Mr. Hodges. In four volumes. </title> Dublin, 1777, Vol 1, p. 353 (ECCO). <lb/> 
+            </gloss>
+          </item>
+          <item n="*">
+            <term rend="bold" xml:id="remorselessshore">Remorseless shore:</term>
+            <gloss target="#remorselessshore"><lb/>
+              See <title level="a">Post Script</title>, column two, <title level="s" rend="italic">General Evening Post</title> (London, January ll, 1780-January 13, 1780, p. 4, column 2, issue 7181. Burney.)<lb/>
+              While Seward is not quoting from this passage directly, this article published important information about Cook's death, and how the public viewed that death. Most important is how the passage describes the natives of O'why'he, or Hawaii, which certainly indicates that the remorseless shores Seward is mentioning is Hawaii, the place of Cook's death. There is a difference, however, between the way the article and Seward describe the Hawaiians, since the article depicts them as having killed Cook out of jealousy and revenge over the way the women of the island were taken with the men of Cook's crew. 
+              <lb/>
+              Cook's bones on the shores of Hawaii may suggest an analogy to John Milton's <ref target="http://www.dartmouth.edu/~milton/reading_room/lycidas/">"Lycidas"</ref> (1638).
+              While Seward's poem does not exactly repeat Milton's imagery, Milton does present a shore as the point where someone's bones 
+              wash up. 
+              <lb/><lb/><lb/>
+            </gloss>
+          </item>          <lb/><lb/>
+          <item n="*">
+            <term rend="bold" xml:id="Orpheus">Muse-born Orpheus:</term>
+            <gloss target="#Orpheus"><lb/>
+              Orpheus is a figure from Greek Mythology who was later revived in French Fantasies, said to be the greatest musician of the land. When Orpheus's wife, Eurydice, was killed and sent to the underworld, Orpheus went after her, using his musical skills to convince Hades to allow Eurydice to leave the underworld and return home with him, with one condition. Orpheus was not allowed to look upon his wife until they were no longer in the underworld. He failed at his task and his wife was taken from him. 
+              <lb/>
+              The phrasing that Seward uses is very similar to Milton's "Muse herself that Orpheus bore." See John Milton, <ref target="http://www.dartmouth.edu/~milton/reading_room/lycidas/">"Lycidas,"</ref> (1638)<lb/>
+              <lb/>
+              See also Jacob Bryant, <title level="m" rend="italic"><ref target="http://books.google.com/books?id=RmdbAAAAMAAJ">A New System, Or, An Analysis of Ancient Mythology...</ref></title>(1776,  volume 3, p. 517.)
+              <lb/>This is where Orpheus is connected with Thrace, and is where Seward might have gotten that connection, in fact, he uses the same phrase, "Thracian shore." Bryant also uses colorful language to describe Orpheus's skill with music, that many also have had something to do with how Seward uses her own descriptions of his lyre-skills. Bryant's <title level="m" rend="italic">New System</title> was a recent resource on world mythologies likely available to Seward.
+              <lb/>
+              Finally, see Peter Bayle, <title level="m" rend="italic"><ref target="http://books.google.com/books/about/The_dictionary_historical_and_critical_o.html?id=r21XAAAAYAAJ">The Dictionary Historical and Critcal</ref></title> (1734-1738, volume 5, page 95)<lb/>
+              Bayle's book describes Orpheus as being torn to pieces by the women of Thrace, which shows his connection to Cook, who was also torn to pieces. Though the act was perhaps not commited by women, it was hypothesized that Cook's death and dismemberment was because of women.
+              <lb/><lb/><lb/>
+            </gloss> </item>         
+          <item n="*">
+            <term rend="bold" xml:id="Morai">Morai:</term>
+            <gloss target="#Morai">
+              <lb/><graphic url="http://nzetc.victoria.ac.nz/etexts/Bea04Cook/Bea04CookP046a.jpg"></graphic><lb/>
+              Joseph Banks, <title level="s" rend="italic"><ref target="http://gutenberg.net.au/ebooks05/0501141h.html">The Endeavour Journal of Sir Joseph Banks</ref></title> (August 25, 1768-July 12, 1771, p 164, 107, 151, and 162.) <lb/>The information from this note is taken from The Endeavour Journal of Joseph Banks, 1768-1771. In it, he discusses the ritual at the Morais, what he calls "Marais" and Cook ocassionally called "Mories." Banks further describes a practice he calls "Poopooing," the ceremony in which a woman hits herself in the head with a shark's tooth until she bleeds.
+              <!--image of morai comes from http://nzetc.victoria.ac.nz/tm/scholarly/Bea04Cook-fig-Bea04CookP046a.html-->
+              <lb/><lb/><lb/>
+            </gloss>
+          </item>          <lb/><lb/><item n="*">
+            <term rend="bold" xml:id="Omiah">Omiah:</term>
+            <gloss target="#Omiah">
+              <lb/> <graphic url="http://www.captcook-ne.co.uk/ccne/themes/images/omai.jpg"></graphic>
+              Omiah, or Omai, was a native of Otaheite, or Tahiti, that Cook met in his first voyage to the island and later brought to England with him. Omai was something of a spectacle to the English public, various articles on his whereabouts being published during his stay in England, so readers of the time would have understood the connection to Cook, and the image of him as someone who would mourn for Cook, because Cook was the one who brought him to England.
+              <!--picture comes from http://www.captcook-ne.co.uk/ccne/themes/omai.htm-->
+              <lb/><lb/>
+            </gloss>
+          </item>
+          
+          <item n="*">
+            <term rend="bold" xml:id="Oberea">Oberea</term>
+            <gloss target="#Oberea">
+              Oberea may also be known as Purea, and was often referred to by Europeans as the queen of Tahiti.  Captain Cook treated Oberea like royalty upon their meeting, but was flabbergasted by her promiscuity on the following day. Joseph Banks became notorious for his involvement with her. <!--RESEARCH AND ADD DETAIL TO THIS-->
+            </gloss>
+            <graphic url="oberea.jpg"></graphic>
+          </item>          <lb/><lb/>
+          
+          <item n="*">
+            <term rend="bold" xml:id="Albion"> Albion </term>
+            <gloss target="#Albion">
+              Albion is the oldest known name of <location><placeName>Great Britain</placeName></location>, whose GPS coordinates are <location><geo>54 N, 2 W</geo></location>.  Captain Cook’s native land was Albion and it was completely unknown to any Pacific islanders before Captain Cook brought Omai back from Otaheite.
+            </gloss>
+            
+          </item>
+          
+          <item n="*"> 
+            <term rend="bold" xml:id="softerform"> softer form</term>
+            <gloss target="#softerform">
+              A softer form refers to Captain James Cook’s wife Elizabeth Batts Cook, who was born in 1740 and died in 1835.  The two were married in Barking, England in the year 1762, and they would have six children together.  The family resided in Shadwell then on Mile End. For more information (including word of an upcoming biography of Elizabeth Batts Cook), see John Robson, <ref target="http://www.captaincooksociety.com/home/detail/articleid/73">"The Origins of Elizabeth Cook"</ref>  on the Captain Cook Society website.
+            </gloss>
+            <graphic url="softer form.jpg"></graphic>
+            
+          </item>
+          
+          
+          <lb/><lb/>          
+        </list>
+      
+          <!-- Works Cited-->
+      <div type="citations"> <p>Works Cited</p>
+          <listBibl>
+          <biblStruct>
+            <monogr>
+              <author>Cook, James</author>
+              <title>
+                A Voyage towards the South Pole, and round the World. Performed in His Majesty's ships the Resolution and Adventure, in the years 1772, 1773, 1774, and 1775. . . In which is included, Captain Furneaux's Narrative of his Proceedings in the Adventure
+              </title>
+              <imprint>
+                <pubPlace>London</pubPlace>
+                <date>1777</date></imprint>
+            </monogr>
+          </biblStruct>
+          </listBibl>
+        <p><ref target="http://www.tei-c.org/"> <figure> <head>Powered by TEI</head> <figDesc>A button indicating that this project is powered by the TEI Guidelines.</figDesc> <graphic url="http://www.tei-c.org/About/Badges/powered-by-TEI.png" /> </figure> </ref></p>
+      </div>
+      
+    </body>
+  </text>
+</TEI>
+
+        
+       

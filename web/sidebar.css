@@ -1,0 +1,160 @@
+html{
+    background-color: #0F6771;
+    /*background-image: url('TahitIsl2.jpg'); 
+background-size: 100% 100%;
+    background-repeat:no-repeat;
+background-attachment:scroll;*/
+background-color:  #2C3764;
+    color: #580000;
+    font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
+body{
+   /*background-color: #BBD6F1;*/ 
+   
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+margin-right:auto;
+padding: 10px 10px 40px 10px;
+border-radius: 10px;
+
+}
+div#banner{
+margin-left: auto;
+margin-right:auto;
+
+}
+div#navigation{
+
+margin-left: 15%;
+margin-right:auto;
+text-align:left;
+width: 80%;
+    padding: 10px 10px 10px 10px;
+    
+}
+button
+{
+background-color: #FFFFCC;
+    color: #A04747;
+border-radius: 10px;
+font-weight: bold;
+font-family: "Palatino Linotype", "Book Antiqua", Palantino, serif;
+}
+
+div#sidebar {
+
+    margin-left:auto; margin-right:auto;
+    width: 15%;
+    font-size: 15px;
+    
+    padding: 50px 10px 10px 10px;
+
+position:fixed;
+
+}
+div#sidebarinner {
+
+    background-color: #FFFFCC;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+   }
+   
+ div#sidebarinner ul {list-style-type:none; display:block;
+    list-style:none;
+    margin:0;
+    padding:5px;
+ position:relative;}
+ div#sidebarinner ul.small li {font-size:.75em; display:block;
+    list-style:none;
+    margin:0;
+    padding:0px;
+ position:relative;}
+    
+img#sextant{
+width:115px;
+height:115px;
+padding: 10px 10px 10px 10px;
+}
+
+
+div#mainPage{
+    margin-left: 25%;
+margin-right:auto;
+text-align:left;
+width: 60%;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFFFCC;
+    border-radius: 10px;
+}
+h1 {
+color:#A04747;
+letter-spacing:3px;
+display:block;
+text-align:center;
+font-size:38px}
+h2 {color:#00005C; font-size:20px; padding:0; display:block; text-align:center; 
+}
+
+h3 {color:#00005C; display:block; text-align:center; font-size:16px;
+}
+img{
+border-radius:10px;
+}
+
+p{
+    padding: 0px 20px 0px 20px;
+}
+a{
+color:#00005C;
+text-decoration:none;}
+a:hover{
+text-decoration:underline;}
+
+/*ul.sideDrop
+{
+    margin:0;
+    padding:0;
+    cursor:default;
+}
+ul.sideDrop li
+{
+    display:block;
+    list-style:none;
+    margin:0;
+    padding:5px;
+ position:relative;
+}
+ul.sideDrop li a
+{
+    position:relative;
+    display:inline-block;
+    padding:5px 0px 10px 0px;
+}
+ul.sideDrop li ul
+{
+    display:none;
+    position:absolute;
+    margin-left:0;
+    padding:0;
+    color:#999;
+
+    border:solid #999;
+border-radius: 10px;
+}
+ul.sideDrop li li
+{
+    display:block;
+ padding:3px 0px 3px 5px;
+    cursor:pointer;
+
+}
+ul.sideDrop li:hover ul, ul.sideDrop li:active ul
+{
+    display:inline-block;
+    width:120px;
+margin-left:10px;
+margin-right:auto;
+}
+ul.sideDrop li:hover{
+text-decoration:underline;}*/

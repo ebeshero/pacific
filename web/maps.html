@@ -1,0 +1,114 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" type="text/css" href="central.css"/>
+        <title>Mapping: Digital Archives and Pacific Cultures</title>
+        
+    </head>
+    <body>
+       
+        <div id="banner">
+            <a href="index.html">
+                <img src="banner7.jpg" alt="Digital Archives and Pacific Cultures"/>
+            </a>
+        </div>
+        <div id="navigation">
+            <ul class="drop_menu">
+                <li>
+                    <h2>
+                        <a href="index.html">home</a> |</h2>
+                </li>
+                <li>
+                    <h2>
+                        <a href="about.html">about</a> |</h2>
+                </li>
+                <li>
+                    <h2>
+                        <a href="voyages.html">voyage publications</a> |</h2>
+                    <ul>
+                        <li>
+                            <a href="HawkesworthWallis.html">Hawkesworth: Wallis</a> * <a href="HwksV2Ch4-8PNum.xml">TEI</a> *</li>
+                        <li>
+                            <a href="Cookvoy1.html">Hawkesworth: Cook Voyage 1</a>
+                            <br/>* <a href="Cookvoy1.xml">TEI</a> *
+                            <br/>* <a href="CookVoy1graph.html">Graph of Cultural Markup in Cook Voyage 1: Book 1, Chs. X-XV (Tahiti)</a> *</li>
+                        <li>
+                            <a href="ForsterGeorgComplete.html">Georg Foster: Cook Voyage 2</a>
+                            <br/>* <a href="ForsterGeorgComplete.xml">TEI</a> *</li>
+                        <li>Johann Forster: Cook Voyage 2 <span class="tiny">[coming]</span>
+                        </li>
+                        <li>
+                            <a href="cookSecVoyageAll.html">James Cook: Cook Voyage 2</a>
+                            <br/>* <a href="cookVoy2Pnum.xml">TEI</a> *</li>
+                        <li>Cook Voyage 3 <span class="tiny">[coming]</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>
+                        <a href="maps.html">voyage maps</a> |</h2>
+                    <ul>
+                        <li>
+                            <a href="HwksWallisMap.html">KML: Wallis in the South Pacific</a>
+                        </li>
+                        <li><a href="HistOverlay.html">Historic Map Overlay: Society Islands in 1769</a></li>
+                        <li>Coming: Cook's First Voyage</li>
+                        <li>
+                            <a href="CookVoy2Map.html">KML: Cook's Second Voyage</a>
+                        </li>
+                        <li><a href="CookGeorgVoyageComp.html">KML: Forster and Cook Compared: Cook's Second Voyage</a></li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <h2>
+                        <a href="poems.html">cultural responses</a> |</h2>
+                    <ul>
+                        <li>
+                            <a href="EccoLocSortDate.html">Scrapbook of Pacific References</a>
+                            * <a href="eccoBibSnips.xml">TEI</a> *</li>
+                        <li>
+                            <a href="InjuredIsland.html">The Injured Islanders (1779)</a> * <a href="InjuredIsland.xml">TEI</a> *</li>
+                        <li>
+                            <a href="CookElegy1780.html">Elegy on Captain Cook (1780)</a> * <a href="ElegyCook.xml">TEI</a> *</li>
+                        <li>
+                            <a href="PoemsGrphAnlys.xhtml">Graph of Cultural Interactions in the Poems</a>
+                        </li>
+                        <li>Omai: or a Trip Around the World <span class="tiny">[coming]</span>
+                        </li>
+                        <li><a href="siteIndex.html">Named People and Places</a></li>
+                       
+                    </ul>
+                </li>
+             
+             
+                <li>
+                    <h2>
+                        <a href="http://www.pitt.edu/~ebb8/DHDS/">course</a>
+                    </h2>
+                </li>
+            </ul>
+        </div>
+        <div id="mainPage">
+            <h1>Mapping the Voyages for Reading</h1>
+            <p>The following map views are currently available or in progress:</p>
+            <ul>
+                <li>
+                    <b><a href="HwksWallisMap.html">KML: Wallis in the South Pacific (1767)</a></b>: a regional Pacific map extracted from Hawkesworth's published account of the early Pacific voyages.
+                </li>
+                <li><b><a href="HistOverlay.html">Historic Map Overlay: Society Islands in 1769</a></b>: marking early voyage trajectories around Tahiti to 1769.</li>
+                <li>Coming: KML of Cook's First Voyage to the Pacific (1768-1771): Data extraction from Hawkesworth's multi-volume account is underway in 2013-2014.</li>
+                <li>
+                    <b><a href="CookVoy2Map.html">KML: Cook's Second Voyage (1772-1775)</a></b>: circumnavigation record of 286 placemarks extracted from Cook's published account.
+                </li>
+                <li><b><a href="CookGeorgVoyageComp.html">KML: Forster and Cook Compared: Cook's Second Voyage</a></b>: comparison view of Georg Forster's published record of the second voyage, plotted with Cook's. We have thus far extracted only 59 placemarks from Forster's record, but most of these are plotted in the Pacific, making this a potentially useful view for comparing Forster's vs. Cook's narrative of Pacific experiences.</li>
+                
+            </ul>
+            <p>The multi-volume length of the 18th-century Pacific voyage publications makes them appealing candidates for computational analysis, applying "distant reading" tools of the digital humanities to assist the human reader in processing massive quantities of information. Our efforts to map the voyage publications have involved stages of markup and careful processing to generate "reading views" of the voyages through Google Earth. We began by autotagging digital files of the voyages, structuring them in TEI XML, and we applied regular expression matching to capture geographic coordinates. A significant challenge for contemporary mappers of 18th-century voyages is that latitude and longitude coordinates are often written inconsistently and separately, divided by several words in a long paragraph, and that the 18th-century records mark degrees, minutes, and seconds rather than convenient decimal notations necessary for Google Earth and mapping software. Further, entries in degrees, minutes, and seconds might not be immediate geoposition readings: they may be referencing previous voyage logs or recording azimuth readings (plotting positions relative to magnetic North). Careful human review is necessary after stages of autotagging to "weed out" extraneous coordinates. </p>
+            <p>Coordinating efforts with project teams has helped to process segments of these very long texts, and the result is the production and gradual improvement of Pacific voyage maps on our site. We have also experimented with simpler mapping methods, overlaying digitized historic and contemporary maps to help orient our readers to the early voyages. Most of our maps are designed in <b>KML (Keyhole Markup Language)</b> to be read in either Google Earth or Google Maps, and clicking on marked points brings up relevant paragraphs for that place in the published record.</p>
+           
+           
+        </div>
+    </body>
+</html>

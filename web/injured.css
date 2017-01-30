@@ -1,0 +1,54 @@
+TEI {
+background: #E6E680
+url('CookEndeavour.gif')no-repeat fixed
+ right top 
+} 
+titleStmt title {color:#5C002E; font-family: "Papyrus", Helvetica, sans-serif;
+font-size: 5.0em; 
+font-weight: bold; margin:20px}
+sponsor {display:none}
+funder {display:none}
+principal {display:none}
+respStmt {color:#2E5C00; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size: small; display:block; margin: 5px; text-indent: 3em}
+
+respStmt persName:after {content: ","}
+orgName:after {content:"."}
+publicationStmt publisher {color:#2E5C00; font-family:"Trebuchet MS", Helvetica, sans-serif; display:block; font-size: small; display:block; margin: 5px; text-indent: 3em}
+publisher:before {content:"Published by "}
+publisher:after {content:"."}
+
+monogr {display:block; color:#5C002E; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size: 1.5em; margin: 4em}
+monogr author:after {content:"."}
+monogr title {font-style:italic}
+monogr date:after {content:"."}
+biblScope {display:none}
+
+body div[type="introduction"] {color:#2E5C00; font-family:"Trebuchet MS", Helvetica, sans-serif; display:block; font-weight:bold; margin: 2em}
+body div[type="introduction"]:after {content:"There's an XML ref here that needs to be transformed into a hyperlink. We'll get this to work with an XSLT transformation."}
+
+p {display:block; color:#5C002E; font-family:"Trebuchet MS", Helvetica, sans-serif; margin: 2em}
+
+div[type="poem"] {color:#2E5C00; font-family:"Trebuchet MS", Helvetica, sans-serif}
+div[type="poem"] head {font-size: 1.5em; text-align:center; margin: 2em}
+
+note {display:none}
+epigraph p {color:#2E5C00; text-align:center; margin: 1em}
+
+lg:after {content: "_______________END OF A LINE GROUP_____________________"}
+l {color:#5C002E; font-family:"Trebuchet MS", Helvetica, sans-serif; display:block; text-indent: 30em}
+
+placeName {color:#3333CC}
+
+concept[type="euro"]{color:#FF0000}
+object[type='euro']{color:#FF0000}
+
+
+
+
+
+
+
+
+
+
+
