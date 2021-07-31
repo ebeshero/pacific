@@ -13,11 +13,11 @@
     <xsl:variable name="allcoll" as="document-node()+" select="($litcoll | $voycoll)"/>
     
  <xsl:template match="/">
-     <xsl:result-document method="text" href="persons.txt">
-        <!-- <xsl:apply-templates select="//text//role"/>-->
+     <xsl:result-document method="text" href="places.txt">
+    
       
-         <xsl:variable name="pers" select="$allcoll//text//persName/text()[1] ! translate(., '()', '') ! normalize-space() => distinct-values() => sort()"/>
-         <xsl:for-each select="$pers">
+         <xsl:variable name="places" select="$allcoll//text//placeName/text()[1] ! translate(., '()', '') ! normalize-space() => distinct-values() => sort()"/>
+         <xsl:for-each select="$places">
              <xsl:value-of select="current()"/><xsl:text>&#10;</xsl:text>  
          </xsl:for-each>
          
@@ -25,9 +25,6 @@
     
  </xsl:template>
     
-  
-<!--<xsl:template match="role">
-    <xsl:apply-templates select="(ref | text())[1]"/><xsl:text>&#10;</xsl:text>
-  </xsl:template>-->
+
     
 </xsl:stylesheet>
